@@ -1,9 +1,5 @@
-<!doctype html>
-<html lang="ro">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Grile SOF Comunicații</title>
+<meta name="claude:viewport-fit-sides" content="cover">
 <style>
 :root{
   --bg:#f6f5f1; --card:#ffffff; --ink:#1d2321; --muted:#5d6763; --line:#dcdcd4;
@@ -14,17 +10,17 @@
   :root:not([data-theme="light"]){
     --bg:#121614; --card:#1b201e; --ink:#e7ece9; --muted:#9aa5a0; --line:#2c3431;
     --accent:#5fbf98; --accent-ink:#0d1311; --ok:#6fd39b; --ok-bg:#163126; --bad:#ff8a80; --bad-bg:#3a1c1a;
-    --chip:#242b28;
+    --chip:#242b28; color-scheme:dark;
   }
 }
-:root[data-theme="dark"]{
+:root[data-theme="dark"]{ color-scheme:dark;
   --bg:#121614; --card:#1b201e; --ink:#e7ece9; --muted:#9aa5a0; --line:#2c3431;
   --accent:#5fbf98; --accent-ink:#0d1311; --ok:#6fd39b; --ok-bg:#163126; --bad:#ff8a80; --bad-bg:#3a1c1a;
   --chip:#242b28;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-.wrap{max-width:760px;margin:0 auto;padding:16px}
+.wrap{max-width:760px;margin:0 auto;padding-block:16px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px))}
 h1{font-size:1.35rem;margin:.2rem 0 .2rem}
 h2{font-size:1.05rem;margin:1.4rem 0 .6rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
 p.sub{color:var(--muted);margin:.2rem 0 1rem}
@@ -43,7 +39,10 @@ p.sub{color:var(--muted);margin:.2rem 0 1rem}
 .opt.bad{background:var(--bad-bg);border-color:var(--bad)}
 .opt.sel{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
 .ex{margin-top:10px;padding:10px 12px;border-left:3px solid var(--accent);background:var(--chip);border-radius:6px;font-size:.95rem}
-.top{display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted);font-size:.9rem}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;color:var(--muted);font-size:.9rem;flex-wrap:wrap}
+.top span{min-width:0}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn:disabled{opacity:.5;cursor:default}
 .bar{height:6px;background:var(--chip);border-radius:9px;overflow:hidden;margin:8px 0 2px}
 .bar>i{display:block;height:100%;background:var(--accent)}
 .big{font-size:2.4rem;font-weight:700;margin:.2rem 0}
@@ -53,8 +52,6 @@ a{color:var(--accent)}
 .rev{border-top:1px solid var(--line);padding:10px 0}
 .hidden{display:none}
 </style>
-</head>
-<body>
 <div class="wrap" id="app"></div>
 <script>
 const DATA = /*__DATA__*/[];
@@ -84,7 +81,7 @@ function home(){
     <button class="btn primary" onclick="startSim()">Simulare examen<br><small style="color:inherit;opacity:.85">25 specialitate + 20 legislație · 90 min</small></button>
     <button class="btn" onclick="startPractice(all,'Toate amestecate',30)">30 de întrebări la întâmplare</button>
     <button class="btn" onclick="startPractice(wrong,'Greșelile mele',999)" ${wrong.length?'':'disabled'}>Refă greșelile (${wrong.length})</button>
-    <button class="btn" onclick="resetAll()">Șterge progresul</button>
+    <button class="btn" id="resetBtn" onclick="resetAll()">Șterge progresul</button>
   </div></div>`;
   for (const k of ["S","L"]){
     h += `<h2>${k==="S"?"Pregătire de specialitate":"Legislație"}</h2><div class="grid">`;
@@ -97,7 +94,8 @@ function home(){
   }
   app.innerHTML = h; window.scrollTo(0,0);
 }
-function resetAll(){ if(confirm("Ștergi tot progresul?")){ store={}; save(); home(); } }
+let resetArmed=false;
+function resetAll(){ const b=document.getElementById("resetBtn"); if(!resetArmed){ resetArmed=true; b.textContent="Apasă din nou pentru a șterge tot"; setTimeout(()=>{resetArmed=false; const x=document.getElementById("resetBtn"); if(x) x.textContent="Șterge progresul";},4000); return; } resetArmed=false; store={}; save(); home(); }
 function startChapter(cid){ const qs = all.filter(x=>x.cid===cid); startPractice(qs, DATA.find(c=>c.id===cid).t, 999, true); }
 function startPractice(pool,title,n,ordered){
   const list = (ordered?pool:shuffle(pool)).slice(0,n);
@@ -160,5 +158,3 @@ function finish(){
 }
 home();
 </script>
-</body>
-</html>

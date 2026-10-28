@@ -152,7 +152,12 @@ def main():
             for ch in chapters]
     tpl = (ROOT / "tools" / "quiz_template.html").read_text(encoding="utf-8")
     html = tpl.replace("/*__DATA__*/[]", json.dumps(data, ensure_ascii=False))
-    (ROOT / "quiz" / "index.html").write_text(html, encoding="utf-8")
+    standalone = ('<!doctype html>\n<html lang="ro">\n<head>\n<meta charset="utf-8">\n'
+                  '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+                  '</head>\n<body>\n' + html + '</body>\n</html>\n')
+    (ROOT / "quiz" / "index.html").write_text(standalone, encoding="utf-8")
+    # varianta fără schelet, pentru publicare ca pagină web (artifact)
+    (ROOT / "tools" / "quiz_fragment.html").write_text(html, encoding="utf-8")
 
     # ---------- statistici ----------
     from collections import Counter
