@@ -9,323 +9,323 @@ Nota = 1 + 0,20 × (răspunsuri corecte). Minim de admitere: 5,00 (20 corecte).
 ## Partea I — Pregătire de specialitate (25 de itemi)
 
 
-**1. În multiplexarea cu diviziune în timp (TDM):**
+**1. Modulația cu bandă laterală unică (BLU/SSB) are avantajul că:**
 
-- a) canalele se transmit pe fire diferite
-- b) canalele se separă prin polarizare
-- c) fiecare canal folosește toată banda, dar doar într-un interval de timp (slot), pe rând
-- d) fiecare canal folosește permanent o subbandă de frecvență
+- a) nu are nevoie de antenă
+- b) ocupă jumătate din bandă și economisește putere
+- c) ocupă dublul benzii
+- d) se folosește numai în fibră optică
 
-**2. Gestionarea frecvențelor radio și configurarea/monitorizarea rețelelor fac parte din:**
+**2. Răspunsul la o verificare radio, atunci când semnalul este puternic și perfect inteligibil, este:**
 
-- a) logistica de hrănire
-- b) protecția civilă
-- c) managementul sistemului de comunicații și informatică
-- d) poliția militară
+- a) NOTHING HEARD
+- b) LOUD AND CLEAR
+- c) GOOD AND DISTORTED
+- d) WEAK AND READABLE
 
-**3. Principiul de planificare a sprijinului C&I este:**
+**3. Codarea ADPCM a vocii permite un debit tipic de:**
 
-- a) fără planificare, execuție la inițiativă
-- b) planificare descentralizată, execuție centralizată
-- c) planificare numai la nivel de grupă
-- d) planificare centralizată, execuție descentralizată
+- a) 2,048 Mbit/s
+- b) 32 kbit/s
+- c) 64 kbit/s
+- d) 1,544 Mbit/s
 
-**4. Fazele unei comunicări prin comutație de circuite sunt:**
-
-- a) modularea, amplificarea, demodularea
-- b) împachetarea, rutarea, reasamblarea
-- c) stabilirea conexiunii, transferul datelor, eliberarea conexiunii
-- d) eșantionarea, cuantizarea, codarea
-
-**5. Rezistența la bruiaj a stațiilor cu salt de frecvență se explică prin faptul că:**
+**4. Rezistența la bruiaj a stațiilor cu salt de frecvență se explică prin faptul că:**
 
 - a) stațiile nu emit deloc în timpul bruiajului
 - b) stațiile emit cu putere de 10 ori mai mare
 - c) stațiile folosesc numai modulație de amplitudine
 - d) bruiajul pe o frecvență afectează doar o mică parte din salturi, iar erorile pot fi corectate
 
-**6. Principiul de funcționare al interschimbătorului de intervale de timp (TSI) este:**
+**5. Undele din gamele VHF/UHF/SHF se propagă în principal:**
 
-- a) sloturile cadrului de intrare sunt scrise într-o memorie și citite în altă ordine, conform unei tabele
-- b) sloturile sunt amplificate și retransmise în aceeași ordine
-- c) sloturile sunt transmise pe frecvențe diferite
-- d) fiecare slot este transformat în semnal analogic
+- a) prin ghid de undă Pământ–ionosferă
+- b) prin reflexie pe ionosferă
+- c) prin undă directă, în linie de vedere
+- d) ca undă de suprafață pe mii de km
 
-**7. Un semnal cu frecvența maximă de 6 kHz este eșantionat la 10 kHz. Se poate reface corect semnalul?**
+**6. Două stații VHF au antenele la 4 m înălțime pe teren plat. Distanța aproximativă maximă (orizontul radio) este:**
 
-- a) da, dacă se folosesc 16 biți pe eșantion
-- b) da, dacă se folosește compandare
-- c) nu, apare aliasing, deoarece 10 kHz < 12 kHz
-- d) da, deoarece 10 kHz > 6 kHz
+- a) circa 50 km
+- b) circa 16 km
+- c) circa 160 km
+- d) circa 4 km
 
-**8. Un semnal audio este eșantionat la 44,1 kHz, pe 16 biți, în stereo (2 canale). Debitul PCM este de aproximativ:**
+**7. Frecvența minimă de eșantionare pentru un semnal cu frecvența maximă de 4 kHz este:**
 
-- a) 64 kbit/s
-- b) 1,41 Mbit/s
-- c) 705 kbit/s
-- d) 88,2 kbit/s
+- a) 4 kHz
+- b) 2 kHz
+- c) 16 kHz
+- d) 8 kHz
 
-**9. Defectul modulației delta care apare când semnalul variază mai repede decât poate urmări pasul fix se numește:**
+**8. Modulația care cuprinde eșantionarea, cuantizarea și codarea binară a semnalului se numește:**
 
-- a) supraîncărcarea pantei
-- b) dispersie modală
-- c) aliasing
-- d) diafonie
+- a) FDM
+- b) AM
+- c) FM
+- d) PCM (modulația impulsurilor în cod)
 
-**10. Comparativ cu modulația de amplitudine, modulația de frecvență este:**
+**9. Comparativ cu modulația de amplitudine, modulația de frecvență este:**
 
 - a) imposibil de folosit în VHF
 - b) identică din punctul de vedere al zgomotului
 - c) mai puțin sensibilă la zgomote și perturbații
 - d) mai sensibilă la zgomote
 
-**11. Avantajul principal al unei rețele de noduri în ochiuri (rețea „mesh”) este că:**
-
-- a) nu poate fi interceptată
-- b) funcționează fără energie electrică
-- c) nu necesită echipamente de comutație
-- d) traficul poate fi re-rutat automat pe altă cale dacă un nod sau o legătură este distrusă
-
-**12. În gama VHF, ocolirea parțială a obstacolelor (de exemplu a crestelor) se realizează prin fenomenul de:**
+**10. În gama VHF, ocolirea parțială a obstacolelor (de exemplu a crestelor) se realizează prin fenomenul de:**
 
 - a) polarizare
 - b) absorbție
 - c) multiplexare
 - d) difracție
 
-**13. Lățirea impulsurilor de lumină pe măsură ce se propagă prin fibră se numește:**
+**11. Cuvântul „DELTA” corespunde, în alfabetul fonetic NATO, literei:**
 
-- a) polarizare
-- b) multiplexare
-- c) dispersie
-- d) reflexie totală
+- a) T
+- b) A
+- c) L
+- d) D
 
-**14. Un amplificator cu câștigul de 20 dB mărește puterea semnalului de:**
+**12. Fibra optică monomod se caracterizează prin:**
 
-- a) 2 ori
-- b) 20 de ori
-- c) 10 ori
-- d) 100 de ori
+- a) folosirea exclusivă a LED-urilor
+- b) diametrul mare al miezului (~50 µm) și distanțe scurte
+- c) transmiterea simultană a multor raze la unghiuri diferite
+- d) diametrul foarte mic al miezului (~8–10 µm) și folosirea la distanțe mari
 
-**15. Un raport semnal/zgomot de 20 dB corespunde unui raport de puteri de:**
+**13. Etapele conversiei analog-numerice a unui semnal sunt, în ordine:**
 
-- a) 20
-- b) 10
-- c) 1000
-- d) 100
+- a) modularea, multiplexarea, codarea
+- b) eșantionarea, cuantizarea, codarea
+- c) codarea, cuantizarea, eșantionarea
+- d) cuantizarea, eșantionarea, codarea
 
-**16. Dacă o stație VHF nu are legătură, prima măsură practică este:**
+**14. Litera „W” se transmite, conform alfabetului fonetic NATO, prin cuvântul:**
 
-- a) oprirea stației pentru 24 de ore
-- b) trecerea pe frecvența altei rețele
-- c) mărirea volumului difuzorului
-- d) schimbarea poziției (pe un punct mai înalt) și verificarea antenei
+- a) WILLIAM
+- b) WINTER
+- c) WHISKEY
+- d) WOLF
 
-**17. Viteza de propagare a undelor electromagnetice în vid este de aproximativ:**
+**15. Pentru a reduce riscul de interceptare și pentru a economisi bateria, operatorul trebuie să folosească:**
+
+- a) puterea minimă necesară realizării legăturii
+- b) frecvența cea mai mare
+- c) antena de rezervă
+- d) întotdeauna puterea maximă
+
+**16. Frecvența maximă utilizabilă (MUF) reprezintă:**
+
+- a) frecvența de rezonanță a antenei bici
+- b) frecvența minimă la care stația poate emite
+- c) frecvența de eșantionare a vocii
+- d) cea mai mare frecvență care, pe o anumită legătură, mai este reflectată de ionosferă spre Pământ
+
+**17. Firele perechii torsadate sunt răsucite pentru a:**
+
+- a) reduce interferențele electromagnetice și diafonia
+- b) permite transmisia luminii
+- c) reduce greutatea cablului
+- d) crește rezistența mecanică
+
+**18. Comparativ cu categoria 3, cablul torsadat de categoria 5 are:**
+
+- a) mai multe răsuciri pe unitatea de lungime și izolație mai bună, permițând viteze mai mari
+- b) mai puține răsuciri și viteze mai mici
+- c) miez din sticlă
+- d) ecran din plumb
+
+**19. Transmisia în care datele se transmit în blocuri (cadre) lungi, cu ceasurile emițătorului și receptorului permanent sincronizate, se numește:**
+
+- a) asincronă (start-stop)
+- b) analogică
+- c) plesiocronă
+- d) sincronă
+
+**20. Legătura cu laser în aer liber între două clădiri este afectată în principal de:**
+
+- a) lungimea cablului
+- b) câmpul magnetic terestru
+- c) ionosferă
+- d) ploaie, ceață și curenții de convecție
+
+**21. Singura pierdere ireversibilă de informație în procesul PCM (când eșantionarea respectă teorema) apare la:**
+
+- a) cuantizare
+- b) transmisia fără erori
+- c) codare
+- d) eșantionare
+
+**22. Legea de compandare folosită în Europa (inclusiv în România) este:**
+
+- a) legea A
+- b) legea Ohm
+- c) legea Shannon
+- d) legea µ
+
+**23. Viteza de propagare a undelor electromagnetice în vid este de aproximativ:**
 
 - a) 3·10⁵ m/s
 - b) dependentă de frecvență: mai mare la frecvențe mari
 - c) 340 m/s
 - d) 3·10⁸ m/s, indiferent de frecvență
 
-**18. Comunicațiile prin infraroșu au avantajul de securitate că:**
+**24. Imaginea operațională comună, planificarea și transmiterea ordinelor în format electronic sunt asigurate de:**
 
-- a) au bătaie de sute de kilometri
-- b) trec prin orice obstacol
-- c) nu trec prin pereți, deci nu „ies” din încăpere
-- d) se reflectă pe ionosferă
+- a) rețeaua de alimentare cu energie
+- b) sistemul de semnalizare acustică
+- c) sistemul informatic de comandă și control (C2IS)
+- d) stația de radiodifuziune
 
-**19. Stratul ionosferic care există numai ziua și absoarbe frecvențele joase (MF, HF de jos) este:**
+**25. Debitul unui semnal PCM se calculează ca:**
 
-- a) stratul D
-- b) stratul F2
-- c) stratul E
-- d) stratul F1
-
-**20. Legăturile radio la distanțe de mii de kilometri, fără relee sau sateliți, se realizează în principal în gama:**
-
-- a) UHF, prin undă de suprafață
-- b) VHF, prin undă directă
-- c) HF, prin unda spațială reflectată de ionosferă
-- d) SHF, prin difracție
-
-**21. Variația periodică a nivelului semnalului recepționat, produsă de interferența undelor sosite pe drumuri diferite, se numește:**
-
-- a) multiplexare
-- b) modulație
-- c) fading
-- d) aliasing
-
-**22. Care dintre următoarele este un avantaj al fibrei optice față de cablul de cupru?**
-
-- a) interfețele foarte ieftine
-- b) comunicarea bidirecțională pe o singură fibră, în mod obișnuit
-- c) rezistența foarte mare la îndoire
-- d) imunitatea la perturbații electromagnetice și dificultatea interceptării
-
-**23. O rețea radio este formată din:**
-
-- a) stații care lucrează pe frecvențe diferite, fără legătură între ele
-- b) o singură stație și un releu
-- c) trei sau mai multe stații care lucrează pe aceeași frecvență (același set de salt) și în același regim
-- d) exact două stații
-
-**24. Un semnal cu f_max = 5 kHz este eșantionat la 8 kHz. Consecința este:**
-
-- a) eliminarea zgomotului de cuantizare
-- b) refacerea perfectă a semnalului
-- c) dublarea debitului
-- d) apariția aliasingului, semnalul nu mai poate fi refăcut corect
-
-**25. În spațiu liber, puterea semnalului recepționat scade, cu distanța d, proporțional cu:**
-
-- a) 1/d²
-- b) 1/d
-- c) d²
-- d) 1/d⁴
+- a) 2 × frecvența maximă a semnalului
+- b) frecvența de eșantionare × numărul de biți pe eșantion
+- c) lărgimea de bandă × raportul S/N
+- d) frecvența de eșantionare / numărul de biți
 
 ## Partea a II-a — Legislație (20 de itemi)
 
 
-**26. „Consemnul” reprezintă, potrivit Legii 122/2011:**
+**26. Fotografierea, filmarea și cartografierea în obiectivele care prezintă importanță deosebită pentru protecția secretelor de stat sunt:**
 
-- a) totalitatea obligațiilor generale și specifice ale personalului aflat în misiune
-- b) parola de recunoaștere
-- c) lista persoanelor care au acces în unitate
-- d) ordinul de zi pe unitate
+- a) permise oricui de pe domeniul public
+- b) permise turiștilor
+- c) permise jurnaliștilor acreditați fără alte formalități
+- d) interzise, cu excepția celor autorizate
 
-**27. Accesul în unitatea militară se face:**
+**27. Potrivit Constituției, asociațiile cu caracter secret sunt:**
 
-- a) prin orice poartă deschisă
-- b) numai prin punctul de control, pe bază de legitimație sau permis de acces
-- c) pe orice cale, dacă militarul este în uniformă
-- d) fără nicio verificare, în timpul programului
+- a) interzise
+- b) permise dacă nu sunt politice
+- c) permise doar pentru structurile militare
+- d) permise cu aprobarea SRI
 
-**28. Reținerea unei persoane nu poate depăși:**
+**28. Semnul personal de identitate (placheta de identificare) se poartă:**
 
-- a) 72 de ore
-- b) 48 de ore
-- c) 24 de ore
-- d) 30 de zile
+- a) numai în cazarmă
+- b) la gât, pe timpul misiunilor, exercițiilor, tragerilor și ori de câte ori se ordonă
+- c) în buzunarul de la piept, permanent
+- d) numai în concediu
 
-**29. Comenzile pentru apărare se execută de instituții și agenți economici:**
-
-- a) facultativ, în timp de pace
-- b) numai în timp de război
-- c) numai dacă sunt finanțate de NATO
-- d) integral și la termen, pe bază de contract în timp de pace și cu prioritate în timp de război
-
-**30. Gradul de general-maior are însemnul de:**
-
-- a) patru stele
-- b) două stele
-- c) trei stele
-- d) o stea
-
-**31. Decizia de sancționare disciplinară poate fi contestată:**
-
-- a) la comandantul ierarhic superior celui care a aplicat sancțiunea, iar ulterior la instanța de contencios administrativ
-- b) numai la Curtea Constituțională
-- c) nu poate fi contestată
-- d) numai la sindicat
-
-**32. Potrivit art. 118, armata este subordonată exclusiv:**
-
-- a) Parlamentului
-- b) voinței poporului
-- c) ministrului apărării naționale
-- d) Guvernului
-
-**33. Termenul maxim de clasificare pentru informațiile „strict secret de importanță deosebită” este de până la:**
-
-- a) 75 de ani
-- b) 50 de ani
-- c) 30 de ani
-- d) 100 de ani
-
-**34. În MApN, primul grad din corpul subofițerilor este:**
-
-- a) sergent
-- b) caporal
-- c) fruntaș
-- d) plutonier
-
-**35. Prezentarea în public a informațiilor cu caracter militar de către cadrele militare:**
-
-- a) este permisă oricând
-- b) este permisă cu acordul colegilor
-- c) nu este permisă, cu excepția celor care au astfel de atribuții, potrivit ordinului ministrului
-- d) este permisă numai după trecerea în rezervă
-
-**36. Relațiile de subordonare dintre militari (șef – subordonat) se stabilesc în funcție de:**
-
-- a) vârsta militarilor
-- b) funcțiile pe care le ocupă militarii
-- c) vechimea în armată
-- d) gradul militar, exclusiv
-
-**37. Care dintre următoarele NU face parte din conducerea sistemului național de apărare, potrivit art. 7?**
-
-- a) Consiliul Suprem de Apărare a Țării
-- b) comandanții unităților militare
-- c) autoritățile administrației publice locale cu atribuții în domeniul apărării
-- d) Parlamentul
-
-**38. Potrivit art. 15, se poate face uz de armă împotriva dronelor:**
-
-- a) numai dacă sunt militare
-- b) folosite pentru comiterea unui act ostil
-- c) în orice situație, fără condiții
-- d) care zboară la peste 10 km de unitate
-
-**39. Forțele sistemului național de apărare cuprind:**
-
-- a) numai armata
-- b) armata și poliția locală
-- c) forțele terestre și forțele navale
-- d) forțele armate și forțele de protecție
-
-**40. Sancțiunea privativă de libertate poate fi:**
-
-- a) de natură penală sau disciplinară
-- b) de natură administrativă, dacă o decide prefectul
-- c) numai de natură penală
-- d) de natură penală sau contravențională
-
-**41. Potrivit Legii 182/2002, clasele de secretizare sunt:**
-
-- a) secrete de stat și secrete de serviciu
-- b) secret, strict secret și strict secret de importanță deosebită
-- c) secrete militare și secrete civile
-- d) confidențial, secret și top secret
-
-**42. Refuzul eliberării autorizației sau retragerea motivată a acesteia determină:**
+**29. Refuzul eliberării autorizației sau retragerea motivată a acesteia determină:**
 
 - a) trecerea în rezervă
 - b) suspendarea din funcție pe 30 de zile
 - c) automat interdicția de acces la informațiile secrete de stat
 - d) obligația de a plăti o amendă
 
-**43. Prin raportul personal, militarul se poate adresa comandantului:**
+**30. Forțele pentru apărare cibernetică includ:**
 
-- a) numai în timpul concediului
-- b) în nume propriu, cu cereri, propuneri sau reclamații privind probleme personale sau de serviciu
-- c) numai cu reclamații împotriva colegilor
-- d) în numele întregii subunități
+- a) Comandamentul Logistic Întrunit
+- b) Comandamentul Apărării Cibernetice, mari unități, unități și alte structuri
+- c) Statul Major al Forțelor Aeriene
+- d) numai Serviciul de Telecomunicații Speciale
 
-**44. Regulile de angajare aprobate:**
+**31. Este interzisă clasificarea ca secrete de serviciu a informațiilor care:**
 
-- a) sunt obligatorii și nu limitează dreptul inerent la autoapărare
-- b) sunt facultative
-- c) interzic autoapărarea
-- d) se aplică numai ofițerilor
+- a) privesc structura internă a unei unități militare
+- b) sunt destinate să asigure informarea cetățenilor asupra unor probleme de interes public sau personal
+- c) privesc programul de pază al unității
+- d) privesc datele personale ale angajaților
 
-**45. Potrivit art. 44 alin. (8), averea dobândită licit:**
+**32. Compensația lunară pentru chirie poate fi de până la:**
+
+- a) 25% din solda lunară
+- b) 100% din solda lunară
+- c) 10% din solda lunară
+- d) 50% din solda lunară
+
+**33. Neglijența în păstrarea informațiilor secrete de serviciu atrage:**
+
+- a) doar răspunderea civilă
+- b) numai avertisment
+- c) răspunderea penală a persoanelor vinovate, potrivit legii
+- d) nicio răspundere
+
+**34. Potrivit art. 118, armata este subordonată exclusiv:**
+
+- a) Parlamentului
+- b) voinței poporului
+- c) ministrului apărării naționale
+- d) Guvernului
+
+**35. Gradul de colonel corespunde, în aviație și marină, gradului de:**
+
+- a) locotenent-comandor
+- b) comandor
+- c) căpitan-comandor
+- d) viceamiral
+
+**36. Este interzisă clasificarea ca secrete de stat a informațiilor în scopul:**
+
+- a) protecției cifrului de stat
+- b) protecției planurilor militare
+- c) protecției sistemelor de comunicații militare
+- d) ascunderii încălcărilor legii sau a erorilor administrative
+
+**37. Sancțiunea privativă de libertate poate fi:**
+
+- a) de natură penală sau disciplinară
+- b) de natură administrativă, dacă o decide prefectul
+- c) numai de natură penală
+- d) de natură penală sau contravențională
+
+**38. Standardele naționale de protecție a informațiilor clasificate sunt obligatorii pentru:**
+
+- a) numai persoanele cu grad de ofițer
+- b) orice persoană fizică sau juridică ce gestionează informații clasificate
+- c) numai instituțiile militare
+- d) numai SRI
+
+**39. Disciplina militară se bazează, potrivit art. 32, pe:**
+
+- a) acceptarea conștientă a normelor, pe recompense și pe sancțiuni disciplinare
+- b) exclusiv pe sancțiuni
+- c) exclusiv pe recompense
+- d) pe contractul colectiv de muncă
+
+**40. Pregătirea forțelor și planificarea și conducerea mobilizării armatei este atribuția:**
+
+- a) Ministerului Finanțelor
+- b) Crucii Roșii
+- c) autorităților administrației publice locale
+- d) Ministerului Apărării Naționale
+
+**41. Cheltuielile pentru apărare se asigură:**
+
+- a) din contribuția obligatorie a cetățenilor
+- b) numai din donații
+- c) numai din fondurile NATO
+- d) de la bugetul de stat și din alte surse prevăzute de lege
+
+**42. Potrivit art. 44 alin. (8), averea dobândită licit:**
 
 - a) se prezumă ilicită până la proba contrară
 - b) poate fi confiscată dacă proprietarul nu poate dovedi proveniența
 - c) nu poate fi confiscată, iar caracterul licit al dobândirii se prezumă
 - d) poate fi confiscată în stare de urgență
+
+**43. Potrivit art. 19, se va evita, pe cât posibil, uzul de armă împotriva:**
+
+- a) dronelor
+- b) minorilor, femeilor și bătrânilor
+- c) militarilor străini
+- d) vehiculelor
+
+**44. Împotriva autovehiculelor, focul se trage, pe cât posibil:**
+
+- a) în rezervorul de combustibil
+- b) în parbriz
+- c) în conducătorul auto
+- d) în pneuri, până la oprirea acestora
+
+**45. În situații de criză, calamități sau evenimente neprevăzute, conducătorul unității poate acorda acces temporar la informații clasificate unor persoane fără certificat, cu condiția ca acestea să semneze:**
+
+- a) un proces-verbal de distrugere
+- b) un contract de muncă pe durată determinată
+- c) angajamentul de confidențialitate, iar ORNISS să fie anunțat cât mai curând
+- d) o declarație de avere
 
 ---
 
@@ -333,50 +333,50 @@ Nota = 1 + 0,20 × (răspunsuri corecte). Minim de admitere: 5,00 (20 corecte).
 
 | Nr. | Răspuns | Explicație |
 |---|---|---|
-| 1 | **c** | TDM. |
-| 2 | **c** | Managementul SCI. |
-| 3 | **d** | Principiile SCI. |
-| 4 | **c** | Comutația de circuite. |
-| 5 | **d** | Performanțele FH. |
-| 6 | **a** | TSI. |
-| 7 | **c** | fₑ trebuie să fie ≥ 12 kHz. |
-| 8 | **b** | 44.100 × 16 × 2. |
-| 9 | **a** | Modulația delta. |
-| 10 | **c** | FM are imunitate mai bună la zgomot. |
-| 11 | **d** | Fiabilitate prin redundanță. |
-| 12 | **d** | Difracția, mai bună la frecvențe mai joase. |
-| 13 | **c** | Dispersia limitează viteza și distanța. |
-| 14 | **d** | 10^(20/10). |
-| 15 | **d** | 10 · log₁₀(100) = 20 dB. |
-| 16 | **d** | Concluzii practice. |
-| 17 | **d** | Viteza luminii. |
-| 18 | **c** | Infraroșu. |
-| 19 | **a** | Stratul D dispare noaptea. |
-| 20 | **c** | Unda ionosferică. |
-| 21 | **c** | Fading. |
-| 22 | **d** | Avantajele fibrei. |
-| 23 | **c** | Două stații formează o direcție radio. |
-| 24 | **d** | 8 kHz < 10 kHz. |
-| 25 | **a** | Legea inversului pătratului. |
-| 26 | **a** | Art. 3 lit. b). |
-| 27 | **b** | RG-1, accesul în unitate. |
-| 28 | **c** | Art. 23 alin. (3). |
-| 29 | **d** | Art. 25. |
-| 30 | **b** | Art. 2: general de brigadă (1), general-maior (2), general-locotenent (3), general (4). |
-| 31 | **a** | RG-3, căile de atac. |
-| 32 | **b** | Art. 118 alin. (1). |
-| 33 | **d** | Art. 12. |
-| 34 | **a** | Art. 2 alin. (2¹) lit. A. |
-| 35 | **c** | Art. 29 lit. c). |
-| 36 | **b** | Relațiile de subordonare au la bază funcția; cele de superioritate/inferioritate au la bază gradul. |
-| 37 | **b** | Art. 7: Parlament, Președinte, CSAT, Guvern, MApN, autorități locale cu atribuții. |
-| 38 | **b** | Art. 15 alin. (1) lit. h). |
-| 39 | **d** | Art. 10–12. |
-| 40 | **c** | Art. 23 alin. (13). |
-| 41 | **a** | Art. 15 lit. c). |
-| 42 | **c** | Art. 28 alin. (5). |
-| 43 | **b** | RG-1, rapoartele personale – nu se admit rapoarte colective. |
-| 44 | **a** | Art. 26. |
-| 45 | **c** | Art. 44 alin. (8). |
+| 1 | **b** | Se transmite o singură bandă laterală, fără purtătoare. |
+| 2 | **b** | Radio check. |
+| 3 | **b** | ADPCM. |
+| 4 | **d** | Performanțele FH. |
+| 5 | **c** | Unda directă. |
+| 6 | **b** | d ≈ 4,12 · (2 + 2) ≈ 16,5 km. |
+| 7 | **d** | fₑ ≥ 2 × 4 kHz. |
+| 8 | **d** | PCM. |
+| 9 | **c** | FM are imunitate mai bună la zgomot. |
+| 10 | **d** | Difracția, mai bună la frecvențe mai joase. |
+| 11 | **d** | Alfabetul fonetic NATO. |
+| 12 | **d** | Monomod. |
+| 13 | **b** | Conversia A/N. |
+| 14 | **c** | Alfabetul fonetic NATO. |
+| 15 | **a** | Disciplină și ECCM. |
+| 16 | **d** | MUF. |
+| 17 | **a** | Perechea torsadată. |
+| 18 | **a** | Categorii UTP. |
+| 19 | **d** | Transmisia sincronă. |
+| 20 | **d** | Undele luminoase. |
+| 21 | **a** | Eroarea de cuantizare. |
+| 22 | **a** | Legea µ se folosește în America de Nord și Japonia. |
+| 23 | **d** | Viteza luminii. |
+| 24 | **c** | C2IS. |
+| 25 | **b** | Debitul PCM. |
+| 26 | **d** | HG 585/2002, Cap. V. |
+| 27 | **a** | Art. 40 alin. (4). |
+| 28 | **b** | RG-1, art. 101–103. |
+| 29 | **c** | Art. 28 alin. (5). |
+| 30 | **b** | Art. 33. |
+| 31 | **b** | Art. 33. |
+| 32 | **d** | Art. 20¹ alin. (1). |
+| 33 | **c** | Art. 31 alin. (4). |
+| 34 | **b** | Art. 118 alin. (1). |
+| 35 | **b** | Art. 2. |
+| 36 | **d** | Art. 24 alin. (5). |
+| 37 | **c** | Art. 23 alin. (13). |
+| 38 | **b** | Art. 2. |
+| 39 | **a** | Art. 32 alin. (1). |
+| 40 | **d** | Art. 33. |
+| 41 | **d** | Art. 19. |
+| 42 | **c** | Art. 44 alin. (8). |
+| 43 | **b** | Art. 19. |
+| 44 | **d** | Art. 16 alin. (5). |
+| 45 | **c** | Art. 36. |
 
 **Departajare la medii egale:** 1) corecte la specialitate; 2) corecte la ultimii 10 itemi de legislație (aici 36–45); 3) media la BAC.

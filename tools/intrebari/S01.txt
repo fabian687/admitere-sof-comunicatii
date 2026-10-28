@@ -136,9 +136,9 @@
 ? Modul de lucru în care transmisia se face în ambele sensuri, dar alternativ (nu simultan), ca la stațiile radio cu PTT, se numește:
 + semi-duplex
 - duplex
-- simplex unidirecțional
+- transmisie unidirecțională (broadcast)
 - multiplex
-= Moduri de lucru.
+= Moduri de lucru. În terminologia radio militară, lucrul alternativ pe o singură frecvență se mai numește „simplex”.
 
 ? Modul de lucru în care transmisia are loc simultan în ambele sensuri se numește:
 + duplex

@@ -7,26 +7,12 @@
 - HG 106/2011
 = RG-3.
 
-? Disciplina militară se bazează pe:
-+ acceptarea conștientă a normelor, pe recompense și pe sancțiuni disciplinare
-- exclusiv pe frica de pedeapsă
-- exclusiv pe recompense financiare
-- pe contractul colectiv de muncă
-= Legea 80/1995, art. 32; RG-3.
-
 ? Dreptul comandantului/șefului de a acorda recompense și de a aplica sancțiuni disciplinare se numește:
 + prerogativă disciplinară
 - autoritate administrativă
 - drept de veto
 - competență civilă
 = Legea 80/1995, art. 32 alin. (3); RG-3.
-
-? Abaterea disciplinară este fapta săvârșită cu vinovăție prin care se încalcă legile, regulamentele, ordinele sau dispozițiile comandanților:
-+ dacă fapta nu constituie infracțiune
-- chiar dacă fapta constituie infracțiune
-- numai în timp de război
-- numai dacă produce pagube materiale
-= Legea 80/1995, art. 34¹; RG-3.
 
 ? Care dintre următoarele este o sancțiune disciplinară aplicabilă soldaților și gradaților profesioniști?
 + amânarea înaintării în gradul următor pe o perioadă de 1–2 ani
@@ -77,23 +63,9 @@
 - 1 an de la săvârșire
 = Legea 384/2006, art. 29 alin. (3).
 
-? Pentru aceeași abatere disciplinară se poate aplica:
-+ o singură sancțiune disciplinară
-- două sancțiuni, dacă abaterea e gravă
-- câte o sancțiune de la fiecare comandant
-- sancțiuni nelimitate
-= RG-3; Legea 80/1995, art. 35 alin. (2).
-
 ? Soldații și gradații profesioniști pot primi distincții nemateriale și avantaje financiare pentru îndeplinirea cu deosebită profesionalitate a sarcinilor, în condițiile stabilite prin:
 + ordin al ministrului apărării naționale
 - hotărâre a Parlamentului
 - decizia comandantului de grupă
 - lege organică specială pentru fiecare militar
 = Legea 384/2006, art. 27.
-
-? Decizia de sancționare disciplinară poate fi contestată:
-+ la comandantul ierarhic superior celui care a aplicat sancțiunea, iar ulterior la instanța de contencios administrativ
-- numai la Curtea Constituțională
-- numai la sindicat
-- nu poate fi contestată
-= RG-3, căile de atac.

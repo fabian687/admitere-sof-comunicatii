@@ -202,10 +202,3 @@
 - 1 m și 10 cm
 - 1 km și 100 m
 = Undele metrice.
-
-? Stațiile radio tactice cu salt de frecvență din gama VHF lucrează, de regulă, în banda:
-+ 30–88 MHz
-- 2–30 MHz
-- 225–400 MHz
-- 1,5–1,6 GHz
-= Banda tactică VHF.

@@ -1,6 +1,6 @@
 # titlu: Sprijinul C&I în operațiile Forțelor Terestre
 
-? La nivel tactic, singurul mijloc de comunicații care permite legătura pe timpul mișcării este:
+? La nivel tactic, principalul mijloc de comunicații care permite legătura pe timpul mișcării este:
 + rețeaua radio de luptă (CNR)
 - rețeaua de fibră optică fixă
 - centrala telefonică a PC

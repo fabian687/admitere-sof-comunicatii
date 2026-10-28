@@ -23,7 +23,7 @@ Structura respectă **exact tematica și bibliografia** din Anexa 5 a Metodologi
 | Cap. | Tema din tematică | Grile |
 |---|---|---|
 | [S01](specialitate/S01.md) | Bazele comunicațiilor și informaticii: rolul SCI, tactica armei, linii radio, game de frecvență, antene | [42](grile/S01.md) |
-| [S02](specialitate/S02.md) | Comunicații radio, **saltul de frecvență**, propagarea în **VHF** | [30](grile/S02.md) |
+| [S02](specialitate/S02.md) | Comunicații radio, **saltul de frecvență**, propagarea în **VHF** | [29](grile/S02.md) |
 | [S03](specialitate/S03.md) | Rețele radio, **disciplina radio**, **radiotelefonie** (prowords, alfabet NATO) | [40](grile/S03.md) |
 | [S04](specialitate/S04.md) | Sprijinul C&I în operațiile Forțelor Terestre | [18](grile/S04.md) |
 | [S05](specialitate/S05.md) | Mijloacele plutonului C&I: subsistemul local și subsistemul radio de campanie | [13](grile/S05.md) |
@@ -49,12 +49,12 @@ Structura respectă **exact tematica și bibliografia** din Anexa 5 a Metodologi
 | [L09](legislatie/L09.md) | HG 106/2011 – Ghidul carierei militare | [15](grile/L09.md) |
 | [L10](legislatie/L10.md) | RG-1 – Regulamentul de ordine interioară în unitate (M.38/2016) | [15](grile/L10.md) |
 | [L11](legislatie/L11.md) | Regulamentul serviciului interior (M.26/2025) | [11](grile/L11.md) |
-| [L12](legislatie/L12.md) | RG-3 – Regulamentul disciplinei militare (M.64/2013) | [14](grile/L12.md) |
+| [L12](legislatie/L12.md) | RG-3 – Regulamentul disciplinei militare (M.64/2013) | [10](grile/L12.md) |
 
 ### Antrenament
 
 - **[8 simulări complete](simulari/)** – fiecare are 25 + 20 de itemi și barem cu explicații
-- **[Quiz interactiv](quiz/index.html)** – toate cele **684 de grile**, pe capitole sau amestecate, cu simulare cronometrată
+- **[Quiz interactiv](quiz/index.html)** – toate cele **679 de grile**, pe capitole sau amestecate, cu simulare cronometrată
 - **[Fișa recapitulativă](fisa-recapitulativa.md)** – toate cifrele și „cine decide ce”, pe 2 pagini
 
 ---

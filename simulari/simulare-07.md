@@ -9,323 +9,323 @@ Nota = 1 + 0,20 × (răspunsuri corecte). Minim de admitere: 5,00 (20 corecte).
 ## Partea I — Pregătire de specialitate (25 de itemi)
 
 
-**1. Între o structură care sprijină și una sprijinită, legătura o realizează:**
+**1. Transmisia plesiocronă se caracterizează prin:**
 
-- a) structura sprijinită
-- b) cea mai apropiată unitate civilă
-- c) structura care sprijină
-- d) eșalonul inferior celor două
+- a) transmiterea fiecărui caracter cu start-stop
+- b) lipsa totală a ceasurilor
+- c) ceasuri perfect sincrone, de la o sursă unică
+- d) ceasuri aproape sincrone (aceeași frecvență nominală, cu mici abateri), compensate prin biți de justificare
 
-**2. Un cadru T1 are:**
+**2. Când operatorul nu a identificat stația care l-a chemat, folosește:**
 
-- a) 53 de octeți
-- b) 192 de biți, fără încadrare
-- c) 193 de biți (24 × 8 + 1 bit de încadrare)
-- d) 256 de biți
+- a) UNKNOWN STATION
+- b) BREAK
+- c) THIS IS
+- d) WILCO
 
-**3. Care dintre următoarele este un dezavantaj al legăturii radio?**
+**3. Activitatea solară influențează în special propagarea în gama:**
 
-- a) poate fi interceptată, bruiată, iar stația poate fi localizată prin radiogoniometrie
-- b) nu permite legătura în mișcare
-- c) nu poate transmite voce
-- d) se realizează foarte greu
+- a) VHF în linie de vedere
+- b) prin cablu coaxial
+- c) prin fibră optică
+- d) HF, prin modificarea ionizării ionosferei
 
-**4. Purtătoarea E1 (standard european, folosit și în România) are un debit de:**
+**4. În modulația delta (DM), fiecare eșantion este codat pe:**
 
-- a) 1,544 Mbit/s
-- b) 155,52 Mbit/s
-- c) 64 kbit/s
-- d) 2,048 Mbit/s
+- a) 1 bit
+- b) 8 biți
+- c) 4 biți
+- d) 16 biți
 
-**5. Singura pierdere ireversibilă de informație în procesul PCM (când eșantionarea respectă teorema) apare la:**
+**5. Lumina rămâne în miezul fibrei optice datorită fenomenului de:**
 
-- a) cuantizare
-- b) transmisia fără erori
-- c) codare
-- d) eșantionare
+- a) absorbție
+- b) difracție
+- c) polarizare
+- d) reflexie totală internă
 
-**6. Atunci când stația chemată nu răspunde, stația care cheamă poate raporta:**
+**6. Legătura dintre aparatul telefonic al abonatului și centrala locală se numește:**
 
-- a) WILCO
-- b) ROGER
-- c) LOUD AND CLEAR
-- d) NOTHING HEARD
+- a) trunchi
+- b) supergrup
+- c) buclă locală
+- d) cadru
 
-**7. Antenele a două stații VHF sunt la 9 m și 16 m înălțime. Orizontul radio este de aproximativ:**
-
-- a) 29 km
-- b) 104 km
-- c) 15 km
-- d) 7 km
-
-**8. Care dintre următoarele tehnologii folosește circuite virtuale?**
-
-- a) ATM
-- b) Ethernet clasic
-- c) IP
-- d) radiodifuziunea AM
-
-**9. Cerința ca informația să ajungă la destinatar în timp util se numește:**
-
-- a) operativitate
-- b) interoperabilitate
-- c) multiplexare
-- d) polarizare
-
-**10. Clasa de serviciu ATM care asigură o rată de transfer constantă (de exemplu pentru voce) este:**
-
-- a) ABR (Available Bit Rate)
-- b) UBR (Unspecified Bit Rate)
-- c) VBR (Variable Bit Rate)
-- d) CBR (Constant Bit Rate)
-
-**11. O putere de 100 mW exprimată în dBm este:**
-
-- a) 2 dBm
-- b) 100 dBm
-- c) 20 dBm
-- d) 10 dBm
-
-**12. Pentru legăturile radioreleu punct la punct se folosesc, de regulă, antene:**
+**7. Pentru legăturile radioreleu punct la punct se folosesc, de regulă, antene:**
 
 - a) de tip ferită
 - b) directive (cu câștig mare)
 - c) fără polarizare
 - d) omnidirecționale
 
-**13. Stratul ionosferic cel mai important pentru legăturile HF la distanțe mari este:**
+**8. Lățirea impulsurilor de lumină pe măsură ce se propagă prin fibră se numește:**
 
-- a) troposfera
-- b) stratul E sporadic, exclusiv
-- c) stratul D
-- d) stratul F (F2)
+- a) polarizare
+- b) multiplexare
+- c) dispersie
+- d) reflexie totală
 
-**14. Legătura radio realizată între două stații se numește:**
-
-- a) direcție radio
-- b) trunchi
-- c) rețea radio
-- d) nod de comunicații
-
-**15. Comparativ cu stațiile VHF portabile, stațiile VHF vehiculare au, de regulă:**
-
-- a) putere mai mare și antene mai înalte, deci bătaie mai mare
-- b) aceeași bătaie, dar greutate mai mică
-- c) putere mai mică și bătaie mai mică
-- d) numai funcția de recepție
-
-**16. O legătură HF care funcționa ziua pe 8 MHz nu mai funcționează seara. Măsura corectă este:**
-
-- a) coborârea frecvenței de lucru
-- b) creșterea frecvenței la 20 MHz
-- c) scurtarea antenei
-- d) trecerea pe polarizare circulară
-
-**17. Stația care conduce rețeaua radio (deschide/închide rețeaua, controlează traficul, impune tăcerea radio) se numește:**
+**9. Stația care conduce rețeaua radio (deschide/închide rețeaua, controlează traficul, impune tăcerea radio) se numește:**
 
 - a) stația necunoscută
 - b) stația de retranslație
 - c) stația de control al rețelei (NCS)
 - d) stația subordonată
 
-**18. Gamele de frecvențe în ordine crescătoare sunt:**
+**10. Elementul care permite unui abonat telefonic din PC să comunice printr-o stație radio cu un corespondent din teren este:**
+
+- a) interfața dintre subsistemul local și subsistemul radio
+- b) antena bici
+- c) acumulatorul
+- d) casca operatorului
+
+**11. O undă HF cu frecvența mai mare decât MUF:**
+
+- a) devine undă de suprafață
+- b) se reflectă mai bine
+- c) străpunge ionosfera și nu se mai întoarce spre Pământ
+- d) se transformă în undă directă
+
+**12. De regulă, stația de control al rețelei este stația:**
+
+- a) comandantului / eșalonului superior
+- b) celui mai tânăr operator
+- c) de retranslație
+- d) cea mai îndepărtată de punctul de comandă
+
+**13. Gamele de frecvențe în ordine crescătoare sunt:**
 
 - a) MF, LF, HF, UHF, VHF, SHF
 - b) HF, LF, MF, VHF, SHF, UHF
 - c) VHF, HF, UHF, LF, MF, SHF
 - d) LF, MF, HF, VHF, UHF, SHF
 
-**19. Codarea, în conversia analog-numerică, reprezintă:**
+**14. Comparativ cu perechea torsadată, cablul coaxial are:**
 
-- a) eșantionarea semnalului
-- b) modularea purtătoarei
-- c) filtrarea semnalului
-- d) atribuirea unui cuvânt binar fiecărui nivel de cuantizare
+- a) miez din sticlă
+- b) imunitate mai mică la zgomot
+- c) bandă mai îngustă
+- d) ecranare mai bună, deci imunitate mai mare la zgomot și bandă mai largă
 
-**20. Avantajul principal al comutației de pachete este:**
+**15. În varianta datagramă a comutației de pachete:**
 
-- a) lipsa antetelor
-- b) folosirea eficientă a liniilor, prin partajarea statistică între utilizatori
-- c) întârzierea perfect constantă
-- d) garantarea ordinii pachetelor în orice variantă
+- a) fiecare pachet este rutat independent și pachetele pot sosi în altă ordine
+- b) toate pachetele urmează aceeași cale stabilită în prealabil
+- c) pachetele nu au adresă
+- d) se rezervă o cale fizică
 
-**21. Două tronsoane de cablu atenuează 3 dB și, respectiv, 7 dB. Atenuarea totală este:**
+**16. Un amplificator cu câștigul de 20 dB mărește puterea semnalului de:**
 
-- a) 10 dB, adică puterea scade de 10 ori
-- b) 4 dB
-- c) 21 dB
-- d) 10 dB, adică puterea scade de 2 ori
+- a) 2 ori
+- b) 20 de ori
+- c) 10 ori
+- d) 100 de ori
 
-**22. În fibra optică multimod apare fenomenul de dispersie modală deoarece:**
+**17. Defectul modulației delta care apare când semnalul variază mai repede decât poate urmări pasul fix se numește:**
 
-- a) nu există înveliș
-- b) fibra este din cupru
-- c) lumina se propagă în linie dreaptă
-- d) razele de lumină parcurg drumuri de lungimi diferite (unghiuri diferite)
+- a) supraîncărcarea pantei
+- b) dispersie modală
+- c) aliasing
+- d) diafonie
 
-**23. În gama VHF, vegetația densă (pădurea), mai ales umedă:**
+**18. În gama VHF, vegetația densă (pădurea), mai ales umedă:**
 
 - a) amplifică semnalul
 - b) nu are niciun efect
 - c) absoarbe și atenuează semnalul
 - d) reflectă semnalul spre ionosferă
 
-**24. Transmisia prin microunde se caracterizează prin:**
+**19. Ferestrele de transmisie folosite în comunicațiile pe fibră optică sunt centrate pe lungimile de undă:**
 
-- a) imunitate totală la ploaie
-- b) trecerea prin munți
-- c) propagare prin reflexie pe ionosferă la mii de km
-- d) propagare în linie dreaptă, antene directive și necesitatea releelor la distanțe mari
+- a) 1 m, 10 m și 100 m
+- b) 30 MHz, 88 MHz și 300 MHz
+- c) 0,85 µm, 1,30 µm și 1,55 µm
+- d) 400 nm, 500 nm și 600 nm
 
-**25. Tăcerea radio impusă poate fi ridicată de:**
+**20. Procedura prin care se verifică identitatea unei stații suspecte în rețea se numește:**
 
-- a) inamic
-- b) oricare operator din rețea
-- c) cel care a impus-o (sau de eșalonul superior)
-- d) stația cu cel mai puternic semnal
+- a) autentificare (AUTHENTICATE)
+- b) read back
+- c) radio check
+- d) break
+
+**21. Cuvântul de procedură folosit înaintea unui cuvânt spus pe litere cu alfabetul fonetic este:**
+
+- a) FIGURES
+- b) BREAK
+- c) WAIT
+- d) I SPELL
+
+**22. Antena verticală produce o undă cu polarizare:**
+
+- a) nedefinită
+- b) circulară obligatoriu
+- c) verticală
+- d) orizontală
+
+**23. Nivelurile SDH (STM-1, STM-4, STM-16) cresc de la un nivel la următorul cu un factor de:**
+
+- a) 10
+- b) 8
+- c) 2
+- d) 4
+
+**24. Banda VHF folosită de stațiile radio tactice de luptă (NATO) este de aproximativ:**
+
+- a) 88–108 MHz
+- b) 1–2 GHz
+- c) 3–30 MHz
+- d) 30–88 MHz
+
+**25. Fiecare bit în plus pe eșantion îmbunătățește raportul semnal/zgomot de cuantizare cu aproximativ:**
+
+- a) 1 dB
+- b) 6 dB
+- c) 3 dB
+- d) 10 dB
 
 ## Partea a II-a — Legislație (20 de itemi)
 
 
-**26. Păstrarea secretului militar, de stat și de serviciu este:**
-
-- a) un drept al cadrelor militare
-- b) obligatorie numai în timp de război
-- c) o îndatorire principală a cadrelor militare
-- d) o obligație numai a ofițerilor
-
-**27. În operațiile din afara teritoriului, regulile de angajare se transmit spre analiză:**
-
-- a) Ministerului Afacerilor Externe
-- b) comandantului de pluton
-- c) Parlamentului
-- d) autorității naționale militare (Statul Major al Apărării)
-
-**28. Statul român are ca fundament:**
-
-- a) egalitatea dintre puterile statului
-- b) suveranitatea Parlamentului
-- c) unitatea politică a partidelor
-- d) unitatea poporului român și solidaritatea cetățenilor săi
-
-**29. Selecționarea personalului și durata participării la misiuni se stabilesc prin:**
-
-- a) decret prezidențial
-- b) hotărâre a CSAT, pentru fiecare militar
-- c) hotărâre a Parlamentului
-- d) ordin al ministrului apărării naționale
-
-**30. Este interzisă angajarea ca salariați a minorilor sub vârsta de:**
-
-- a) 14 ani
-- b) 16 ani
-- c) 18 ani
-- d) 15 ani
-
-**31. Personalul care urmează să execute serviciul interior înarmat trebuie să fie:**
-
-- a) absolvent de studii superioare
-- b) mai în vârstă de 30 de ani
-- c) căsătorit
-- d) apt din punct de vedere medical și psihologic
-
-**32. Exercitarea dreptului de petiționare este:**
+**26. Exercitarea dreptului de petiționare este:**
 
 - a) permisă numai organizațiilor legal constituite
 - b) supusă unei taxe judiciare de timbru
 - c) permisă doar prin avocat
 - d) scutită de taxă
 
-**33. Dacă Parlamentul nu se află în sesiune la instituirea stării de asediu sau de urgență, el se convoacă de drept în cel mult:**
+**27. Militarii care se află în formație:**
 
-- a) 48 de ore de la instituirea stării
-- b) 5 zile de la instituirea stării
-- c) 72 de ore de la instituirea stării
-- d) 24 de ore de la instituirea stării
+- a) salută numai generalii
+- b) nu salută niciodată
+- c) salută fiecare individual
+- d) nu salută individual; salută comandantul formației
 
-**34. Asocierea cadrelor militare în activitate este permisă în organizații profesionale, culturale, sportive, cu excepția:**
+**28. Prin raportul personal, militarul se poate adresa comandantului:**
 
-- a) celor cu caracter sportiv
-- b) celor caritabile
-- c) celor cu caracter sindical sau care contravin unicității comenzii, ordinii și disciplinei
-- d) celor tehnico-științifice
+- a) numai în timpul concediului
+- b) în nume propriu, cu cereri, propuneri sau reclamații privind probleme personale sau de serviciu
+- c) numai cu reclamații împotriva colegilor
+- d) în numele întregii subunități
 
-**35. Potrivit Constituției, asociațiile cu caracter secret sunt:**
+**29. Potrivit art. 15, se poate face uz de armă împotriva dronelor:**
 
-- a) interzise
-- b) permise dacă nu sunt politice
-- c) permise doar pentru structurile militare
-- d) permise cu aprobarea SRI
+- a) numai dacă sunt militare
+- b) folosite pentru comiterea unui act ostil
+- c) în orice situație, fără condiții
+- d) care zboară la peste 10 km de unitate
 
-**36. Care dintre următoarele este o categorie de măsuri de siguranță opozabile terților?**
+**30. Potrivit Legii 122/2011, dispozitivele militare includ și sisteme care emit:**
 
-- a) percheziția domiciliilor din apropiere
-- b) închiderea magazinelor din oraș
-- c) confiscarea autoturismelor din zonă
-- d) interzicerea sau limitarea utilizării unor dispozitive electronice
+- a) numai gaze lacrimogene
+- b) semnale de radiodifuziune comercială
+- c) numai proiectile cinetice
+- d) semnale de bruiaj, energie dirijată, microunde de mare putere sau laser
 
-**37. Percheziția pe timp de noapte:**
+**31. Forțele sistemului național de apărare cuprind:**
+
+- a) numai armata
+- b) armata și poliția locală
+- c) forțele terestre și forțele navale
+- d) forțele armate și forțele de protecție
+
+**32. Cetățenii români aflați în străinătate:**
+
+- a) nu mai au obligații față de statul român
+- b) au doar obligații fiscale față de statul român
+- c) pierd dreptul la protecția statului român după 5 ani
+- d) se bucură de protecția statului român și trebuie să-și îndeplinească obligațiile, cu excepția celor incompatibile cu absența din țară
+
+**33. Percheziția pe timp de noapte:**
 
 - a) este permisă oricând cu aprobarea procurorului
 - b) este interzisă, cu excepția delictului flagrant
 - c) este permisă numai în cazul militarilor
 - d) este permisă doar în stare de urgență
 
-**38. Pentru prejudiciile cauzate prin erorile judiciare răspunde patrimonial:**
+**34. Pentru prejudiciile cauzate prin erorile judiciare răspunde patrimonial:**
 
 - a) statul
 - b) Consiliul Superior al Magistraturii
 - c) exclusiv judecătorul care a pronunțat hotărârea
 - d) Ministerul Justiției, numai dacă erorile sunt intenționate
 
-**39. Legea 121/2011 reglementează:**
+**35. Sancțiunea disciplinară se aplică în termen de cel mult ... de la constatarea abaterii, dar nu mai târziu de ... de la săvârșirea ei.**
 
-- a) protecția informațiilor clasificate
-- b) regimul armelor și munițiilor deținute de MApN
-- c) participarea forțelor armate la misiuni și operații în afara teritoriului statului român
-- d) statutul cadrelor militare
+- a) 6 luni; 2 ani
+- b) 1 an; 3 ani
+- c) 3 luni; 1 an
+- d) 30 de zile; 6 luni
 
-**40. Potrivit Regulamentului serviciului interior (M.26/2025), serviciul interior cuprinde:**
+**36. Raportul personal se prezintă:**
 
-- a) serviciul de permanență și serviciul de pază, exclusiv
-- b) serviciul de gardă, serviciul de zi și serviciul de noapte
-- c) serviciul de permanență, serviciul operativ, serviciul de continuitate a conducerii, serviciul tehnic de monitorizare și avertizare, serviciul de pază și intervenție
-- d) serviciul de pază, serviciul de cantină și serviciul de transport
+- a) pe cale ierarhică, începând cu șeful nemijlocit
+- b) numai în scris, prin poștă
+- c) direct ministrului apărării, în orice situație
+- d) prin intermediul presei
 
-**41. Atribuțiile, organizarea și funcționarea poliției militare se stabilesc prin:**
+**37. Atribuțiile, organizarea și funcționarea poliției militare se stabilesc prin:**
 
 - a) regulament al unității
 - b) lege specială
 - c) hotărâre a Guvernului
 - d) ordin al ministrului
 
-**42. Durata normală a zilei de lucru este:**
+**38. Durata normală a zilei de lucru este:**
 
 - a) în medie, de cel mult 8 ore
 - b) de cel mult 10 ore
 - c) de cel mult 12 ore, pentru militari
 - d) de exact 8 ore, fără excepție
 
-**43. Cadrele militare care urmează cursurile de zi ale unei instituții de învățământ superior beneficiază:**
+**39. Cadrele militare în activitate au, potrivit art. 8 alin. (2), obligația:**
 
-- a) de concediu fără plată
-- b) de concediu de odihnă dublu
-- c) numai de permisii
-- d) de vacanțe, în locul concediilor de odihnă
+- a) să participe la misiuni în afara teritoriului statului român
+- b) să urmeze studii universitare
+- c) să fie membre ale unui sindicat militar
+- d) să locuiască în incinta unității
 
-**44. Accesul la informații clasificate se acordă numai persoanelor care:**
+**40. Informațiile secrete de stat se declasifică prin:**
 
-- a) sunt rude cu emitentul
-- b) dețin certificat de securitate sau autorizație de acces valabilă pentru nivelul respectiv și au nevoie de informații pentru îndeplinirea atribuțiilor
-- c) au grad de ofițer
-- d) au peste 5 ani vechime în instituție
+- a) expirarea a 5 ani de la emitere
+- b) hotărâre a Guvernului, la solicitarea motivată a emitentului
+- c) ordin al ministrului
+- d) decizia oricărui deținător
 
-**45. Pentru pregătire, forțele armate pot participa, în țară sau în străinătate, la:**
+**41. „Consemnul” reprezintă, potrivit Legii 122/2011:**
 
-- a) exerciții, antrenamente și ceremoniale
-- b) alegeri
-- c) misiuni de poliție locală
-- d) activități comerciale
+- a) totalitatea obligațiilor generale și specifice ale personalului aflat în misiune
+- b) parola de recunoaștere
+- c) lista persoanelor care au acces în unitate
+- d) ordinul de zi pe unitate
+
+**42. Vârsta minimă pentru a fi ales în Camera Deputaților sau în organele administrației publice locale este:**
+
+- a) 23 de ani
+- b) 18 ani
+- c) 25 de ani
+- d) 33 de ani
+
+**43. Structurile care participă la misiuni în afara teritoriului se încadrează, de regulă, cu:**
+
+- a) personal civil contractual, exclusiv
+- b) rezerviști fără pregătire
+- c) personal profesionalizat
+- d) militari în termen
+
+**44. Din punct de vedere administrativ, teritoriul României este organizat în:**
+
+- a) regiuni, județe și comune
+- b) regiuni de dezvoltare și municipii
+- c) provincii și județe
+- d) comune, orașe și județe
+
+**45. Serviciul interior se organizează:**
+
+- a) la nivelul fiecărei garnizoane, în comun cu Poliția
+- b) la nivelul fiecărui obiectiv militar
+- c) numai la nivelul Statului Major al Apărării
+- d) numai la nivelul brigăzii
 
 ---
 
@@ -333,50 +333,50 @@ Nota = 1 + 0,20 × (răspunsuri corecte). Minim de admitere: 5,00 (20 corecte).
 
 | Nr. | Răspuns | Explicație |
 |---|---|---|
-| 1 | **c** | Regula „de la sprijin la sprijinit”. |
-| 2 | **c** | T1. |
-| 3 | **a** | Dezavantajele radioului. |
-| 4 | **d** | E1 = 32 × 8 × 8000. |
-| 5 | **a** | Eroarea de cuantizare. |
-| 6 | **d** | Prowords. |
-| 7 | **a** | 4,12 × (3 + 4) ≈ 28,8 km. |
-| 8 | **a** | ATM, X.25 și Frame Relay sunt orientate pe conexiune. |
-| 9 | **a** | Cerințele comunicațiilor militare. |
-| 10 | **d** | QoS în ATM. |
-| 11 | **c** | 10 · log₁₀(100). |
-| 12 | **b** | Antenele directive concentrează energia pe direcția corespondentului. |
-| 13 | **d** | Stratul F2. |
-| 14 | **a** | Organizarea legăturilor radio. |
-| 15 | **a** | Subsistemul radio. |
-| 16 | **a** | Seara MUF scade. |
-| 17 | **c** | NCS. |
-| 18 | **d** | Gamele de frecvențe. |
-| 19 | **d** | Pasul 3. |
-| 20 | **b** | Comutația de pachete. |
-| 21 | **a** | Atenuările în dB se adună. |
-| 22 | **d** | Multimod. |
-| 23 | **c** | Factori de teren. |
-| 24 | **d** | Microunde. |
-| 25 | **c** | „SILENCE LIFTED”. |
-| 26 | **c** | Art. 8 alin. (1) lit. f). |
-| 27 | **d** | Art. 25. |
-| 28 | **d** | Art. 4 alin. (1). |
-| 29 | **d** | Art. 14 alin. (2). |
-| 30 | **d** | Art. 49 alin. (4). |
-| 31 | **d** | RSI – examinarea medicală și asistența psihologică. |
-| 32 | **d** | Art. 51 alin. (3). |
-| 33 | **a** | Art. 93 alin. (2). Parlamentul funcționează pe toată durata stării. |
-| 34 | **c** | Art. 29 lit. e). |
-| 35 | **a** | Art. 40 alin. (4). |
-| 36 | **d** | RSI – măsuri de interzicere/avertizare/semnalizare; control, detecție, supraveghere; limitarea accesului și circulației; limitarea dispozitivelor electronice. |
-| 37 | **b** | Art. 27 alin. (4). |
-| 38 | **a** | Art. 52 alin. (3). Răspunderea statului nu înlătură răspunderea magistraților care au acționat cu rea-credință sau gravă neglijență. |
-| 39 | **c** | Art. 1. |
-| 40 | **c** | Ordinul M.26/2025 – cinci tipuri de servicii. |
-| 41 | **b** | Art. 36 alin. (2). |
-| 42 | **a** | Art. 41 alin. (3). |
-| 43 | **d** | Art. 16. |
-| 44 | **b** | Art. 33. |
-| 45 | **a** | Art. 3 alin. (3). |
+| 1 | **d** | Plesiocron. |
+| 2 | **a** | Prowords. |
+| 3 | **d** | Ciclul solar de ~11 ani. |
+| 4 | **a** | Indică doar dacă semnalul crește sau scade. |
+| 5 | **d** | Indicele de refracție al miezului este mai mare decât al învelișului. |
+| 6 | **c** | Structura sistemului telefonic. |
+| 7 | **b** | Antenele directive concentrează energia pe direcția corespondentului. |
+| 8 | **c** | Dispersia limitează viteza și distanța. |
+| 9 | **c** | NCS. |
+| 10 | **a** | Legătura dintre subsisteme. |
+| 11 | **c** | MUF. |
+| 12 | **a** | Organizarea rețelelor. |
+| 13 | **d** | Gamele de frecvențe. |
+| 14 | **d** | Coaxial. |
+| 15 | **a** | Datagramă. |
+| 16 | **d** | 10^(20/10). |
+| 17 | **a** | Modulația delta. |
+| 18 | **c** | Factori de teren. |
+| 19 | **c** | Infraroșu apropiat. |
+| 20 | **a** | Protecție împotriva intruziunii. |
+| 21 | **d** | Prowords. |
+| 22 | **c** | Polarizarea este dată de orientarea câmpului electric. |
+| 23 | **d** | 155,52 → 622,08 → 2488,32 Mbit/s. |
+| 24 | **d** | Banda tactică VHF FM. |
+| 25 | **b** | SNR ≈ 6,02·n + 1,76 dB. |
+| 26 | **d** | Art. 51 alin. (3). |
+| 27 | **d** | RG-1, salutul militar. |
+| 28 | **b** | RG-1, rapoartele personale – nu se admit rapoarte colective. |
+| 29 | **b** | Art. 15 alin. (1) lit. h). |
+| 30 | **d** | Art. 3 lit. c). |
+| 31 | **d** | Art. 10–12. |
+| 32 | **d** | Art. 17. |
+| 33 | **b** | Art. 27 alin. (4). |
+| 34 | **a** | Art. 52 alin. (3). Răspunderea statului nu înlătură răspunderea magistraților care au acționat cu rea-credință sau gravă neglijență. |
+| 35 | **a** | Art. 35 alin. (3). |
+| 36 | **a** | RG-1, rapoartele personale. |
+| 37 | **b** | Art. 36 alin. (2). |
+| 38 | **a** | Art. 41 alin. (3). |
+| 39 | **a** | Art. 8 alin. (2). |
+| 40 | **b** | Art. 19. |
+| 41 | **a** | Art. 3 lit. b). |
+| 42 | **a** | Art. 37 alin. (2). |
+| 43 | **c** | Art. 14 alin. (1). |
+| 44 | **d** | Art. 3 alin. (3). Unele orașe sunt declarate municipii. |
+| 45 | **b** | RSI, dispoziții generale. |
 
 **Departajare la medii egale:** 1) corecte la specialitate; 2) corecte la ultimii 10 itemi de legislație (aici 36–45); 3) media la BAC.

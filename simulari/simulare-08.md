@@ -9,323 +9,323 @@ Nota = 1 + 0,20 × (răspunsuri corecte). Minim de admitere: 5,00 (20 corecte).
 ## Partea I — Pregătire de specialitate (25 de itemi)
 
 
-**1. Pentru a cere repetarea unei transmisii (sau a unei părți din ea) se folosește cuvântul de procedură:**
+**1. Legăturile radio la distanțe de mii de kilometri, fără relee sau sateliți, se realizează în principal în gama:**
 
-- a) ROGER
-- b) OVER
-- c) SAY AGAIN
-- d) REPEAT
+- a) UHF, prin undă de suprafață
+- b) VHF, prin undă directă
+- c) HF, prin unda spațială reflectată de ionosferă
+- d) SHF, prin difracție
 
-**2. Antena verticală produce o undă cu polarizare:**
+**2. Debitul purtătoarei T1, cu cadre de 193 de biți transmise de 8000 de ori pe secundă, este:**
 
-- a) nedefinită
-- b) circulară obligatoriu
-- c) verticală
-- d) orizontală
+- a) 1,536 Mbit/s
+- b) 2,048 Mbit/s
+- c) 193 kbit/s
+- d) 1,544 Mbit/s
 
-**3. Potrivit teoremei lui Shannon, capacitatea maximă a unui canal cu zgomot este:**
+**3. Identificatorii căii virtuale și ai canalului virtual din antetul celulei ATM sunt:**
 
-- a) C = B · S/N
-- b) C = S/N / B
-- c) C = 2 · B · log₂V
-- d) C = B · log₂(1 + S/N)
+- a) VPI și VCI
+- b) TCP și UDP
+- c) IP și MAC
+- d) SSID și BSSID
 
-**4. Banda VHF folosită de stațiile radio tactice de luptă (NATO) este de aproximativ:**
+**4. Rolul centralei (comutatorului) telefonice de campanie este:**
 
-- a) 88–108 MHz
-- b) 1–2 GHz
-- c) 3–30 MHz
-- d) 30–88 MHz
+- a) radiogoniometria stațiilor inamice
+- b) criptarea mesajelor radio
+- c) alimentarea cu energie a PC
+- d) realizarea legăturilor telefonice între abonații PC și cu exteriorul, prin trunchiuri
 
-**5. Debitul canalului telefonic digital standard (8 kHz × 8 biți) este:**
+**5. Comparativ cu stațiile VHF portabile, stațiile VHF vehiculare au, de regulă:**
 
-- a) 128 kbit/s
-- b) 64 kbit/s
-- c) 16 kbit/s
-- d) 8 kbit/s
+- a) putere mai mare și antene mai înalte, deci bătaie mai mare
+- b) aceeași bătaie, dar greutate mai mică
+- c) putere mai mică și bătaie mai mică
+- d) numai funcția de recepție
 
-**6. Lumina rămâne în miezul fibrei optice datorită fenomenului de:**
+**6. Cuvântul de procedură „WILCO” înseamnă:**
 
-- a) absorbție
-- b) difracție
-- c) polarizare
-- d) reflexie totală internă
+- a) repetă mesajul
+- b) am primit mesajul, l-am înțeles și voi executa
+- c) așteaptă
+- d) am recepționat, dar nu voi executa
 
-**7. Comparativ cu X.25, tehnologia Frame Relay este mai rapidă deoarece:**
+**7. Cuvântul de procedură „CORRECTION” se folosește atunci când:**
 
-- a) folosește comutație de circuite
-- b) folosește celule de 53 de octeți
-- c) folosește doar linii analogice
-- d) nu face corecția erorilor în fiecare nod, ci o lasă la capetele legăturii
+- a) se impune tăcerea radio
+- b) se încheie schimbul de mesaje
+- c) operatorul cere corespondentului să corecteze antena
+- d) operatorul a greșit și continuă de la ultimul cuvânt transmis corect
 
-**8. Denumirea „asincron” din ATM (Asynchronous Transfer Mode) se referă la faptul că:**
+**8. Pe timpul nopții, straturile F1 și F2:**
 
-- a) celulele unei surse nu ocupă poziții fixe, periodice, în timp, ci se transmit numai când există date
-- b) celulele au lungime variabilă
-- c) se transmite caracter cu caracter, cu start-stop
-- d) nu există niciun ceas în rețea
+- a) se unesc într-un singur strat F
+- b) dispar complet
+- c) se transformă în stratul D
+- d) coboară sub 50 km
 
-**9. Care dintre următoarele face parte din subsistemul local de comunicații?**
+**9. Principalul avantaj al comutației de circuite pentru convorbirile telefonice este:**
 
-- a) stația radio HF a eșalonului superior
-- b) satelitul de comunicații
-- c) centrala telefonică de campanie și rețeaua locală de date
-- d) stația de retranslație de pe un deal îndepărtat
+- a) ocolirea automată a nodurilor defecte în timpul convorbirii
+- b) folosirea foarte eficientă a liniilor la trafic în rafale
+- c) nu necesită stabilirea legăturii
+- d) întârzierea mică și constantă după stabilirea legăturii
 
-**10. Stațiile radio HF din dotarea plutonului C&I sunt folosite în special pentru:**
+**10. Indicativul de apel (call sign) reprezintă:**
 
-- a) legături la distanțe mari și dincolo de linia de vedere
-- b) legături în interiorul cortului de comandă
-- c) iluminarea PC
-- d) rețeaua locală de calculatoare
+- a) puterea emițătorului
+- b) codul de criptare
+- c) denumirea convențională a unei stații radio, folosită în locul numelor reale
+- d) frecvența de lucru
 
-**11. Cuvântul de procedură „ROGER” înseamnă:**
+**11. În comutația de pachete, mesajul este:**
 
-- a) corectez
-- b) am recepționat satisfăcător ultima transmisie
-- c) am înțeles și voi executa
-- d) repetă
+- a) transmis pe o cale rezervată
+- b) transmis integral, ca un singur bloc
+- c) transformat în semnal analogic
+- d) împărțit în pachete de lungime limitată, fiecare cu propriul antet
 
-**12. Cuvântul de procedură folosit înaintea unui cuvânt spus pe litere cu alfabetul fonetic este:**
+**12. În ierarhia FDM clasică, un grup cuprinde:**
 
-- a) FIGURES
-- b) BREAK
-- c) WAIT
-- d) I SPELL
+- a) 30 de canale
+- b) 12 canale telefonice (48 kHz)
+- c) 60 de canale
+- d) 24 de canale
 
-**13. O undă HF cu frecvența mai mare decât MUF:**
-
-- a) devine undă de suprafață
-- b) se reflectă mai bine
-- c) străpunge ionosfera și nu se mai întoarce spre Pământ
-- d) se transformă în undă directă
-
-**14. Un dezavantaj al comutației de circuite pentru traficul de date în rafale este:**
-
-- a) întârzierea foarte variabilă
-- b) capacitatea rezervată rămâne neutilizată în pauzele de transmisie
-- c) nodurile au nevoie de memorie foarte mare
-- d) pachetele sosesc în altă ordine
-
-**15. Tipul de rețea (liberă sau dirijată) se stabilește de:**
-
-- a) stația de control al rețelei
-- b) fiecare operator, după preferință
-- c) operatorul care emite primul
-- d) inamic
-
-**16. Un dezavantaj al comutației de mesaje este:**
-
-- a) imposibilitatea transmiterii de text
-- b) întârzierile mari și variabile și necesarul mare de memorie în noduri
-- c) rezervarea permanentă a căii
-- d) necesitatea fibrei optice
-
-**17. Multiplexarea cu diviziune în lungime de undă (WDM) este folosită în:**
-
-- a) radioul HF
-- b) fibra optică
-- c) bucla locală analogică
-- d) perechea torsadată
-
-**18. Posibilitatea ca mai multe rețele FH să lucreze în aceeași bandă de frecvențe se obține prin:**
+**13. Posibilitatea ca mai multe rețele FH să lucreze în aceeași bandă de frecvențe se obține prin:**
 
 - a) folosirea de chei/identificatori diferiți pentru fiecare rețea
 - b) folosirea aceleiași chei pentru toate rețelele
 - c) reducerea numărului de stații la două
 - d) lucrul exclusiv în frecvență fixă
 
-**19. Subsistemul radio de campanie al plutonului C&I cuprinde, în principal:**
+**14. Stațiile radio HF din dotarea plutonului C&I sunt folosite în special pentru:**
 
-- a) centrala telefonică și cablurile multiperechi
-- b) doar terminalele informatice
-- c) stații radio VHF (portabile și vehiculare), stații HF, stații de retranslație și antene
-- d) grupurile electrogene
+- a) legături la distanțe mari și dincolo de linia de vedere
+- b) legături în interiorul cortului de comandă
+- c) iluminarea PC
+- d) rețeaua locală de calculatoare
 
-**20. Capacitatea de a comunica cu structuri ale altor state aliate (NATO) se numește:**
+**15. Capacitatea de a comunica cu structuri ale altor state aliate (NATO) se numește:**
 
 - a) fiabilitate
 - b) interoperabilitate
 - c) mobilitate
 - d) continuitate
 
-**21. Undele decametrice (scurte) corespund gamei:**
+**16. Undele decametrice (scurte) corespund gamei:**
 
 - a) LF
 - b) VHF
 - c) UHF
 - d) HF
 
-**22. Debitul nivelului STM-1 din ierarhia SDH este de:**
+**17. Debitul nivelului STM-4 din ierarhia SDH este de:**
 
-- a) 622,08 Mbit/s
-- b) 51,84 Mbit/s
-- c) 2,048 Mbit/s
+- a) 34,368 Mbit/s
+- b) 2488,32 Mbit/s
+- c) 622,08 Mbit/s
 - d) 155,52 Mbit/s
 
-**23. Un canal de 1 MHz are puterea semnalului egală cu puterea zgomotului (S/N = 0 dB). Capacitatea Shannon este:**
+**18. Propagarea anormal de lungă a undelor VHF/UHF, ghidate de straturi atmosferice în anumite condiții meteo, se numește:**
 
-- a) 0 bit/s
-- b) 1 Mbit/s
-- c) 2 Mbit/s
-- d) 0,5 Mbit/s
+- a) ducting troposferic
+- b) unda de suprafață
+- c) zonă de tăcere
+- d) NVIS
 
-**24. Pentru o legătură radio eficientă, antenele celor doi corespondenți trebuie să aibă:**
+**19. Pentru o legătură radio eficientă, antenele celor doi corespondenți trebuie să aibă:**
 
 - a) aceeași polarizare
 - b) polarizări perpendiculare
 - c) lungimi diferite
 - d) culori diferite
 
-**25. Recepționarea aceluiași semnal pe mai multe drumuri (direct și prin reflexii pe clădiri/stânci) se numește:**
+**20. Recepționarea aceluiași semnal pe mai multe drumuri (direct și prin reflexii pe clădiri/stânci) se numește:**
 
 - a) retranslație
 - b) modulație de fază
 - c) salt de frecvență
 - d) propagare multicale, care poate produce fading
 
+**21. Ierarhia digitală în care nivelurile sunt multiplexate cu ceasuri aproape sincrone, folosind biți de justificare, se numește:**
+
+- a) FDM
+- b) ATM
+- c) PDH (ierarhia digitală plesiocronă)
+- d) SDH (ierarhia digitală sincronă)
+
+**22. În rețeaua de comandă a batalionului, stația de control al rețelei (NCS) este, de regulă:**
+
+- a) stația de retranslație
+- b) stația unei companii
+- c) stația comandantului de batalion
+- d) stația eșalonului inferior
+
+**23. Transmisia prin microunde se caracterizează prin:**
+
+- a) imunitate totală la ploaie
+- b) trecerea prin munți
+- c) propagare prin reflexie pe ionosferă la mii de km
+- d) propagare în linie dreaptă, antene directive și necesitatea releelor la distanțe mari
+
+**24. Într-o rețea liberă (free net):**
+
+- a) tăcerea radio este permanentă
+- b) se lucrează numai pe frecvență fixă
+- c) stațiile pot comunica direct între ele, fără aprobarea prealabilă a stației de control
+- d) nicio stație nu poate emite fără aprobare
+
+**25. Bătaia (distanța de legătură) a unei stații radio NU depinde de:**
+
+- a) culoarea carcasei stației
+- b) înălțimea antenei
+- c) relieful terenului
+- d) puterea emițătorului
+
 ## Partea a II-a — Legislație (20 de itemi)
 
 
-**26. În zona militară restricționată, comandantul obiectivului poate dispune, cu respectarea compatibilității electromagnetice:**
-
-- a) tăierea alimentării cu energie a localității
-- b) interzicerea temporară sau bruierea emisiilor electromagnetice
-- c) confiscarea telefoanelor tuturor trecătorilor
-- d) interceptarea convorbirilor telefonice ale civililor
-
-**27. Vârsta minimă pentru a fi ales în Camera Deputaților sau în organele administrației publice locale este:**
-
-- a) 23 de ani
-- b) 18 ani
-- c) 25 de ani
-- d) 33 de ani
-
-**28. Comisiile de selecție pentru promovare, înaintare în grad și trecerea în corpul ofițerilor sunt:**
-
-- a) permanente, iar hotărârile lor pot fi atacate la CSAT
-- b) temporare, iar hotărârile lor sunt definitive
-- c) numite de Parlament
-- d) alese de militari prin vot
-
-**29. Din punct de vedere administrativ, teritoriul României este organizat în:**
-
-- a) regiuni, județe și comune
-- b) regiuni de dezvoltare și municipii
-- c) provincii și județe
-- d) comune, orașe și județe
-
-**30. Multiplicarea documentelor clasificate se face:**
-
-- a) numai la firme specializate din exterior
-- b) de orice angajat, la orice copiator
-- c) numai cu aprobarea ORNISS pentru fiecare copie
-- d) numai de persoane autorizate și numai în încăperi special destinate
-
-**31. Gradul de maior corespunde, în aviație și marină, gradului de:**
+**26. Gradul de maior corespunde, în aviație și marină, gradului de:**
 
 - a) căpitan-comandor
 - b) comandor
 - c) contraamiral
 - d) locotenent-comandor
 
-**32. Persoanele autorizate care copiază, extrag sau rezumă conținutul unor documente secrete:**
+**27. Nivelul „strict secret de importanță deosebită” poate fi atribuit, între alții, de:**
 
-- a) au obligația de a aplica pe noul document mențiunile aflate pe documentul original
-- b) trebuie să declasifice documentul
-- c) pot reduce nivelul de secretizare
-- d) pot elimina mențiunile de clasificare
+- a) comandanți de batalion
+- b) prim-ministru și miniștri
+- c) subsecretari de stat
+- d) directori de direcție din ministere
 
-**33. Fotografierea, filmarea și cartografierea în obiectivele care prezintă importanță deosebită pentru protecția secretelor de stat sunt:**
+**28. Informațiile „strict secret de importanță deosebită” și „strict secret” se gestionează în:**
 
-- a) permise oricui de pe domeniul public
-- b) permise turiștilor
-- c) permise jurnaliștilor acreditați fără alte formalități
-- d) interzise, cu excepția celor autorizate
+- a) zone de securitate clasa I
+- b) zona administrativă
+- c) zone de securitate clasa II
+- d) orice birou închis cu cheia
 
-**34. Verificarea corectitudinii clasificării unei informații se face, potrivit art. 11, de:**
+**29. Care dintre următoarele NU este Autoritate Desemnată de Securitate (ADS) potrivit HG 585/2002?**
 
-- a) destinatarul documentului
-- b) instanța de contencios
-- c) ORNISS
-- d) șeful ierarhic al emitentului
+- a) Serviciul de Protecție și Pază
+- b) Serviciul de Telecomunicații Speciale
+- c) Ministerul Educației
+- d) Ministerul Apărării Naționale
 
-**35. Forțele sistemului de apărare pot folosi pentru instruire terenuri și bunuri în condițiile legii rechizițiilor, cu obligația:**
+**30. Forțele sistemului de apărare pot folosi pentru instruire terenuri și bunuri în condițiile legii rechizițiilor, cu obligația:**
 
 - a) de a le păstra până la finalul anului
 - b) de a le restitui în starea inițială
 - c) de a plăti o taxă anuală fixă
 - d) de a le cumpăra după exercițiu
 
-**36. Stabilirea limitelor zonelor de siguranță ale navelor militare și a regimului porturilor militare intră în atribuțiile MApN ca:**
+**31. Stabilirea limitelor zonelor de siguranță ale navelor militare și a regimului porturilor militare intră în atribuțiile MApN ca:**
 
 - a) autoritate navală militară națională
 - b) autoritate de scafandri
 - c) autoritate de criptologie
 - d) autoritate geospațială
 
-**37. Un document realizat din extrase cumulate cu niveluri diferite de secretizare primește:**
+**32. Termenul maxim de clasificare pentru informațiile „strict secret de importanță deosebită” este de până la:**
 
-- a) nivelul „secret de serviciu”
-- b) automat nivelul „strict secret de importanță deosebită”
-- c) cel mai mic nivel dintre extrase
-- d) nivelul de secretizare al extrasului cu cea mai înaltă clasificare
+- a) 75 de ani
+- b) 50 de ani
+- c) 30 de ani
+- d) 100 de ani
 
-**38. Scutirile medicale se acordă de:**
+**33. Prerogativa disciplinară aparține:**
 
-- a) comandantul de grupă
-- b) colegii de cameră
-- c) ofițerul de serviciu
-- d) medicul unității
+- a) instanței de judecată
+- b) sindicatului
+- c) comandantului sau șefului
+- d) consiliului de onoare
 
-**39. Potrivit art. 7, profesia militară implică:**
+**34. Pe durata pregătirii și a participării la misiune, contractele individuale de muncă sau raporturile de serviciu ale personalului civil și ale rezerviștilor:**
 
-- a) scutirea de obligațiile constituționale
-- b) numai drepturi suplimentare
-- c) îndatoriri suplimentare și interzicerea sau restrângerea exercițiului unor drepturi și libertăți
-- d) aceleași drepturi și îndatoriri ca orice salariat
+- a) se suspendă
+- b) încetează
+- c) se prelungesc automat cu durata misiunii
+- d) se transformă în contracte pe durată determinată
 
-**40. Potrivit Legii 122/2011, „uzul de armă” reprezintă:**
-
-- a) tragerea cu armamentul din dotare în scopul îndeplinirii misiunii
-- b) instruirea în poligon
-- c) scoaterea armei din toc în prezența unei persoane
-- d) portul armei în timpul serviciului
-
-**41. Vârsta minimă pentru a fi ales Președinte al României este:**
+**35. Vârsta minimă pentru a fi ales Președinte al României este:**
 
 - a) 40 de ani
 - b) 35 de ani
 - c) 30 de ani
 - d) 33 de ani
 
-**42. Cadrul militar aflat în captivitate:**
+**36. Cadrul militar aflat în captivitate:**
 
 - a) își pierde gradul
 - b) își menține calitatea de cadru militar în activitate
 - c) trece automat în rezervă
 - d) trece automat în retragere
 
-**43. În funcție de nivelul capacității de luptă, forțele armatei se organizează în:**
+**37. În funcție de nivelul capacității de luptă, forțele armatei se organizează în:**
 
 - a) 6 categorii
 - b) 4 categorii
 - c) 3 categorii
 - d) 2 categorii
 
-**44. Sancțiunile contravenționale privind informațiile clasificate se pot aplica:**
+**38. Una dintre condițiile pentru trecerea maiștrilor militari/subofițerilor în corpul ofițerilor este:**
 
-- a) numai funcționarilor publici
-- b) numai persoanelor fizice
-- c) și persoanelor juridice
-- d) numai militarilor
+- a) vârsta de cel puțin 40 de ani
+- b) calificativul „foarte bun” în ultimii 3 ani de activitate
+- c) gradul de plutonier adjutant principal
+- d) vechimea de minimum 20 de ani
 
-**45. Până la rămânerea definitivă a hotărârii judecătorești de condamnare, persoana:**
+**39. Până la rămânerea definitivă a hotărârii judecătorești de condamnare, persoana:**
 
 - a) este considerată nevinovată
 - b) își pierde drepturile electorale
 - c) este considerată vinovată dacă a fost arestată
 - d) este considerată suspectă și poate fi sancționată administrativ
+
+**40. Somațiile santinelei, în ordinea legală, sunt:**
+
+- a) „Mâinile sus!”, „Stai, că trag!”
+- b) foc de avertisment, apoi „Stai!”
+- c) „Cine e acolo?”, foc de avertisment, „Stai!”
+- d) „Stai!”, „Stai, că trag!”, apoi foc de avertisment în plan vertical
+
+**41. Răspunderea pentru protecția informațiilor clasificate revine:**
+
+- a) conducătorului autorității sau persoanei juridice deținătoare
+- b) fiecărui cetățean
+- c) exclusiv ORNISS
+- d) exclusiv SRI
+
+**42. Normele privind apărarea națională NU se bazează, potrivit art. 3, pe:**
+
+- a) Constituție
+- b) doctrina militară
+- c) regulamentele interne ale agenților economici
+- d) tratatele la care România este parte
+
+**43. În timp de război, în fiecare județ și în municipiul București există:**
+
+- a) un consiliu militar ales de consiliul județean
+- b) un comandament NATO
+- c) un comandant militar, subordonat Centrului Național Militar de Comandă
+- d) un prefect militar numit de ministrul apărării
+
+**44. Sunt scoși din evidența militară ofițerii, maiștrii militari și subofițerii care:**
+
+- a) au trecut în retragere
+- b) au fost sancționați cu mustrare scrisă
+- c) au împlinit 60 de ani
+- d) au renunțat (cu aprobare) la cetățenia română sau au dobândit altă cetățenie și și-au stabilit domiciliul în străinătate
+
+**45. Transformarea unei funcții de general într-o funcție civilă se aprobă de:**
+
+- a) CSAT, la propunerea ministrului apărării naționale
+- b) șeful Statului Major al Apărării
+- c) comandantul categoriei de forțe
+- d) Guvern, la propunerea Parlamentului
 
 ---
 
@@ -333,50 +333,50 @@ Nota = 1 + 0,20 × (răspunsuri corecte). Minim de admitere: 5,00 (20 corecte).
 
 | Nr. | Răspuns | Explicație |
 |---|---|---|
-| 1 | **c** | „REPEAT” nu se folosește, deoarece în artilerie înseamnă repetarea tragerii. |
-| 2 | **c** | Polarizarea este dată de orientarea câmpului electric. |
-| 3 | **d** | Teorema lui Shannon. |
-| 4 | **d** | Banda tactică VHF FM. |
-| 5 | **b** | 8000 × 8. |
-| 6 | **d** | Indicele de refracție al miezului este mai mare decât al învelișului. |
-| 7 | **d** | Frame Relay. |
-| 8 | **a** | ATM – multiplexare statistică. |
-| 9 | **c** | Componentele subsistemului local. |
-| 10 | **a** | Subsistemul radio. |
-| 11 | **b** | Prowords. |
-| 12 | **d** | Prowords. |
-| 13 | **c** | MUF. |
-| 14 | **b** | Comutația de circuite. |
-| 15 | **a** | NCS decide modul de control. |
-| 16 | **b** | Comutația de mesaje. |
-| 17 | **b** | WDM = FDM pe fibră. |
-| 18 | **a** | Utilizare eficientă a spectrului. |
-| 19 | **c** | Subsistemul radio. |
-| 20 | **b** | Cerințele comunicațiilor militare. |
-| 21 | **d** | HF: λ între 100 m și 10 m. |
-| 22 | **d** | SDH. |
-| 23 | **b** | 10⁶ × log₂(1 + 1). |
-| 24 | **a** | Nepotrivirea polarizării produce pierderi mari. |
-| 25 | **d** | Factori de propagare. |
-| 26 | **b** | RSI, măsuri de siguranță. |
-| 27 | **a** | Art. 37 alin. (2). |
-| 28 | **b** | Art. 5. |
-| 29 | **d** | Art. 3 alin. (3). Unele orașe sunt declarate municipii. |
-| 30 | **d** | HG 585/2002, art. 66–74. |
-| 31 | **d** | Art. 2. |
-| 32 | **a** | Art. 24 alin. (9). |
-| 33 | **d** | HG 585/2002, Cap. V. |
-| 34 | **d** | Art. 11. |
-| 35 | **b** | Art. 13. |
-| 36 | **a** | Art. 6 alin. (2). |
-| 37 | **d** | Art. 14. |
-| 38 | **d** | RG-1, scutiri și concedii medicale. |
-| 39 | **c** | Art. 7. |
-| 40 | **a** | Art. 3 lit. l). |
-| 41 | **b** | Art. 37 alin. (2). |
-| 42 | **b** | Art. 4 lit. a). |
-| 43 | **b** | Art. 35: gata de acțiune permanent; nivel ridicat; nivel redus; structuri constituite la mobilizare. |
-| 44 | **c** | Art. 40 alin. (2). |
-| 45 | **a** | Art. 23 alin. (11) – prezumția de nevinovăție. |
+| 1 | **c** | Unda ionosferică. |
+| 2 | **d** | 193 × 8000. |
+| 3 | **a** | ATM. |
+| 4 | **d** | Subsistemul local. |
+| 5 | **a** | Subsistemul radio. |
+| 6 | **b** | WILCO include sensul lui ROGER. |
+| 7 | **d** | Prowords. |
+| 8 | **a** | Variația zi/noapte. |
+| 9 | **d** | Comutația de circuite. |
+| 10 | **c** | Indicativele protejează identitatea stațiilor. |
+| 11 | **d** | Comutația de pachete. |
+| 12 | **b** | Ierarhia FDM. |
+| 13 | **a** | Utilizare eficientă a spectrului. |
+| 14 | **a** | Subsistemul radio. |
+| 15 | **b** | Cerințele comunicațiilor militare. |
+| 16 | **d** | HF: λ între 100 m și 10 m. |
+| 17 | **c** | STM-4 = 4 × STM-1. |
+| 18 | **a** | Fenomen rar. |
+| 19 | **a** | Nepotrivirea polarizării produce pierderi mari. |
+| 20 | **d** | Factori de propagare. |
+| 21 | **c** | PDH. |
+| 22 | **c** | Rețelele batalionului. |
+| 23 | **d** | Microunde. |
+| 24 | **c** | Tipuri de rețele. |
+| 25 | **a** | Bătaia depinde de putere, sensibilitate, antenă, frecvență, teren, zgomot. |
+| 26 | **d** | Art. 2. |
+| 27 | **b** | Art. 19 lit. a). |
+| 28 | **a** | HG 585/2002, Cap. IV. |
+| 29 | **c** | Art. 3: MApN, MAI, MJ, SRI, SIE, SPP, STS. |
+| 30 | **b** | Art. 13. |
+| 31 | **a** | Art. 6 alin. (2). |
+| 32 | **d** | Art. 12. |
+| 33 | **c** | Art. 32 alin. (3). |
+| 34 | **a** | Art. 15 alin. (3). |
+| 35 | **b** | Art. 37 alin. (2). |
+| 36 | **b** | Art. 4 lit. a). |
+| 37 | **b** | Art. 35: gata de acțiune permanent; nivel ridicat; nivel redus; structuri constituite la mobilizare. |
+| 38 | **b** | Art. 27. |
+| 39 | **a** | Art. 23 alin. (11) – prezumția de nevinovăție. |
+| 40 | **d** | RSI și Legea 122/2011, art. 16. |
+| 41 | **a** | Art. 37 alin. (2). |
+| 42 | **c** | Art. 3: Constituție, legi, doctrina militară, normele de drept internațional recunoscute, tratatele. |
+| 43 | **c** | Art. 9. |
+| 44 | **d** | Art. 70. |
+| 45 | **a** | Art. 43 alin. (3). |
 
 **Departajare la medii egale:** 1) corecte la specialitate; 2) corecte la ultimii 10 itemi de legislație (aici 36–45); 3) media la BAC.
