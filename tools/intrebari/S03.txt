@@ -1,0 +1,281 @@
+# titlu: Rețele radio, disciplina radio, radiotelefonie
+
+? O rețea radio este formată din:
++ trei sau mai multe stații care lucrează pe aceeași frecvență (același set de salt) și în același regim
+- exact două stații
+- o singură stație și un releu
+- stații care lucrează pe frecvențe diferite, fără legătură între ele
+= Două stații formează o direcție radio.
+
+? Legătura radio realizată între două stații se numește:
++ direcție radio
+- rețea radio
+- nod de comunicații
+- trunchi
+= Organizarea legăturilor radio.
+
+? Stația care conduce rețeaua radio (deschide/închide rețeaua, controlează traficul, impune tăcerea radio) se numește:
++ stația de control al rețelei (NCS)
+- stația subordonată
+- stația de retranslație
+- stația necunoscută
+= NCS.
+
+? De regulă, stația de control al rețelei este stația:
++ comandantului / eșalonului superior
+- celui mai tânăr operator
+- cea mai îndepărtată de punctul de comandă
+- de retranslație
+= Organizarea rețelelor.
+
+? Într-o rețea dirijată (directed net):
++ stațiile subordonate pot comunica între ele numai cu aprobarea stației de control al rețelei
+- stațiile comunică liber, fără aprobare
+- nu există stație de control al rețelei
+- se transmite numai în clar
+= Tipuri de rețele.
+
+? Într-o rețea liberă (free net):
++ stațiile pot comunica direct între ele, fără aprobarea prealabilă a stației de control
+- nicio stație nu poate emite fără aprobare
+- se lucrează numai pe frecvență fixă
+- tăcerea radio este permanentă
+= Tipuri de rețele.
+
+? Tipul de rețea (liberă sau dirijată) se stabilește de:
++ stația de control al rețelei
+- fiecare operator, după preferință
+- inamic
+- operatorul care emite primul
+= NCS decide modul de control.
+
+? Indicativul de apel (call sign) reprezintă:
++ denumirea convențională a unei stații radio, folosită în locul numelor reale
+- frecvența de lucru
+- puterea emițătorului
+- codul de criptare
+= Indicativele protejează identitatea stațiilor.
+
+? Înainte de a emite, operatorul trebuie, în primul rând:
++ să asculte frecvența, pentru a nu întrerupe alt trafic
+- să mărească puterea la maximum
+- să schimbe antena
+- să transmită un ton de test lung
+= Disciplina radio.
+
+? Transmisiile radio trebuie să fie cât mai scurte deoarece:
++ fiecare secundă de emisie ajută inamicul să intercepteze și să localizeze stația
+- bateriile nu permit transmisii mai lungi de 5 secunde
+- receptorul se supraîncălzește
+- regulamentul interzice frazele cu peste 3 cuvinte
+= Disciplina radio.
+
+? Transmiterea în clar, prin radio, a informațiilor clasificate este:
++ interzisă
+- permisă dacă rețeaua este militară
+- permisă în frecvență fixă
+- permisă dacă se vorbește în limba engleză
+= Disciplina radio; Legea 182/2002, art. 38.
+
+? Care dintre următoarele constituie o încălcare a disciplinei radio?
++ folosirea numelor reale ale persoanelor și unităților, în locul indicativelor
+- ascultarea frecvenței înainte de emisie
+- folosirea puterii minime necesare
+- folosirea cuvintelor de procedură stabilite
+= Disciplina radio.
+
+? Pe timpul tăcerii radio, stațiile din rețea:
++ rămân pe recepție (ascultă), dar nu emit, cu excepțiile prevăzute
+- se închid complet
+- emit numai mesaje personale
+- trec pe altă frecvență și lucrează normal
+= Tăcerea radio.
+
+? Tăcerea radio impusă poate fi ridicată de:
++ cel care a impus-o (sau de eșalonul superior)
+- oricare operator din rețea
+- stația cu cel mai puternic semnal
+- inamic
+= „SILENCE LIFTED”.
+
+? Procedura prin care se verifică identitatea unei stații suspecte în rețea se numește:
++ autentificare (AUTHENTICATE)
+- read back
+- radio check
+- break
+= Protecție împotriva intruziunii.
+
+? Litera „J” se transmite, conform alfabetului fonetic NATO, prin cuvântul:
++ JULIETT
+- JOHNNY
+- JULIUS
+- JIG
+= Alfabetul fonetic NATO.
+
+? Litera „Q” se transmite, conform alfabetului fonetic NATO, prin cuvântul:
++ QUEBEC
+- QUEEN
+- QUARTZ
+- QUOTA
+= Alfabetul fonetic NATO.
+
+? Litera „W” se transmite, conform alfabetului fonetic NATO, prin cuvântul:
++ WHISKEY
+- WILLIAM
+- WINTER
+- WOLF
+= Alfabetul fonetic NATO.
+
+? Cuvântul „DELTA” corespunde, în alfabetul fonetic NATO, literei:
++ D
+- T
+- L
+- A
+= Alfabetul fonetic NATO.
+
+? Indicativul „ABC” se silabisește, conform alfabetului fonetic NATO:
++ ALFA BRAVO CHARLIE
+- ALPHA BETA CHARLIE
+- ADAM BRAVO CHARLIE
+- ALFA BRAVO CHARLES
+= Alfabetul fonetic NATO.
+
+? Cifra 9 se pronunță, în radiotelefonie (NATO):
++ NIN-ER
+- NAIN
+- NOVEM
+- NINE-TEN
+= Pronunția cifrelor.
+
+? Cifra 3 se pronunță, în radiotelefonie (NATO):
++ TREE
+- THRI
+- TEREI
+- TRES
+= Pronunția cifrelor.
+
+? Cuvântul de procedură „OVER” înseamnă:
++ transmisia mea s-a încheiat și aștept răspuns
+- schimbul s-a încheiat și nu aștept răspuns
+- repetă transmisia
+- am înțeles și voi executa
+= Prowords.
+
+? Cuvântul de procedură „OUT” înseamnă:
++ transmisia s-a încheiat și nu aștept răspuns
+- aștept răspuns
+- repetă
+- așteaptă câteva secunde
+= Prowords.
+
+? Folosirea împreună a cuvintelor de procedură „OVER” și „OUT” la sfârșitul unei transmisii este:
++ greșită, deoarece au sensuri contradictorii
+- corectă, este forma oficială de încheiere
+- obligatorie în rețelele dirijate
+- permisă numai de NCS
+= „Over and out” este o greșeală de procedură.
+
+? Cuvântul de procedură „ROGER” înseamnă:
++ am recepționat satisfăcător ultima transmisie
+- am înțeles și voi executa
+- repetă
+- corectez
+= Prowords.
+
+? Cuvântul de procedură „WILCO” înseamnă:
++ am primit mesajul, l-am înțeles și voi executa
+- am recepționat, dar nu voi executa
+- repetă mesajul
+- așteaptă
+= WILCO include sensul lui ROGER.
+
+? Pentru a cere repetarea unei transmisii (sau a unei părți din ea) se folosește cuvântul de procedură:
++ SAY AGAIN
+- REPEAT
+- OVER
+- ROGER
+= „REPEAT” nu se folosește, deoarece în artilerie înseamnă repetarea tragerii.
+
+? Cuvântul de procedură folosit înaintea unui cuvânt spus pe litere cu alfabetul fonetic este:
++ I SPELL
+- FIGURES
+- BREAK
+- WAIT
+= Prowords.
+
+? Cuvântul de procedură „CORRECTION” se folosește atunci când:
++ operatorul a greșit și continuă de la ultimul cuvânt transmis corect
+- operatorul cere corespondentului să corecteze antena
+- se încheie schimbul de mesaje
+- se impune tăcerea radio
+= Prowords.
+
+? Cuvântul de procedură „WAIT OUT” înseamnă:
++ așteaptă, voi reveni mai târziu (pauză mai lungă)
+- așteaptă câteva secunde, revin imediat
+- am terminat definitiv
+- tăcere radio
+= Prowords.
+
+? Pentru a cere corespondentului să repete mesajul primit, ca verificare, se folosește:
++ READ BACK
+- SAY AGAIN
+- I SAY AGAIN
+- ACKNOWLEDGE
+= Prowords.
+
+? Răspunsul la o verificare radio, atunci când semnalul este puternic și perfect inteligibil, este:
++ LOUD AND CLEAR
+- WEAK AND READABLE
+- GOOD AND DISTORTED
+- NOTHING HEARD
+= Radio check.
+
+? În răspunsul la verificarea radio, termenul „UNREADABLE” arată că:
++ transmisia nu poate fi înțeleasă
+- semnalul este foarte puternic
+- transmisia este perfect clară
+- semnalul are fading
+= Radio check – inteligibilitate.
+
+? Cuvântul de procedură „THIS IS” este urmat de:
++ indicativul stației care transmite (propriul indicativ)
+- indicativul stației chemate
+- textul mesajului
+- frecvența de lucru
+= Ex.: „BRAVO 2, THIS IS ALFA 1”.
+
+? Cuvântul de procedură folosit pentru a anula o transmisie greșită este:
++ DISREGARD THIS TRANSMISSION – OUT
+- CORRECTION
+- I SAY AGAIN
+- WAIT
+= Prowords.
+
+? Atunci când stația chemată nu răspunde, stația care cheamă poate raporta:
++ NOTHING HEARD
+- WILCO
+- ROGER
+- LOUD AND CLEAR
+= Prowords.
+
+? Când operatorul nu a identificat stația care l-a chemat, folosește:
++ UNKNOWN STATION
+- THIS IS
+- WILCO
+- BREAK
+= Prowords.
+
+? Numărul 1500 se transmite, cifră cu cifră, astfel:
++ WUN FIFE ZE-RO ZE-RO
+- ONE FIVE HUNDRED
+- WUN FIVE OH OH
+- FIFTEEN HUNDRED
+= Pronunția cifrelor.
+
+? La apăsarea tastei de emisie (PTT), operatorul trebuie:
++ să aștepte o clipă înainte de a vorbi, pentru a nu pierde primul cuvânt
+- să vorbească imediat, foarte tare
+- să sufle în microfon pentru test
+- să elibereze imediat tasta
+= Reguli de vorbire.

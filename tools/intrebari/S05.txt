@@ -1,0 +1,92 @@
+# titlu: Mijloacele C&I ale plutonului C&I
+
+? Plutonul de comunicații și informatică al batalionului instalează și exploatează, în principal:
++ centrul de comunicații al punctului de comandă al batalionului
+- sistemul satelitar național
+- rețeaua strategică de fibră optică
+- centrul de comunicații al diviziei
+= Rolul Pl.C.I.
+
+? Subsistemul local de comunicații asigură comunicațiile:
++ în interiorul punctului de comandă și în imediata lui apropiere
+- între capitale de țară
+- numai între vehicule aflate în mișcare
+- numai cu sateliții
+= Subsistemul local.
+
+? Care dintre următoarele face parte din subsistemul local de comunicații?
++ centrala telefonică de campanie și rețeaua locală de date
+- stația radio HF a eșalonului superior
+- satelitul de comunicații
+- stația de retranslație de pe un deal îndepărtat
+= Componentele subsistemului local.
+
+? Rolul centralei (comutatorului) telefonice de campanie este:
++ realizarea legăturilor telefonice între abonații PC și cu exteriorul, prin trunchiuri
+- criptarea mesajelor radio
+- alimentarea cu energie a PC
+- radiogoniometria stațiilor inamice
+= Subsistemul local.
+
+? Avantajul legăturilor prin fir din subsistemul local este:
++ siguranța mare față de interceptare și bruiaj
+- mobilitatea foarte mare
+- instalarea instantanee
+- bătaia de sute de kilometri
+= Fir vs. radio.
+
+? Dezavantajul principal al subsistemului local (prin fir) față de radio este:
++ timpul de instalare și mobilitatea redusă
+- interceptarea foarte ușoară
+- capacitatea foarte mică
+- bruierea foarte ușoară
+= Fir vs. radio.
+
+? Subsistemul radio de campanie al plutonului C&I cuprinde, în principal:
++ stații radio VHF (portabile și vehiculare), stații HF, stații de retranslație și antene
+- centrala telefonică și cablurile multiperechi
+- doar terminalele informatice
+- grupurile electrogene
+= Subsistemul radio.
+
+? Stațiile radio HF din dotarea plutonului C&I sunt folosite în special pentru:
++ legături la distanțe mari și dincolo de linia de vedere
+- legături în interiorul cortului de comandă
+- rețeaua locală de calculatoare
+- iluminarea PC
+= Subsistemul radio.
+
+? Comparativ cu stațiile VHF portabile, stațiile VHF vehiculare au, de regulă:
++ putere mai mare și antene mai înalte, deci bătaie mai mare
+- putere mai mică și bătaie mai mică
+- aceeași bătaie, dar greutate mai mică
+- numai funcția de recepție
+= Subsistemul radio.
+
+? Elementul care permite unui abonat telefonic din PC să comunice printr-o stație radio cu un corespondent din teren este:
++ interfața dintre subsistemul local și subsistemul radio
+- antena bici
+- acumulatorul
+- casca operatorului
+= Legătura dintre subsisteme.
+
+? În rețeaua de comandă a batalionului, stația de control al rețelei (NCS) este, de regulă:
++ stația comandantului de batalion
+- stația unei companii
+- stația de retranslație
+- stația eșalonului inferior
+= Rețelele batalionului.
+
+? În rețeaua de comandă a brigăzii, stația batalionului are calitatea de:
++ stație subordonată
+- stație de control al rețelei
+- stație necunoscută
+- stație de bruiaj
+= Rețelele batalionului.
+
+? Echipamentele de criptare din centrul de comunicații al PC au rolul de a:
++ proteja conținutul traficului care iese din PC
+- amplifica semnalul radio
+- mări bătaia stațiilor
+- stoca energie
+= COMSEC.

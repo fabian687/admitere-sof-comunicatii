@@ -1,0 +1,211 @@
+# titlu: Trunchiuri, multiplexare și comutație
+
+? Legătura dintre aparatul telefonic al abonatului și centrala locală se numește:
++ buclă locală
+- trunchi
+- supergrup
+- cadru
+= Structura sistemului telefonic.
+
+? Linia de legătură dintre două centrale telefonice, care transportă simultan multe convorbiri multiplexate, se numește:
++ trunchi
+- buclă locală
+- antenă
+- slot
+= Structura sistemului telefonic.
+
+? Clasic, bucla locală este realizată din:
++ o pereche de fire torsadate, cu semnal analogic
+- fibră optică cu WDM
+- legătură prin satelit
+- ghid de undă
+= Bucla locală.
+
+? Multiplexarea reprezintă:
++ transmiterea simultană a mai multor semnale pe același mediu de transmisie
+- transformarea semnalului analogic în digital
+- amplificarea semnalului
+- criptarea semnalului
+= Definiție.
+
+? În multiplexarea cu diviziune în frecvență (FDM):
++ fiecare canal ocupă permanent o subbandă proprie din banda totală
+- fiecare canal ocupă toată banda pentru un interval scurt de timp
+- canalele se separă prin culoarea luminii
+- nu sunt necesare benzi de gardă
+= FDM.
+
+? În multiplexarea cu diviziune în timp (TDM):
++ fiecare canal folosește toată banda, dar doar într-un interval de timp (slot), pe rând
+- fiecare canal folosește permanent o subbandă de frecvență
+- canalele se separă prin polarizare
+- canalele se transmit pe fire diferite
+= TDM.
+
+? Între canalele unui sistem FDM se lasă:
++ benzi de gardă, pentru a evita interferența
+- intervale de timp libere
+- biți de start și stop
+- celule ATM goale
+= FDM.
+
+? Multiplexarea cu diviziune în lungime de undă (WDM) este folosită în:
++ fibra optică
+- perechea torsadată
+- radioul HF
+- bucla locală analogică
+= WDM = FDM pe fibră.
+
+? În ierarhia FDM clasică, un grup cuprinde:
++ 12 canale telefonice (48 kHz)
+- 24 de canale
+- 60 de canale
+- 30 de canale
+= Ierarhia FDM.
+
+? În ierarhia FDM clasică, un supergrup cuprinde:
++ 5 grupuri, adică 60 de canale
+- 2 grupuri, adică 24 de canale
+- 10 grupuri, adică 120 de canale
+- 12 grupuri, adică 144 de canale
+= Ierarhia FDM.
+
+? Lărgimea de bandă alocată unui canal telefonic în FDM este de:
++ 4 kHz
+- 64 kHz
+- 2 MHz
+- 300 Hz
+= 3,1 kHz voce + benzi de gardă.
+
+? Purtătoarea T1 (folosită în America de Nord) multiplexează:
++ 24 de canale de voce, la un debit de 1,544 Mbit/s
+- 30 de canale de voce, la 2,048 Mbit/s
+- 32 de canale de voce, la 1,544 Mbit/s
+- 12 canale de voce, la 64 kbit/s
+= T1.
+
+? Un cadru T1 are:
++ 193 de biți (24 × 8 + 1 bit de încadrare)
+- 256 de biți
+- 192 de biți, fără încadrare
+- 53 de octeți
+= T1.
+
+? Purtătoarea E1 (standard european, folosit și în România) are un debit de:
++ 2,048 Mbit/s
+- 1,544 Mbit/s
+- 155,52 Mbit/s
+- 64 kbit/s
+= E1 = 32 × 8 × 8000.
+
+? Un cadru E1 conține:
++ 32 de intervale de timp a câte 8 biți, din care 30 pentru voce/date
+- 24 de intervale de timp, toate pentru voce
+- 12 intervale de timp
+- 64 de intervale de timp
+= E1.
+
+? Debitul unui canal telefonic digital (un slot TDM) este de:
++ 64 kbit/s
+- 4 kbit/s
+- 8 kbit/s
+- 2,048 Mbit/s
+= 8 biți × 8000 eșantioane/s.
+
+? Cadrele TDM pentru voce digitală se repetă de 8000 de ori pe secundă; durata unui cadru este:
++ 125 µs
+- 1 ms
+- 8 ms
+- 64 µs
+= 1/8000 s.
+
+? Ierarhia digitală în care nivelurile sunt multiplexate cu ceasuri aproape sincrone, folosind biți de justificare, se numește:
++ PDH (ierarhia digitală plesiocronă)
+- SDH (ierarhia digitală sincronă)
+- FDM
+- ATM
+= PDH.
+
+? Debitul nivelului STM-1 din ierarhia SDH este de:
++ 155,52 Mbit/s
+- 2,048 Mbit/s
+- 51,84 Mbit/s
+- 622,08 Mbit/s
+= SDH.
+
+? Debitul nivelului STM-4 din ierarhia SDH este de:
++ 622,08 Mbit/s
+- 155,52 Mbit/s
+- 2488,32 Mbit/s
+- 34,368 Mbit/s
+= STM-4 = 4 × STM-1.
+
+? Nivelul E3 din ierarhia PDH europeană are un debit de aproximativ:
++ 34 Mbit/s
+- 8 Mbit/s
+- 140 Mbit/s
+- 2 Mbit/s
+= E1 2,048 / E2 8,448 / E3 34,368 / E4 139,264 Mbit/s.
+
+? Un comutator crossbar cu n intrări și n ieșiri are:
++ n² puncte de comutație
+- n puncte de comutație
+- 2n puncte de comutație
+- log₂n puncte de comutație
+= Crossbar.
+
+? Un comutator crossbar cu 100 de intrări și 100 de ieșiri are:
++ 10.000 de puncte de comutație
+- 200 de puncte de comutație
+- 100 de puncte de comutație
+- 1.000.000 de puncte de comutație
+= 100 × 100.
+
+? Avantajul comutatorului crossbar este:
++ funcționarea fără blocare
+- numărul foarte mic de puncte de comutație
+- lipsa necesității de energie
+- comutarea temporală a sloturilor
+= Crossbar.
+
+? Dezavantajul principal al comutatorului crossbar pentru un număr mare de linii este:
++ numărul de puncte de comutație crește cu pătratul numărului de linii
+- blocarea frecventă
+- imposibilitatea comutării vocii
+- incompatibilitatea cu firul
+= Crossbar.
+
+? Comutatoarele în mai multe etaje (multi-stage) reduc numărul de puncte de comutație, dar pot prezenta:
++ blocare (lipsa unei căi interne libere)
+- imposibilitatea comutării
+- nevoia de antene directive
+- lipsa multiplexării
+= Comutație spațială.
+
+? Comutarea temporală se realizează cu un dispozitiv care schimbă ordinea intervalelor de timp dintr-un cadru TDM, numit:
++ interschimbător de intervale de timp (TSI)
+- multiplexor FDM
+- modem
+- dipol
+= Comutație temporală.
+
+? Principiul de funcționare al interschimbătorului de intervale de timp (TSI) este:
++ sloturile cadrului de intrare sunt scrise într-o memorie și citite în altă ordine, conform unei tabele
+- sloturile sunt amplificate și retransmise în aceeași ordine
+- fiecare slot este transformat în semnal analogic
+- sloturile sunt transmise pe frecvențe diferite
+= TSI.
+
+? FDM se potrivește mai bine semnalelor ..., iar TDM semnalelor ...
++ analogice; digitale
+- digitale; analogice
+- optice; radio
+- audio; video
+= FDM vs. TDM.
+
+? Nivelurile SDH (STM-1, STM-4, STM-16) cresc de la un nivel la următorul cu un factor de:
++ 4
+- 2
+- 10
+- 8
+= 155,52 → 622,08 → 2488,32 Mbit/s.

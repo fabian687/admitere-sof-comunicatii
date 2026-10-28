@@ -1,0 +1,127 @@
+# titlu: Sprijinul C&I în operațiile Forțelor Terestre
+
+? La nivel tactic, singurul mijloc de comunicații care permite legătura pe timpul mișcării este:
++ rețeaua radio de luptă (CNR)
+- rețeaua de fibră optică fixă
+- centrala telefonică a PC
+- rețeaua locală de date (LAN)
+= Infrastructura C&I.
+
+? „Coloana vertebrală” a sistemului de comunicații de campanie, formată din noduri interconectate prin legături de mare capacitate, este:
++ sistemul de zonă (de trunchiuri / de transport)
+- rețeaua radio a grupei
+- curierul
+- semnalizarea vizuală
+= Sistemul de zonă.
+
+? Nodurile care conectează punctele de comandă la sistemul de zonă se numesc:
++ noduri de acces
+- noduri de tranzit
+- stații de retranslație
+- centre de mentenanță
+= Arhitectura sistemului de zonă.
+
+? Avantajul principal al unei rețele de noduri în ochiuri (rețea „mesh”) este că:
++ traficul poate fi re-rutat automat pe altă cale dacă un nod sau o legătură este distrusă
+- nu necesită echipamente de comutație
+- nu poate fi interceptată
+- funcționează fără energie electrică
+= Fiabilitate prin redundanță.
+
+? Legăturile de mare capacitate dintre nodurile sistemului de zonă se realizează, de regulă, prin:
++ radioreleu, satelit și fibră/cablu
+- stații radio portabile VHF
+- curieri pe jos
+- semnalizare cu rachete
+= Sistemul de zonă.
+
+? Rețeaua locală care leagă celulele statului major din interiorul punctului de comandă face parte din:
++ sistemul local al punctului de comandă
+- rețeaua radio de luptă
+- sistemul satelitar strategic
+- rețeaua de avertizare a populației
+= Sistemul local.
+
+? Comunicațiile prin satelit sunt folosite în special pentru:
++ legături la distanțe mari, dincolo de linia de vedere
+- legături între două telefoane din același cort
+- legături în interiorul vehiculului
+- semnalizarea vizuală
+= Satelit – BLOS.
+
+? Securitatea comunicațiilor (COMSEC) se referă în principal la:
++ protejarea conținutului comunicațiilor prin criptare și gestionarea cheilor
+- protecția fizică a cazărmii
+- alimentarea cu energie a stațiilor
+- planificarea deplasărilor
+= COMSEC.
+
+? Securitatea transmisiei (TRANSEC) cuprinde măsuri precum:
++ saltul de frecvență, puterea redusă și antenele directive
+- criptarea documentelor pe hârtie
+- paza depozitelor
+- verificarea medicală a operatorilor
+= TRANSEC.
+
+? Principiul care cere existența a cel puțin două căi independente de legătură către fiecare PC important se numește:
++ redundanță (rezervă)
+- centralizare
+- standardizare
+- simplitate
+= Principiile SCI.
+
+? Pentru a nu pierde legătura pe timpul deplasării punctului de comandă, centrul de comunicații se deplasează:
++ în eșaloane (salturi): o parte menține legătura, cealaltă se mută și preia legătura
+- tot deodată, cu întreruperea completă a legăturilor
+- numai noaptea, cu stațiile oprite
+- doar după aprobarea Parlamentului
+= Continuitatea comunicațiilor.
+
+? Principiul de planificare a sprijinului C&I este:
++ planificare centralizată, execuție descentralizată
+- planificare descentralizată, execuție centralizată
+- fără planificare, execuție la inițiativă
+- planificare numai la nivel de grupă
+= Principiile SCI.
+
+? La nivelul batalionului, structura de comunicații și informatică este, de regulă:
++ plutonul de comunicații și informatică
+- batalionul de comunicații
+- brigada de comunicații
+- regimentul de transmisiuni
+= Structuri C&I din FT.
+
+? Compartimentul de stat major responsabil de comunicații și informatică la nivel de batalion/brigadă se notează:
++ S6
+- S1
+- S4
+- S2
+= S1 – personal, S2 – informații, S3 – operații, S4 – logistică, S6 – C&I.
+
+? Structura C&I a fiecărui eșalon realizează, în primul rând:
++ centrul de comunicații al punctului de comandă al eșalonului respectiv și legăturile cu subordonații
+- paza cazărmii
+- transportul muniției
+- asistența medicală
+= Structuri C&I.
+
+? Care dintre următoarele NU este o atribuție a structurilor de comunicații și informatică?
++ executarea tragerilor de artilerie
+- instalarea și exploatarea sistemelor C&I
+- restabilirea legăturilor întrerupte
+- managementul frecvențelor la nivelul lor
+= Structuri C&I.
+
+? Gestionarea frecvențelor radio și configurarea/monitorizarea rețelelor fac parte din:
++ managementul sistemului de comunicații și informatică
+- logistica de hrănire
+- poliția militară
+- protecția civilă
+= Managementul SCI.
+
+? Imaginea operațională comună, planificarea și transmiterea ordinelor în format electronic sunt asigurate de:
++ sistemul informatic de comandă și control (C2IS)
+- stația de radiodifuziune
+- rețeaua de alimentare cu energie
+- sistemul de semnalizare acustică
+= C2IS.

@@ -1,0 +1,211 @@
+# titlu: Medii de transmisie și capacitatea canalului
+
+? Potrivit teoremei lui Nyquist, debitul maxim pe un canal fără zgomot, cu lărgimea de bandă B și V niveluri ale semnalului, este:
++ 2 · B · log₂V
+- B · log₂(1 + S/N)
+- B / 2
+- V / (2B)
+= Teorema lui Nyquist.
+
+? Un canal fără zgomot de 3 kHz transmite un semnal binar. Debitul maxim (Nyquist) este:
++ 6000 bit/s
+- 3000 bit/s
+- 12.000 bit/s
+- 30.000 bit/s
+= 2 × 3000 × log₂2 = 6000.
+
+? Un canal fără zgomot de 4 kHz transmite un semnal cu 8 niveluri. Debitul maxim (Nyquist) este:
++ 24 kbit/s
+- 8 kbit/s
+- 32 kbit/s
+- 12 kbit/s
+= 2 × 4000 × log₂8 = 24.000.
+
+? Potrivit teoremei lui Shannon, capacitatea maximă a unui canal cu zgomot este:
++ C = B · log₂(1 + S/N)
+- C = 2 · B · log₂V
+- C = B · S/N
+- C = S/N / B
+= Teorema lui Shannon.
+
+? Un raport semnal/zgomot de 30 dB corespunde unui raport de puteri de:
++ 1000
+- 30
+- 100
+- 3
+= 10 · log₁₀(1000) = 30 dB.
+
+? Un raport semnal/zgomot de 20 dB corespunde unui raport de puteri de:
++ 100
+- 20
+- 10
+- 1000
+= 10 · log₁₀(100) = 20 dB.
+
+? Un canal telefonic de 3000 Hz are raportul S/N de 30 dB. Capacitatea maximă (Shannon) este de aproximativ:
++ 30 kbit/s
+- 6 kbit/s
+- 90 kbit/s
+- 3 kbit/s
+= 3000 × log₂(1001) ≈ 30.000 bit/s.
+
+? O atenuare de 3 dB înseamnă că la ieșire ajunge aproximativ:
++ jumătate din puterea de la intrare
+- o treime din putere
+- o zecime din putere
+- dublul puterii
+= 3 dB ≈ factor 2.
+
+? O putere de 1 W exprimată în dBm este:
++ 30 dBm
+- 0 dBm
+- 10 dBm
+- 1 dBm
+= 1 W = 1000 mW → 10 · log₁₀(1000) = 30 dBm.
+
+? Firele perechii torsadate sunt răsucite pentru a:
++ reduce interferențele electromagnetice și diafonia
+- crește rezistența mecanică
+- reduce greutatea cablului
+- permite transmisia luminii
+= Perechea torsadată.
+
+? Abrevierea UTP desemnează:
++ perechea torsadată neecranată
+- perechea torsadată ecranată
+- fibra optică monomod
+- cablul coaxial de bandă largă
+= UTP = Unshielded Twisted Pair.
+
+? Comparativ cu categoria 3, cablul torsadat de categoria 5 are:
++ mai multe răsuciri pe unitatea de lungime și izolație mai bună, permițând viteze mai mari
+- mai puține răsuciri și viteze mai mici
+- miez din sticlă
+- ecran din plumb
+= Categorii UTP.
+
+? Cablul coaxial de bandă de bază (folosit pentru transmisii digitale) are impedanța de:
++ 50 Ω
+- 75 Ω
+- 300 Ω
+- 600 Ω
+= Coaxial.
+
+? Cablul coaxial de bandă largă, folosit la televiziunea prin cablu, are impedanța de:
++ 75 Ω
+- 50 Ω
+- 120 Ω
+- 600 Ω
+= Coaxial.
+
+? Comparativ cu perechea torsadată, cablul coaxial are:
++ ecranare mai bună, deci imunitate mai mare la zgomot și bandă mai largă
+- bandă mai îngustă
+- imunitate mai mică la zgomot
+- miez din sticlă
+= Coaxial.
+
+? Un sistem de transmisie pe fibră optică are trei componente:
++ sursa de lumină, mediul de transmisie (fibra) și detectorul
+- antena, amplificatorul și difuzorul
+- modemul, routerul și switch-ul
+- microfonul, emițătorul și antena
+= Fibra optică.
+
+? Sursa de lumină dintr-un sistem cu fibră optică poate fi:
++ un LED sau o diodă laser
+- o fotodiodă
+- un tranzistor de putere
+- un dipol
+= Fibra optică.
+
+? Detectorul dintr-un sistem cu fibră optică, care transformă lumina în semnal electric, este:
++ fotodioda
+- LED-ul
+- laserul
+- multiplexorul
+= Fibra optică.
+
+? Lumina rămâne în miezul fibrei optice datorită fenomenului de:
++ reflexie totală internă
+- difracție
+- polarizare
+- absorbție
+= Indicele de refracție al miezului este mai mare decât al învelișului.
+
+? Fibra optică monomod se caracterizează prin:
++ diametrul foarte mic al miezului (~8–10 µm) și folosirea la distanțe mari
+- diametrul mare al miezului (~50 µm) și distanțe scurte
+- transmiterea simultană a multor raze la unghiuri diferite
+- folosirea exclusivă a LED-urilor
+= Monomod.
+
+? În fibra optică multimod apare fenomenul de dispersie modală deoarece:
++ razele de lumină parcurg drumuri de lungimi diferite (unghiuri diferite)
+- fibra este din cupru
+- lumina se propagă în linie dreaptă
+- nu există înveliș
+= Multimod.
+
+? Ferestrele de transmisie folosite în comunicațiile pe fibră optică sunt centrate pe lungimile de undă:
++ 0,85 µm, 1,30 µm și 1,55 µm
+- 400 nm, 500 nm și 600 nm
+- 1 m, 10 m și 100 m
+- 30 MHz, 88 MHz și 300 MHz
+= Infraroșu apropiat.
+
+? Fereastra optică cu cea mai mică atenuare este cea de:
++ 1,55 µm
+- 0,85 µm
+- 1,30 µm
+- 0,40 µm
+= ~0,2 dB/km.
+
+? Care dintre următoarele este un avantaj al fibrei optice față de cablul de cupru?
++ imunitatea la perturbații electromagnetice și dificultatea interceptării
+- interfețele foarte ieftine
+- comunicarea bidirecțională pe o singură fibră, în mod obișnuit
+- rezistența foarte mare la îndoire
+= Avantajele fibrei.
+
+? Care dintre următoarele este un dezavantaj al fibrei optice?
++ costul ridicat al interfețelor optice și fragilitatea la îndoire
+- lărgimea de bandă mică
+- atenuarea foarte mare
+- sensibilitatea la fulgere
+= Dezavantajele fibrei.
+
+? Lățirea impulsurilor de lumină pe măsură ce se propagă prin fibră se numește:
++ dispersie
+- reflexie totală
+- polarizare
+- multiplexare
+= Dispersia limitează viteza și distanța.
+
+? Transmisia prin microunde se caracterizează prin:
++ propagare în linie dreaptă, antene directive și necesitatea releelor la distanțe mari
+- propagare prin reflexie pe ionosferă la mii de km
+- trecerea prin munți
+- imunitate totală la ploaie
+= Microunde.
+
+? Comunicațiile prin infraroșu au avantajul de securitate că:
++ nu trec prin pereți, deci nu „ies” din încăpere
+- au bătaie de sute de kilometri
+- trec prin orice obstacol
+- se reflectă pe ionosferă
+= Infraroșu.
+
+? Legătura cu laser în aer liber între două clădiri este afectată în principal de:
++ ploaie, ceață și curenții de convecție
+- câmpul magnetic terestru
+- ionosferă
+- lungimea cablului
+= Undele luminoase.
+
+? În ordinea crescătoare a frecvenței, spectrul electromagnetic cuprinde:
++ radio, microunde, infraroșu, lumină vizibilă, ultraviolet
+- lumină vizibilă, infraroșu, radio, microunde
+- microunde, radio, ultraviolet, infraroșu
+- ultraviolet, lumină vizibilă, radio, infraroșu
+= Spectrul EM.

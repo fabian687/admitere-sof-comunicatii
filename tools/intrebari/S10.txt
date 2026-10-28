@@ -1,0 +1,204 @@
+# titlu: Propagarea undelor radio
+
+? Viteza de propagare a undelor electromagnetice în vid este de aproximativ:
++ 3·10⁸ m/s, indiferent de frecvență
+- 3·10⁵ m/s
+- 340 m/s
+- dependentă de frecvență: mai mare la frecvențe mari
+= Viteza luminii.
+
+? Existența undelor electromagnetice a fost prezisă teoretic de:
++ Maxwell
+- Hertz
+- Morse
+- Marconi
+= Hertz le-a demonstrat experimental.
+
+? În spațiu liber, puterea semnalului recepționat scade, cu distanța d, proporțional cu:
++ 1/d²
+- 1/d
+- d²
+- 1/d⁴
+= Legea inversului pătratului.
+
+? Dacă distanța dintre emițător și receptor se dublează (spațiu liber), nivelul semnalului scade cu:
++ 6 dB
+- 3 dB
+- 10 dB
+- 20 dB
+= Putere de 4 ori mai mică.
+
+? Undele radio de frecvență joasă (LF, MF) se propagă în principal:
++ ca unde de suprafață, urmând curbura Pământului
+- prin reflexie pe ionosferă, la mii de km, ziua
+- numai în linie de vedere
+- prin fibră optică
+= Propagarea undelor joase.
+
+? Atenuarea undei de suprafață este cea mai mică deasupra:
++ apei sărate (mării)
+- nisipului uscat
+- pădurii
+- zonelor urbane
+= Conductivitatea solului.
+
+? Legăturile radio la distanțe de mii de kilometri, fără relee sau sateliți, se realizează în principal în gama:
++ HF, prin unda spațială reflectată de ionosferă
+- VHF, prin undă directă
+- UHF, prin undă de suprafață
+- SHF, prin difracție
+= Unda ionosferică.
+
+? Ionosfera este:
++ un ansamblu de straturi de aer ionizat de radiația solară, la aproximativ 60–500 km altitudine
+- stratul de nori de la 1–2 km
+- un satelit de comunicații
+- stratul de ozon care absoarbe undele VHF
+= Ionosfera.
+
+? Stratul ionosferic care există numai ziua și absoarbe frecvențele joase (MF, HF de jos) este:
++ stratul D
+- stratul F2
+- stratul E
+- stratul F1
+= Stratul D dispare noaptea.
+
+? Stratul ionosferic cel mai important pentru legăturile HF la distanțe mari este:
++ stratul F (F2)
+- stratul D
+- troposfera
+- stratul E sporadic, exclusiv
+= Stratul F2.
+
+? Pe timpul nopții, straturile F1 și F2:
++ se unesc într-un singur strat F
+- dispar complet
+- coboară sub 50 km
+- se transformă în stratul D
+= Variația zi/noapte.
+
+? Frecvența maximă utilizabilă (MUF) reprezintă:
++ cea mai mare frecvență care, pe o anumită legătură, mai este reflectată de ionosferă spre Pământ
+- frecvența minimă la care stația poate emite
+- frecvența de rezonanță a antenei bici
+- frecvența de eșantionare a vocii
+= MUF.
+
+? O undă HF cu frecvența mai mare decât MUF:
++ străpunge ionosfera și nu se mai întoarce spre Pământ
+- se reflectă mai bine
+- devine undă de suprafață
+- se transformă în undă directă
+= MUF.
+
+? Pe timpul nopții, pentru legăturile HF prin ionosferă se folosesc, de regulă:
++ frecvențe mai mici decât ziua
+- frecvențe mai mari decât ziua
+- aceleași frecvențe ca ziua, fără excepție
+- numai frecvențe VHF
+= MUF scade noaptea.
+
+? O legătură HF care funcționa ziua pe 8 MHz nu mai funcționează seara. Măsura corectă este:
++ coborârea frecvenței de lucru
+- creșterea frecvenței la 20 MHz
+- scurtarea antenei
+- trecerea pe polarizare circulară
+= Seara MUF scade.
+
+? Zona de tăcere (skip zone) în gama HF este:
++ zona dintre limita de acțiune a undei de suprafață și punctul în care revine pe Pământ unda reflectată de ionosferă
+- zona din spatele unui deal în VHF
+- zona din jurul antenei, unde semnalul e prea puternic
+- zona de deasupra ionosferei
+= Zona de tăcere.
+
+? Doi operatori HF aflați la 60 km unul de altul nu se aud, deși stații aflate la 600 km se aud bine. Cauza probabilă este:
++ aflarea lor în zona de tăcere
+- defectarea ambelor stații
+- folosirea polarizării verticale
+- prea multă putere de emisie
+= Zona de tăcere.
+
+? Tehnica NVIS (Near Vertical Incidence Skywave) în HF constă în:
++ trimiterea undei aproape vertical spre ionosferă, pentru acoperirea unei zone de 0–300 km, inclusiv a zonei de tăcere
+- folosirea undei directe la distanțe de mii de km
+- folosirea unei antene parabolice spre satelit
+- transmiterea prin fibră optică
+= NVIS.
+
+? Pentru legăturile NVIS se folosesc, de regulă:
++ frecvențe HF joase (aprox. 2–10 MHz) și antene orizontale dispuse la mică înălțime
+- frecvențe VHF și antene bici înalte
+- frecvențe SHF și antene parabolice
+- frecvențe HF înalte (25–30 MHz) și antene verticale înalte
+= NVIS.
+
+? Variația periodică a nivelului semnalului recepționat, produsă de interferența undelor sosite pe drumuri diferite, se numește:
++ fading
+- aliasing
+- multiplexare
+- modulație
+= Fading.
+
+? Activitatea solară influențează în special propagarea în gama:
++ HF, prin modificarea ionizării ionosferei
+- VHF în linie de vedere
+- prin fibră optică
+- prin cablu coaxial
+= Ciclul solar de ~11 ani.
+
+? Undele din gamele VHF/UHF/SHF se propagă în principal:
++ prin undă directă, în linie de vedere
+- prin reflexie pe ionosferă
+- ca undă de suprafață pe mii de km
+- prin ghid de undă Pământ–ionosferă
+= Unda directă.
+
+? Orizontul radio este mai îndepărtat decât orizontul optic datorită:
++ refracției troposferice, care curbează ușor unda spre Pământ
+- reflexiei pe stratul D
+- absorbției în vegetație
+- polarizării verticale
+= ~15% mai departe.
+
+? Antenele a două stații VHF sunt la 9 m și 16 m înălțime. Orizontul radio este de aproximativ:
++ 29 km
+- 104 km
+- 7 km
+- 15 km
+= 4,12 × (3 + 4) ≈ 28,8 km.
+
+? Propagarea anormal de lungă a undelor VHF/UHF, ghidate de straturi atmosferice în anumite condiții meteo, se numește:
++ ducting troposferic
+- NVIS
+- unda de suprafață
+- zonă de tăcere
+= Fenomen rar.
+
+? Legăturile dincolo de orizont prin împrăștierea undelor de neomogenitățile troposferei se numesc:
++ legături prin difuzie troposferică (tropo-scatter)
+- legături NVIS
+- legături prin fibră optică
+- legături prin undă de suprafață
+= Tropo-scatter.
+
+? La frecvențele de ordinul GHz, ploaia:
++ absoarbe și atenuează semnalul
+- amplifică semnalul
+- nu are niciun efect
+- reflectă semnalul spre ionosferă
+= Absorbția în hidrometeori.
+
+? Cu cât frecvența unei unde radio este mai mare, cu atât:
++ unda se propagă mai mult în linie dreaptă, ca lumina, și ocolește mai greu obstacolele
+- unda ocolește mai ușor obstacolele
+- unda se reflectă mai bine pe ionosferă
+- unda de suprafață ajunge mai departe
+= Regula de buzunar a propagării.
+
+? Pierderea de propagare în spațiu liber crește atunci când:
++ cresc distanța și frecvența
+- scade distanța
+- scade frecvența
+- crește înălțimea antenelor
+= FSPL ≈ 32,45 + 20 log f + 20 log d.

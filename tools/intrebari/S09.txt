@@ -1,0 +1,204 @@
+# titlu: Conversia analog-numerică (PCM)
+
+? Etapele conversiei analog-numerice a unui semnal sunt, în ordine:
++ eșantionarea, cuantizarea, codarea
+- codarea, cuantizarea, eșantionarea
+- cuantizarea, eșantionarea, codarea
+- modularea, multiplexarea, codarea
+= Conversia A/N.
+
+? Eșantionarea reprezintă:
++ prelevarea valorilor semnalului la intervale de timp egale
+- rotunjirea valorilor la un număr finit de niveluri
+- atribuirea de cuvinte binare fiecărui nivel
+- amplificarea semnalului
+= Pasul 1.
+
+? Cuantizarea reprezintă:
++ aproximarea fiecărui eșantion cu cel mai apropiat nivel dintr-un număr finit de niveluri
+- prelevarea eșantioanelor la intervale egale
+- transmiterea semnalului prin fibră
+- criptarea biților
+= Pasul 2.
+
+? Codarea, în conversia analog-numerică, reprezintă:
++ atribuirea unui cuvânt binar fiecărui nivel de cuantizare
+- filtrarea semnalului
+- eșantionarea semnalului
+- modularea purtătoarei
+= Pasul 3.
+
+? Potrivit teoremei eșantionării, un semnal cu frecvența maximă f_max poate fi refăcut fără pierderi dacă frecvența de eșantionare este:
++ cel puțin 2 · f_max
+- cel puțin f_max / 2
+- exact f_max
+- cel mult f_max
+= Teorema Nyquist–Shannon (Kotelnikov).
+
+? Frecvența minimă de eșantionare pentru un semnal cu frecvența maximă de 4 kHz este:
++ 8 kHz
+- 4 kHz
+- 2 kHz
+- 16 kHz
+= fₑ ≥ 2 × 4 kHz.
+
+? Fenomenul care apare atunci când frecvența de eșantionare este mai mică decât dublul frecvenței maxime a semnalului se numește:
++ aliasing (suprapunerea spectrelor)
+- dispersie
+- fading
+- diafonie
+= Eșantionare insuficientă.
+
+? Pentru a evita aliasingul, înaintea eșantionării se folosește:
++ un filtru trece-jos (anti-aliasing)
+- un filtru trece-sus
+- un amplificator de putere
+- o antenă directivă
+= Eșantionare.
+
+? În telefonia digitală, frecvența de eșantionare standard a vocii este:
++ 8 kHz
+- 4 kHz
+- 44,1 kHz
+- 64 kHz
+= Vocea e limitată la 3,4 kHz.
+
+? Intervalul de timp dintre două eșantioane succesive, la o frecvență de eșantionare de 8 kHz, este:
++ 125 µs
+- 8 ms
+- 1 ms
+- 64 µs
+= 1/8000 s.
+
+? Numărul de niveluri de cuantizare disponibile la codarea pe 8 biți este:
++ 256
+- 8
+- 128
+- 512
+= 2⁸ = 256.
+
+? Numărul de niveluri de cuantizare disponibile la codarea pe 7 biți este:
++ 128
+- 256
+- 64
+- 14
+= 2⁷ = 128.
+
+? Eroarea de cuantizare are valoarea maximă de:
++ jumătate din pasul de cuantizare (±Δ/2)
+- un pas de cuantizare întreg
+- zero, dacă se folosește cuantizare uniformă
+- dublul pasului de cuantizare
+= Zgomotul de cuantizare.
+
+? Zgomotul de cuantizare poate fi redus prin:
++ creșterea numărului de biți pe eșantion
+- reducerea frecvenței de eșantionare sub 2·f_max
+- eliminarea filtrului anti-aliasing
+- folosirea unei antene mai lungi
+= Mai mulți biți → pași mai mici.
+
+? Fiecare bit în plus pe eșantion îmbunătățește raportul semnal/zgomot de cuantizare cu aproximativ:
++ 6 dB
+- 3 dB
+- 10 dB
+- 1 dB
+= SNR ≈ 6,02·n + 1,76 dB.
+
+? Cuantizarea neuniformă (compandarea) se folosește în telefonie pentru că:
++ asigură o calitate bună și pentru semnalele slabe, fără creșterea numărului de biți
+- elimină complet zgomotul de cuantizare
+- reduce frecvența de eșantionare la jumătate
+- permite transmisia analogică
+= Pași mici pentru amplitudini mici.
+
+? Legea de compandare folosită în Europa (inclusiv în România) este:
++ legea A
+- legea µ
+- legea Ohm
+- legea Shannon
+= Legea µ se folosește în America de Nord și Japonia.
+
+? Modulația care cuprinde eșantionarea, cuantizarea și codarea binară a semnalului se numește:
++ PCM (modulația impulsurilor în cod)
+- AM
+- FM
+- FDM
+= PCM.
+
+? Debitul unui semnal PCM se calculează ca:
++ frecvența de eșantionare × numărul de biți pe eșantion
+- frecvența de eșantionare / numărul de biți
+- lărgimea de bandă × raportul S/N
+- 2 × frecvența maximă a semnalului
+= Debitul PCM.
+
+? Debitul canalului telefonic digital standard (8 kHz × 8 biți) este:
++ 64 kbit/s
+- 8 kbit/s
+- 16 kbit/s
+- 128 kbit/s
+= 8000 × 8.
+
+? Un semnal audio este eșantionat la 44,1 kHz, pe 16 biți, în stereo (2 canale). Debitul PCM este de aproximativ:
++ 1,41 Mbit/s
+- 705 kbit/s
+- 88,2 kbit/s
+- 64 kbit/s
+= 44.100 × 16 × 2.
+
+? Un semnal cu f_max = 5 kHz este eșantionat la 8 kHz. Consecința este:
++ apariția aliasingului, semnalul nu mai poate fi refăcut corect
+- refacerea perfectă a semnalului
+- dublarea debitului
+- eliminarea zgomotului de cuantizare
+= 8 kHz < 10 kHz.
+
+? În modulația delta (DM), fiecare eșantion este codat pe:
++ 1 bit
+- 8 biți
+- 4 biți
+- 16 biți
+= Indică doar dacă semnalul crește sau scade.
+
+? Defectul modulației delta care apare când semnalul variază mai repede decât poate urmări pasul fix se numește:
++ supraîncărcarea pantei
+- aliasing
+- dispersie modală
+- diafonie
+= Modulația delta.
+
+? Codarea ADPCM a vocii permite un debit tipic de:
++ 32 kbit/s
+- 64 kbit/s
+- 2,048 Mbit/s
+- 1,544 Mbit/s
+= ADPCM.
+
+? Principalul avantaj al transmisiei digitale față de cea analogică pe distanțe mari este:
++ regenerarea semnalului în repetoare, astfel încât zgomotul nu se acumulează
+- banda mai îngustă necesară
+- lipsa nevoii de sincronizare
+- imposibilitatea apariției erorilor
+= Regenerarea.
+
+? Un dezavantaj al transmisiei digitale a vocii (PCM) față de transmisia analogică este:
++ necesită o lărgime de bandă mai mare
+- nu poate fi criptată
+- zgomotul se acumulează la fiecare repetor
+- nu poate fi multiplexată
+= 64 kbit/s față de 4 kHz.
+
+? La recepție, după decodare, semnalul analogic este refăcut cu ajutorul:
++ unui filtru trece-jos de refacere
+- unui filtru trece-sus
+- unei antene
+- unui multiplexor FDM
+= Conversia N/A.
+
+? Singura pierdere ireversibilă de informație în procesul PCM (când eșantionarea respectă teorema) apare la:
++ cuantizare
+- eșantionare
+- codare
+- transmisia fără erori
+= Eroarea de cuantizare.

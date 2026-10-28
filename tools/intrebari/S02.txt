@@ -1,0 +1,211 @@
+# titlu: Comunicații radio, salt de frecvență, propagare VHF
+
+? Principalul avantaj al legăturii radio față de legătura prin fir este:
++ realizarea rapidă a legăturii și posibilitatea de a lucra în mișcare
+- imposibilitatea interceptării
+- imposibilitatea bruierii
+- independența totală față de teren
+= Radioul poate fi însă interceptat, bruiat și localizat.
+
+? Care dintre următoarele este un dezavantaj al legăturii radio?
++ poate fi interceptată, bruiată, iar stația poate fi localizată prin radiogoniometrie
+- nu permite legătura în mișcare
+- se realizează foarte greu
+- nu poate transmite voce
+= Dezavantajele radioului.
+
+? Determinarea poziției unei stații radio inamice prin măsurarea direcției din care vin emisiile ei se numește:
++ radiogoniometrie
+- radiolocație activă
+- multiplexare
+- modulație
+= Localizarea emițătoarelor.
+
+? Măsurile luate de propriile forțe pentru a-și proteja comunicațiile împotriva bruiajului și interceptării (de exemplu saltul de frecvență) fac parte din:
++ contra-contramăsurile electronice (ECCM)
+- contramăsurile electronice (ECM)
+- măsurile de sprijin electronic (ESM)
+- măsurile de protecție civilă
+= FH este ECCM (EPM).
+
+? Saltul de frecvență (FH) reprezintă:
++ schimbarea pseudo-aleatoare și sincronă a frecvenței de lucru de către toate stațiile din rețea, de multe ori pe secundă
+- schimbarea manuală a frecvenței de către operator la fiecare mesaj
+- lucrul pe două frecvențe fixe, una pentru emisie și una pentru recepție
+- creșterea frecvenței pe măsură ce stația se încălzește
+= Definiția FH.
+
+? Saltul de frecvență este o tehnică de tip:
++ spectru împrăștiat (spread spectrum)
+- modulație de amplitudine cu purtătoare
+- multiplexare în frecvență pe fir
+- comutație de circuite
+= FH împrăștie semnalul pe o bandă largă.
+
+? Care dintre următoarele NU este un avantaj al saltului de frecvență?
++ nu necesită sincronizarea stațiilor din rețea
+- rezistența la bruiaj
+- probabilitatea redusă de interceptare
+- posibilitatea funcționării mai multor rețele în aceeași bandă
+= FH necesită obligatoriu sincronizare.
+
+? Rezistența la bruiaj a stațiilor cu salt de frecvență se explică prin faptul că:
++ bruiajul pe o frecvență afectează doar o mică parte din salturi, iar erorile pot fi corectate
+- stațiile emit cu putere de 10 ori mai mare
+- stațiile folosesc numai modulație de amplitudine
+- stațiile nu emit deloc în timpul bruiajului
+= Performanțele FH.
+
+? Probabilitatea redusă de interceptare (LPI) a stațiilor FH se datorează faptului că:
++ ascultătorul neautorizat nu cunoaște frecvența pe care va emite stația în momentul următor
+- stațiile nu folosesc antene
+- semnalul este transmis prin cablu
+- stațiile lucrează doar noaptea
+= Performanțele FH.
+
+? Pentru ca stațiile să poată lucra în salt de frecvență în aceeași rețea, trebuie să aibă în comun:
++ setul de frecvențe, cheia de salt (TRANSEC), sincronizarea de timp și identificatorul rețelei
+- doar aceeași putere de emisie
+- doar același tip de antenă
+- doar același indicativ de apel
+= Elementele necesare lucrului în FH.
+
+? Cheia care determină ordinea pseudo-aleatoare a salturilor de frecvență este de tip:
++ TRANSEC (securitatea transmisiei)
+- PIN de acces la stație
+- cod Morse
+- parolă de rețea Wi-Fi
+= Cheia de salt.
+
+? Fără sincronizarea timpului între stații, în regim de salt de frecvență:
++ nu se poate realiza legătura
+- legătura se realizează, dar cu volum mai mic
+- legătura se realizează numai noaptea
+- legătura se realizează automat pe AM
+= Sincronizarea este obligatorie.
+
+? Saltul de frecvență oferă rezistență la fadingul selectiv deoarece:
++ o frecvență afectată de fading influențează doar câteva salturi
+- folosește o singură frecvență foarte stabilă
+- crește automat înălțimea antenei
+- elimină complet reflexiile
+= Performanțele FH.
+
+? Posibilitatea ca mai multe rețele FH să lucreze în aceeași bandă de frecvențe se obține prin:
++ folosirea de chei/identificatori diferiți pentru fiecare rețea
+- folosirea aceleiași chei pentru toate rețelele
+- reducerea numărului de stații la două
+- lucrul exclusiv în frecvență fixă
+= Utilizare eficientă a spectrului.
+
+? Comparativ cu lucrul în frecvență fixă, lucrul în salt de frecvență este:
++ mai rezistent la bruiaj și interceptare, dar mai complex (chei, sincronizare)
+- mai vulnerabil la bruiaj
+- mai simplu și nu necesită chei
+- identic din punctul de vedere al securității
+= Comparație FF vs FH.
+
+? Propagarea principală a undelor în gama VHF se face prin:
++ undă directă, în linie de vedere
+- reflexie pe ionosferă
+- undă de suprafață pe sute de kilometri
+- ghid de undă Pământ–ionosferă
+= Propagarea VHF.
+
+? În condiții normale, undele din gama VHF, la întâlnirea ionosferei:
++ o străbat și nu se mai întorc spre Pământ
+- se reflectă și revin la mii de kilometri
+- sunt absorbite total de stratul F
+- se transformă în unde lungi
+= De aceea VHF nu asigură legături la distanțe mari prin ionosferă.
+
+? Distanța maximă a legăturii prin undă directă este limitată în principal de:
++ curbura Pământului (orizontul radio) și obstacolele de teren
+- culoarea antenei
+- tipul de baterie
+- ora din zi
+= Orizontul radio.
+
+? Formula aproximativă a orizontului radio (în km), cu înălțimile antenelor h₁ și h₂ în metri, este:
++ d ≈ 4,12 · (√h₁ + √h₂)
+- d ≈ 4,12 · (h₁ + h₂)
+- d ≈ 3,57 · h₁ · h₂
+- d ≈ (h₁ + h₂) / 4,12
+= Orizontul radio cu factorul de refracție standard.
+
+? Două stații VHF au antenele la 4 m înălțime pe teren plat. Distanța aproximativă maximă (orizontul radio) este:
++ circa 16 km
+- circa 4 km
+- circa 50 km
+- circa 160 km
+= d ≈ 4,12 · (2 + 2) ≈ 16,5 km.
+
+? O stație de retranslație are antena la 100 m deasupra terenului, iar o stație portabilă are antena la 4 m. Orizontul radio dintre ele este de aproximativ:
++ 49 km
+- 16 km
+- 104 km
+- 412 km
+= d ≈ 4,12 · (10 + 2) ≈ 49 km.
+
+? Pentru a mări distanța unei legături VHF, cea mai eficientă măsură este:
++ ridicarea antenelor și amplasarea stațiilor pe puncte dominante
+- coborârea antenelor la nivelul solului
+- amplasarea stației într-o vale
+- amplasarea stației lângă o clădire înaltă, în spatele ei față de corespondent
+= Înălțimea antenei este decisivă în VHF.
+
+? Zona din spatele unui obstacol de teren (deal), în care semnalul VHF nu ajunge sau ajunge foarte slab, se numește:
++ zonă de umbră radio
+- zonă de tăcere ionosferică
+- zonă Fresnel
+- zonă de acoperire
+= Factori de teren.
+
+? În gama VHF, ocolirea parțială a obstacolelor (de exemplu a crestelor) se realizează prin fenomenul de:
++ difracție
+- absorbție
+- polarizare
+- multiplexare
+= Difracția, mai bună la frecvențe mai joase.
+
+? În gama VHF, vegetația densă (pădurea), mai ales umedă:
++ absoarbe și atenuează semnalul
+- amplifică semnalul
+- nu are niciun efect
+- reflectă semnalul spre ionosferă
+= Factori de teren.
+
+? Recepționarea aceluiași semnal pe mai multe drumuri (direct și prin reflexii pe clădiri/stânci) se numește:
++ propagare multicale, care poate produce fading
+- salt de frecvență
+- retranslație
+- modulație de fază
+= Factori de propagare.
+
+? Pentru a reduce riscul de interceptare și pentru a economisi bateria, operatorul trebuie să folosească:
++ puterea minimă necesară realizării legăturii
+- întotdeauna puterea maximă
+- antena de rezervă
+- frecvența cea mai mare
+= Disciplină și ECCM.
+
+? Dacă o stație VHF nu are legătură, prima măsură practică este:
++ schimbarea poziției (pe un punct mai înalt) și verificarea antenei
+- mărirea volumului difuzorului
+- oprirea stației pentru 24 de ore
+- trecerea pe frecvența altei rețele
+= Concluzii practice.
+
+? Lungimea de undă a semnalelor din gama VHF este cuprinsă între:
++ 10 m și 1 m
+- 100 m și 10 m
+- 1 m și 10 cm
+- 1 km și 100 m
+= Undele metrice.
+
+? Stațiile radio tactice cu salt de frecvență din gama VHF lucrează, de regulă, în banda:
++ 30–88 MHz
+- 2–30 MHz
+- 225–400 MHz
+- 1,5–1,6 GHz
+= Banda tactică VHF.

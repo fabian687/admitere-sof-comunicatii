@@ -1,0 +1,246 @@
+# titlu: HG 585/2002 – standardele de protecție
+
+? Potrivit HG 585/2002, nivelului „strict secret de importanță deosebită” îi corespunde nivelul NATO:
++ NATO TOP SECRET
+- NATO SECRET
+- NATO CONFIDENTIAL
+- NATO RESTRICTED
+= Art. 2.
+
+? Nivelului național „strict secret” îi corespunde nivelul NATO:
++ NATO SECRET
+- NATO TOP SECRET
+- NATO CONFIDENTIAL
+- NATO RESTRICTED
+= Art. 2.
+
+? Nivelului național „secret” îi corespunde nivelul NATO:
++ NATO CONFIDENTIAL
+- NATO SECRET
+- NATO RESTRICTED
+- NATO TOP SECRET
+= Art. 2 – atenție, nu „NATO SECRET”.
+
+? Informațiilor „secret de serviciu” le corespunde nivelul NATO:
++ NATO RESTRICTED
+- NATO CONFIDENTIAL
+- NATO UNCLASSIFIED
+- NATO SECRET
+= Art. 2.
+
+? Standardele naționale de protecție a informațiilor clasificate sunt obligatorii pentru:
++ orice persoană fizică sau juridică ce gestionează informații clasificate
+- numai instituțiile militare
+- numai SRI
+- numai persoanele cu grad de ofițer
+= Art. 2.
+
+? Care dintre următoarele NU este Autoritate Desemnată de Securitate (ADS) potrivit HG 585/2002?
++ Ministerul Educației
+- Ministerul Apărării Naționale
+- Serviciul de Telecomunicații Speciale
+- Serviciul de Protecție și Pază
+= Art. 3: MApN, MAI, MJ, SRI, SIE, SPP, STS.
+
+? Principiul „necesității de a cunoaște” înseamnă că:
++ accesul la informații clasificate se acordă numai persoanelor care au nevoie de ele pentru îndeplinirea atribuțiilor de serviciu
+- orice persoană cu certificat are acces la orice informație de nivelul respectiv
+- informațiile se fac publice la cerere
+- comandantul cunoaște toate informațiile din unitate
+= Art. 3 și art. 33.
+
+? Ghidul de clasificare a informațiilor se aprobă:
++ personal și în scris de împuterniciții sau funcționarii superiori abilitați să atribuie niveluri de secretizare
+- prin hotărâre a Guvernului
+- de ORNISS
+- de șeful compartimentului de documente clasificate
+= Art. 5.
+
+? Listele informațiilor secrete de serviciu se stabilesc de:
++ conducătorii unităților deținătoare
+- Guvern
+- ORNISS
+- SRI
+= Art. 7.
+
+? Verificarea corectitudinii clasificării unei informații se face, potrivit art. 11, de:
++ șeful ierarhic al emitentului
+- ORNISS
+- instanța de contencios
+- destinatarul documentului
+= Art. 11.
+
+? Termenul maxim de clasificare pentru informațiile „strict secret de importanță deosebită” este de până la:
++ 100 de ani
+- 50 de ani
+- 30 de ani
+- 75 de ani
+= Art. 12.
+
+? Termenul maxim de clasificare pentru informațiile „strict secret” este de până la:
++ 50 de ani
+- 100 de ani
+- 30 de ani
+- 25 de ani
+= Art. 12.
+
+? Termenul maxim de clasificare pentru informațiile „secret” este de până la:
++ 30 de ani
+- 50 de ani
+- 10 ani
+- 100 de ani
+= Art. 12.
+
+? Termenele de clasificare pot fi prelungite prin:
++ hotărâre a Guvernului
+- ordin al ministrului apărării
+- decizie a emitentului, fără alte formalități
+- lege organică
+= Art. 12.
+
+? Un document realizat din extrase cumulate cu niveluri diferite de secretizare primește:
++ nivelul de secretizare al extrasului cu cea mai înaltă clasificare
+- cel mai mic nivel dintre extrase
+- automat nivelul „strict secret de importanță deosebită”
+- nivelul „secret de serviciu”
+= Art. 14.
+
+? Supraevaluarea sau subevaluarea clasificării unei informații poate fi contestată de:
++ orice persoană fizică sau juridică română, în contencios administrativ
+- numai de emitent
+- numai de ORNISS
+- numai de SRI
+= Art. 17.
+
+? Informațiile secrete de stat se declasifică prin:
++ hotărâre a Guvernului, la solicitarea motivată a emitentului
+- decizia oricărui deținător
+- ordin al ministrului
+- expirarea a 5 ani de la emitere
+= Art. 19.
+
+? Care dintre următoarele NU este un caz de declasificare prevăzut de art. 20?
++ informația a fost copiată de mai multe ori
+- termenul de clasificare a expirat
+- divulgarea informației nu mai poate prejudicia siguranța națională
+- informația a fost clasificată de o persoană neîmputernicită
+= Art. 20.
+
+? La schimbarea nivelului de secretizare, vechea inscripție:
++ se taie cu o linie oblică, iar noua clasă și data se scriu deasupra sau dedesubtul ei
+- se șterge cu corector
+- se acoperă cu o etichetă opacă
+- rămâne neschimbată, iar noul nivel se trece doar în registru
+= Art. 22.
+
+? Informațiile clasificate compromise sau pierdute se declasifică:
++ numai după o cercetare care confirmă compromiterea sau pierderea, cu acordul scris al emitentului
+- automat, la constatarea pierderii
+- la cererea oricărui angajat
+- după 30 de zile de la pierdere
+= Art. 23.
+
+? Accesul la informații clasificate se acordă numai persoanelor care:
++ dețin certificat de securitate sau autorizație de acces valabilă pentru nivelul respectiv și au nevoie de informații pentru îndeplinirea atribuțiilor
+- au grad de ofițer
+- au peste 5 ani vechime în instituție
+- sunt rude cu emitentul
+= Art. 33.
+
+? Persoanele care au acces la informații „strict secret de importanță deosebită” sunt consemnate în:
++ fișa de consultare
+- registrul de intrări-ieșiri al unității
+- condica de serviciu
+- carnetul de muncă
+= Art. 34.
+
+? În situații de criză, calamități sau evenimente neprevăzute, conducătorul unității poate acorda acces temporar la informații clasificate unor persoane fără certificat, cu condiția ca acestea să semneze:
++ angajamentul de confidențialitate, iar ORNISS să fie anunțat cât mai curând
+- un contract de muncă pe durată determinată
+- o declarație de avere
+- un proces-verbal de distrugere
+= Art. 36.
+
+? Numărul de înregistrare al unui document „strict secret de importanță deosebită” este precedat de:
++ trei zerouri (000)
+- un zero (0)
+- două zerouri (00)
+- litera S
+= Prefixele: 0 – secret; 00 – strict secret; 000 – SSID; S – secret de serviciu.
+
+? Numărul de înregistrare al unui document „secret de serviciu” este precedat de:
++ litera S
+- un zero (0)
+- litera X
+- două zerouri (00)
+= HG 585/2002, Cap. III – marcarea.
+
+? Numărul de înregistrare al unui document „secret” este precedat de:
++ un zero (0)
+- două zerouri (00)
+- trei zerouri (000)
+- litera S
+= HG 585/2002, Cap. III.
+
+? Anexele unui document clasificat se clasifică:
++ după conținutul propriu
+- obligatoriu cu nivelul documentului principal
+- întotdeauna cu un nivel mai mic
+- nu se clasifică
+= HG 585/2002 – marcarea.
+
+? Multiplicarea documentelor clasificate se face:
++ numai de persoane autorizate și numai în încăperi special destinate
+- de orice angajat, la orice copiator
+- numai la firme specializate din exterior
+- numai cu aprobarea ORNISS pentru fiecare copie
+= HG 585/2002, art. 66–74.
+
+? Distrugerea documentelor clasificate se face astfel încât:
++ reconstituirea lor să fie imposibilă
+- să poată fi reconstituite la nevoie
+- să se păstreze prima pagină
+- să se arhiveze o copie scanată nesecurizată
+= HG 585/2002, art. 76–80.
+
+? Informațiile „strict secret de importanță deosebită” și „strict secret” se gestionează în:
++ zone de securitate clasa I
+- zone de securitate clasa II
+- zona administrativă
+- orice birou închis cu cheia
+= HG 585/2002, Cap. IV.
+
+? Informațiile „secret” se gestionează, de regulă, în:
++ zone de securitate clasa II
+- zona administrativă
+- zone de securitate clasa III
+- spații publice
+= HG 585/2002, Cap. IV.
+
+? Combinațiile încuietorilor containerelor de securitate se schimbă periodic, de regulă la ... și nu mai rar de ...
++ 6 luni; 12 luni
+- 1 lună; 3 luni
+- 1 an; 5 ani
+- 3 luni; 2 ani
+= HG 585/2002, Cap. IV. Se schimbă și la schimbarea personalului sau la compromitere.
+
+? În zonele în care se lucrează cu informații clasificate, accesul cu aparate de fotografiat, filmat sau înregistrat audio-video:
++ este interzis, în afara situațiilor aprobate
+- este permis oricui
+- este permis numai personalului civil
+- este permis dacă aparatele sunt închise
+= HG 585/2002, Cap. IV.
+
+? Fotografierea, filmarea și cartografierea în obiectivele care prezintă importanță deosebită pentru protecția secretelor de stat sunt:
++ interzise, cu excepția celor autorizate
+- permise oricui de pe domeniul public
+- permise turiștilor
+- permise jurnaliștilor acreditați fără alte formalități
+= HG 585/2002, Cap. V.
+
+? Potrivit HG 585/2002, persoanele cu certificat de securitate sau autorizație de acces sunt instruite:
++ la acordarea certificatului și periodic, instruirea consemnându-se în fișa de pregătire individuală
+- o singură dată, la angajare
+- numai la cerere
+- numai în caz de incident de securitate
+= Art. 35.

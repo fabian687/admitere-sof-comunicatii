@@ -1,0 +1,197 @@
+# titlu: Moduri de transfer (circuite, mesaje, pachete, STM, ATM)
+
+? În comutația de circuite, între cei doi corespondenți:
++ se stabilește în prealabil o cale rezervată pe toată durata comunicării
+- fiecare pachet urmează o rută independentă
+- mesajul este memorat integral în fiecare nod
+- nu se stabilește nicio cale
+= Comutația de circuite.
+
+? Fazele unei comunicări prin comutație de circuite sunt:
++ stabilirea conexiunii, transferul datelor, eliberarea conexiunii
+- împachetarea, rutarea, reasamblarea
+- eșantionarea, cuantizarea, codarea
+- modularea, amplificarea, demodularea
+= Comutația de circuite.
+
+? Rețeaua telefonică clasică folosește:
++ comutația de circuite
+- comutația de mesaje
+- comutația de pachete prin datagrame
+- transmisia asincronă start-stop
+= Exemplu clasic.
+
+? Un dezavantaj al comutației de circuite pentru traficul de date în rafale este:
++ capacitatea rezervată rămâne neutilizată în pauzele de transmisie
+- întârzierea foarte variabilă
+- pachetele sosesc în altă ordine
+- nodurile au nevoie de memorie foarte mare
+= Comutația de circuite.
+
+? Principalul avantaj al comutației de circuite pentru convorbirile telefonice este:
++ întârzierea mică și constantă după stabilirea legăturii
+- nu necesită stabilirea legăturii
+- folosirea foarte eficientă a liniilor la trafic în rafale
+- ocolirea automată a nodurilor defecte în timpul convorbirii
+= Comutația de circuite.
+
+? Tehnica în care întregul mesaj este recepționat și memorat într-un nod, apoi retransmis către nodul următor, se numește:
++ comutație de mesaje (store-and-forward)
+- comutație de circuite
+- multiplexare în frecvență
+- transmisie sincronă
+= Comutația de mesaje.
+
+? Un dezavantaj al comutației de mesaje este:
++ întârzierile mari și variabile și necesarul mare de memorie în noduri
+- rezervarea permanentă a căii
+- imposibilitatea transmiterii de text
+- necesitatea fibrei optice
+= Comutația de mesaje.
+
+? În comutația de pachete, mesajul este:
++ împărțit în pachete de lungime limitată, fiecare cu propriul antet
+- transmis integral, ca un singur bloc
+- transmis pe o cale rezervată
+- transformat în semnal analogic
+= Comutația de pachete.
+
+? Avantajul principal al comutației de pachete este:
++ folosirea eficientă a liniilor, prin partajarea statistică între utilizatori
+- întârzierea perfect constantă
+- garantarea ordinii pachetelor în orice variantă
+- lipsa antetelor
+= Comutația de pachete.
+
+? În varianta datagramă a comutației de pachete:
++ fiecare pachet este rutat independent și pachetele pot sosi în altă ordine
+- toate pachetele urmează aceeași cale stabilită în prealabil
+- se rezervă o cale fizică
+- pachetele nu au adresă
+= Datagramă.
+
+? În varianta circuit virtual a comutației de pachete:
++ se stabilește o cale logică, iar toate pachetele urmează aceeași cale și sosesc în ordine
+- fiecare pachet urmează o cale diferită
+- nu există fază de stabilire a conexiunii
+- pachetele conțin întotdeauna adresa completă a destinației
+= Circuit virtual.
+
+? Protocolul IP (Internet) folosește comutația de pachete de tip:
++ datagramă (fără conexiune)
+- circuit virtual
+- comutație de circuite
+- comutație de mesaje
+= Exemplu.
+
+? Care dintre următoarele tehnologii folosește circuite virtuale?
++ ATM
+- IP
+- Ethernet clasic
+- radiodifuziunea AM
+= ATM, X.25 și Frame Relay sunt orientate pe conexiune.
+
+? În transmisia asincronă (start-stop):
++ fiecare caracter este încadrat de un bit de start și de unul sau mai mulți biți de stop
+- datele se transmit în blocuri mari, cu ceasuri permanent sincronizate
+- nu există biți de sincronizare
+- se transmite doar semnal analogic
+= Transmisia asincronă.
+
+? Transmisia în care datele se transmit în blocuri (cadre) lungi, cu ceasurile emițătorului și receptorului permanent sincronizate, se numește:
++ sincronă
+- asincronă (start-stop)
+- plesiocronă
+- analogică
+= Transmisia sincronă.
+
+? Transmisia plesiocronă se caracterizează prin:
++ ceasuri aproape sincrone (aceeași frecvență nominală, cu mici abateri), compensate prin biți de justificare
+- ceasuri perfect sincrone, de la o sursă unică
+- lipsa totală a ceasurilor
+- transmiterea fiecărui caracter cu start-stop
+= Plesiocron.
+
+? În modul de transfer sincron (STM), un canal este identificat prin:
++ poziția intervalului de timp (slot) pe care îl ocupă în cadru
+- eticheta din antetul celulei
+- adresa IP
+- frecvența purtătoarei
+= STM.
+
+? Dezavantajul principal al modului de transfer sincron (STM) este:
++ capacitatea alocată unui canal este rezervată chiar dacă sursa nu transmite
+- celulele au lungime variabilă
+- nu poate transmite voce
+- nu are ceas
+= STM.
+
+? Celula ATM are o lungime fixă de:
++ 53 de octeți
+- 48 de octeți
+- 64 de octeți
+- 1500 de octeți
+= 5 octeți antet + 48 octeți utili.
+
+? Antetul unei celule ATM are:
++ 5 octeți
+- 48 de octeți
+- 53 de octeți
+- 20 de octeți
+= Celula ATM.
+
+? Câmpul de informație utilă (payload) al unei celule ATM are:
++ 48 de octeți
+- 53 de octeți
+- 5 octeți
+- 128 de octeți
+= Celula ATM.
+
+? Denumirea „asincron” din ATM (Asynchronous Transfer Mode) se referă la faptul că:
++ celulele unei surse nu ocupă poziții fixe, periodice, în timp, ci se transmit numai când există date
+- nu există niciun ceas în rețea
+- se transmite caracter cu caracter, cu start-stop
+- celulele au lungime variabilă
+= ATM – multiplexare statistică.
+
+? Identificatorii căii virtuale și ai canalului virtual din antetul celulei ATM sunt:
++ VPI și VCI
+- IP și MAC
+- TCP și UDP
+- SSID și BSSID
+= ATM.
+
+? Celulele ATM sunt mici și de lungime fixă pentru a permite:
++ comutarea rapidă în hardware și întârzieri mici și previzibile, potrivite pentru voce și video
+- folosirea antenelor mai scurte
+- eliminarea completă a antetelor
+- transmisia exclusiv analogică
+= ATM.
+
+? Stratul ATM care adaptează datele utilizatorului la formatul celulelor se numește:
++ AAL (ATM Adaptation Layer)
+- stratul fizic
+- stratul de aplicație
+- stratul MAC
+= Straturile ATM.
+
+? Clasa de serviciu ATM care asigură o rată de transfer constantă (de exemplu pentru voce) este:
++ CBR (Constant Bit Rate)
+- UBR (Unspecified Bit Rate)
+- ABR (Available Bit Rate)
+- VBR (Variable Bit Rate)
+= QoS în ATM.
+
+? Comparativ cu X.25, tehnologia Frame Relay este mai rapidă deoarece:
++ nu face corecția erorilor în fiecare nod, ci o lasă la capetele legăturii
+- folosește celule de 53 de octeți
+- folosește comutație de circuite
+- folosește doar linii analogice
+= Frame Relay.
+
+? Întârzierea totală mai mică a comutației de pachete față de cea de mesaje se explică prin faptul că:
++ un nod poate retransmite un pachet în timp ce recepționează următorul (pipelining)
+- pachetele nu au antet
+- se rezervă o cale fizică
+- pachetele sunt transmise analogic
+= Comutația de pachete.

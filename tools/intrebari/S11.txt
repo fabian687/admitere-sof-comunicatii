@@ -1,0 +1,162 @@
+# titlu: Probleme de calcul (toată specialitatea)
+
+? Lungimea de undă a unui semnal cu frecvența de 50 MHz este:
++ 6 m
+- 0,6 m
+- 60 m
+- 15 m
+= λ = 300 / 50.
+
+? Frecvența corespunzătoare unei lungimi de undă de 2 m este:
++ 150 MHz
+- 600 MHz
+- 15 MHz
+- 1,5 MHz
+= f = 300 / 2.
+
+? O antenă bici λ/4 pentru frecvența de 60 MHz are lungimea teoretică de:
++ 1,25 m
+- 5 m
+- 2,5 m
+- 0,5 m
+= λ = 5 m; λ/4 = 1,25 m.
+
+? Un dipol λ/2 pentru frecvența de 10 MHz are lungimea teoretică de:
++ 15 m
+- 30 m
+- 7,5 m
+- 3 m
+= λ = 30 m; λ/2 = 15 m.
+
+? Orizontul radio dintre două antene aflate la 1 m înălțime fiecare este de aproximativ:
++ 8 km
+- 4 km
+- 16 km
+- 1 km
+= 4,12 × (1 + 1).
+
+? Orizontul radio dintre două antene aflate la 4 m și, respectiv, 25 m înălțime este de aproximativ:
++ 29 km
+- 120 km
+- 12 km
+- 50 km
+= 4,12 × (2 + 5).
+
+? Două stații de radioreleu au antenele pe catarge de 100 m. Orizontul radio dintre ele este de aproximativ:
++ 82 km
+- 41 km
+- 824 km
+- 200 km
+= 4,12 × (10 + 10).
+
+? Frecvența minimă de eșantionare a unui semnal vocal limitat la 3,4 kHz este:
++ 6,8 kHz
+- 3,4 kHz
+- 1,7 kHz
+- 13,6 kHz
+= 2 × 3,4 kHz.
+
+? Un semnal cu frecvența maximă de 6 kHz este eșantionat la 10 kHz. Se poate reface corect semnalul?
++ nu, apare aliasing, deoarece 10 kHz < 12 kHz
+- da, deoarece 10 kHz > 6 kHz
+- da, dacă se folosesc 16 biți pe eșantion
+- da, dacă se folosește compandare
+= fₑ trebuie să fie ≥ 12 kHz.
+
+? Voce eșantionată la 8 kHz și codată pe 4 biți/eșantion produce un debit de:
++ 32 kbit/s
+- 64 kbit/s
+- 12 kbit/s
+- 2 kbit/s
+= 8000 × 4.
+
+? Numărul de niveluri de cuantizare la codarea pe 16 biți este:
++ 65.536
+- 256
+- 32
+- 1024
+= 2¹⁶.
+
+? Un canal fără zgomot de 3 kHz transmite un semnal cu 16 niveluri. Debitul maxim Nyquist este:
++ 24 kbit/s
+- 6 kbit/s
+- 48 kbit/s
+- 96 kbit/s
+= 2 × 3000 × log₂16 = 2 × 3000 × 4.
+
+? Un canal de 1 MHz are puterea semnalului egală cu puterea zgomotului (S/N = 0 dB). Capacitatea Shannon este:
++ 1 Mbit/s
+- 0 bit/s
+- 2 Mbit/s
+- 0,5 Mbit/s
+= 10⁶ × log₂(1 + 1).
+
+? Un amplificator cu câștigul de 20 dB mărește puterea semnalului de:
++ 100 de ori
+- 20 de ori
+- 10 ori
+- 2 ori
+= 10^(20/10).
+
+? O putere de 100 mW exprimată în dBm este:
++ 20 dBm
+- 10 dBm
+- 100 dBm
+- 2 dBm
+= 10 · log₁₀(100).
+
+? O putere de 0 dBm corespunde unei puteri de:
++ 1 mW
+- 0 W
+- 1 W
+- 10 mW
+= dBm este referit la 1 mW.
+
+? Două tronsoane de cablu atenuează 3 dB și, respectiv, 7 dB. Atenuarea totală este:
++ 10 dB, adică puterea scade de 10 ori
+- 21 dB
+- 4 dB
+- 10 dB, adică puterea scade de 2 ori
+= Atenuările în dB se adună.
+
+? Câte canale de 64 kbit/s corespund debitului de 2,048 Mbit/s?
++ 32
+- 30
+- 24
+- 64
+= 2048 / 64 = 32 (30 utile + 2 de serviciu).
+
+? Un comutator crossbar 50 × 50 are:
++ 2500 de puncte de comutație
+- 100 de puncte de comutație
+- 50 de puncte de comutație
+- 250 de puncte de comutație
+= 50².
+
+? Un grup FDM de 12 canale telefonice a câte 4 kHz ocupă o bandă de:
++ 48 kHz
+- 12 kHz
+- 4 kHz
+- 64 kHz
+= 12 × 4 kHz.
+
+? Debitul purtătoarei T1, cu cadre de 193 de biți transmise de 8000 de ori pe secundă, este:
++ 1,544 Mbit/s
+- 2,048 Mbit/s
+- 1,536 Mbit/s
+- 193 kbit/s
+= 193 × 8000.
+
+? Dacă puterea emițătorului crește de la 1 W la 10 W, nivelul semnalului crește cu:
++ 10 dB
+- 9 dB
+- 3 dB
+- 100 dB
+= 10 · log₁₀(10).
+
+? Frecvența de 3 MHz corespunde unei lungimi de undă de:
++ 100 m
+- 10 m
+- 1000 m
+- 1 m
+= 300 / 3.

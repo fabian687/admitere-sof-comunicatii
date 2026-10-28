@@ -1,0 +1,295 @@
+# titlu: Bazele comunicațiilor și informaticii militare
+
+? Sprijinul de comunicații și informatică are ca scop principal:
++ asigurarea schimbului de informații necesar comenzii și controlului forțelor
+- asigurarea hranei și echipamentului trupelor
+- asigurarea transportului de muniție
+- asigurarea pazei obiectivelor militare
+= Rolul SCI în operații.
+
+? Sprijinul de comunicații și informatică face parte din categoria:
++ sprijinului de luptă
+- forțelor de manevră
+- sprijinului medical
+- forțelor de protecție civilă
+= SCI este un sprijin al conducerii, un sprijin de luptă.
+
+? Cerința ca informația să ajungă la destinatar în timp util se numește:
++ operativitate
+- interoperabilitate
+- polarizare
+- multiplexare
+= Cerințele comunicațiilor militare.
+
+? Capacitatea sistemului de comunicații de a funcționa chiar dacă unele elemente sunt scoase din funcțiune se numește:
++ fiabilitate (siguranță în funcționare)
+- operativitate
+- modulație
+- directivitate
+= Se obține prin rute alternative și mijloace de rezervă.
+
+? Capacitatea de a comunica cu structuri ale altor state aliate (NATO) se numește:
++ interoperabilitate
+- continuitate
+- fiabilitate
+- mobilitate
+= Cerințele comunicațiilor militare.
+
+? Potrivit regulilor de responsabilitate pentru realizarea legăturilor, de legătura cu subordonații răspunde:
++ eșalonul superior
+- subordonatul
+- vecinul din dreapta
+- structura logistică
+= Regula „de sus în jos”.
+
+? În cazul legăturii între vecini, răspunderea pentru realizarea legăturii revine, de regulă:
++ unității din stânga față de cea din dreapta
+- unității din dreapta față de cea din stânga
+- unității cu efectivul cel mai mare
+- eșalonului inferior
+= Regula „de la stânga la dreapta”.
+
+? Între o structură care sprijină și una sprijinită, legătura o realizează:
++ structura care sprijină
+- structura sprijinită
+- eșalonul inferior celor două
+- cea mai apropiată unitate civilă
+= Regula „de la sprijin la sprijinit”.
+
+? Care dintre următoarele mijloace de legătură este cel mai greu de interceptat și bruiat de inamic?
++ legătura prin fir
+- legătura radio HF
+- legătura radio VHF
+- legătura prin satelit
+= Firul nu radiază energie în spațiu, deci nu poate fi bruiat sau localizat ușor.
+
+? În timpul deplasării trupelor, mijlocul principal de legătură este:
++ radioul
+- cablul de campanie
+- curierul pe jos
+- semnalizarea cu fanioane
+= Radioul permite legătura în mișcare.
+
+? Modul de organizare a legăturilor în care punctele de comandă sunt legate prin noduri interconectate, astfel încât traficul poate ocoli un nod distrus, se numește:
++ în rețea (nodal)
+- pe direcții (radial)
+- pe axă
+- liniar simplu
+= Organizarea în rețea are fiabilitatea cea mai mare.
+
+? Modul de organizare în care de la PC-ul superior pleacă câte o legătură directă spre fiecare subordonat se numește:
++ pe direcții (radial)
+- pe axă
+- în rețea
+- în inel
+= Moduri de organizare a legăturilor.
+
+? Centrul de comunicații al punctului de comandă reprezintă:
++ totalitatea mijloacelor de comunicații dispuse la PC, organizate să lucreze unitar
+- un singur post radio
+- clădirea statului major
+- punctul de alimentare cu combustibil
+= Elemente de tactica armei.
+
+? Semnalul analogic este semnalul care:
++ variază continuu în timp
+- poate lua doar două valori, 0 și 1
+- are întotdeauna frecvența de 1 kHz
+- se transmite numai prin fibră optică
+= Bazele comunicațiilor.
+
+? Banda de frecvențe a canalului telefonic standard pentru voce este:
++ 300–3400 Hz
+- 20 Hz–20 kHz
+- 30–88 MHz
+- 3–30 MHz
+= Canalul telefonic standard.
+
+? Procesul prin care informația (de exemplu vocea) este „pusă” pe o undă purtătoare de frecvență mare se numește:
++ modulație
+- demodulație
+- multiplexare
+- eșantionare
+= Bazele comunicațiilor.
+
+? Modulația în care variază amplitudinea purtătoarei se numește:
++ modulație de amplitudine (MA/AM)
+- modulație de frecvență (MF/FM)
+- modulație de fază (PM)
+- modulație în cod de impulsuri (PCM)
+= Tipuri de modulație.
+
+? Comparativ cu modulația de amplitudine, modulația de frecvență este:
++ mai puțin sensibilă la zgomote și perturbații
+- mai sensibilă la zgomote
+- identică din punctul de vedere al zgomotului
+- imposibil de folosit în VHF
+= FM are imunitate mai bună la zgomot.
+
+? Modulația cu bandă laterală unică (BLU/SSB) are avantajul că:
++ ocupă jumătate din bandă și economisește putere
+- ocupă dublul benzii
+- nu are nevoie de antenă
+- se folosește numai în fibră optică
+= Se transmite o singură bandă laterală, fără purtătoare.
+
+? Modul de lucru în care transmisia se face în ambele sensuri, dar alternativ (nu simultan), ca la stațiile radio cu PTT, se numește:
++ semi-duplex
+- duplex
+- simplex unidirecțional
+- multiplex
+= Moduri de lucru.
+
+? Modul de lucru în care transmisia are loc simultan în ambele sensuri se numește:
++ duplex
+- semi-duplex
+- simplex
+- broadcast
+= Moduri de lucru.
+
+? Bătaia (distanța de legătură) a unei stații radio NU depinde de:
++ culoarea carcasei stației
+- puterea emițătorului
+- înălțimea antenei
+- relieful terenului
+= Bătaia depinde de putere, sensibilitate, antenă, frecvență, teren, zgomot.
+
+? Pentru a mări bătaia unei legături VHF și a ocoli obstacolele de teren se folosește:
++ o stație de retranslație (releu) dispusă pe un punct înalt
+- o antenă mai scurtă
+- reducerea puterii emițătorului
+- trecerea pe AM
+= Retranslația.
+
+? Gama de unde HF (unde scurte, decametrice) corespunde frecvențelor:
++ 3–30 MHz
+- 30–300 MHz
+- 300 kHz–3 MHz
+- 300 MHz–3 GHz
+= Gamele de frecvențe.
+
+? Gama de unde VHF (unde ultrascurte, metrice) corespunde frecvențelor:
++ 30–300 MHz
+- 3–30 MHz
+- 300 MHz–3 GHz
+- 30–300 kHz
+= Gamele de frecvențe.
+
+? Undele decametrice (scurte) corespund gamei:
++ HF
+- VHF
+- UHF
+- LF
+= HF: λ între 100 m și 10 m.
+
+? Banda VHF folosită de stațiile radio tactice de luptă (NATO) este de aproximativ:
++ 30–88 MHz
+- 88–108 MHz
+- 3–30 MHz
+- 1–2 GHz
+= Banda tactică VHF FM.
+
+? Relația dintre lungimea de undă λ și frecvența f este:
++ λ = c / f, unde c este viteza luminii
+- λ = c · f
+- λ = f / c
+- λ = 1 / (c · f)
+= c = 3·10⁸ m/s.
+
+? Care este lungimea de undă a unui semnal cu frecvența de 30 MHz?
++ 10 m
+- 1 m
+- 100 m
+- 3 m
+= λ = 300/30 = 10 m.
+
+? Care este lungimea de undă a unui semnal cu frecvența de 300 MHz?
++ 1 m
+- 10 m
+- 0,1 m
+- 100 m
+= λ = 300/300 = 1 m.
+
+? O antenă verticală „bici” în sfert de undă pentru frecvența de 75 MHz are lungimea teoretică de:
++ 1 m
+- 4 m
+- 0,5 m
+- 2 m
+= λ = 300/75 = 4 m; λ/4 = 1 m.
+
+? Un dipol în semiundă pentru frecvența de 150 MHz are lungimea teoretică de:
++ 1 m
+- 2 m
+- 0,5 m
+- 4 m
+= λ = 300/150 = 2 m; λ/2 = 1 m.
+
+? Funcția antenei de emisie este de a:
++ transforma semnalul electric de radiofrecvență în undă electromagnetică radiată în spațiu
+- amplifica semnalul audio
+- stoca energia electrică
+- cripta semnalul
+= Antene.
+
+? Antena verticală de tip „bici” are, în plan orizontal, o diagramă de radiație:
++ omnidirecțională
+- puternic directivă, într-o singură direcție
+- nulă
+- bidirecțională, numai înainte și înapoi
+= Bună pentru rețele radio.
+
+? Pentru legăturile radioreleu punct la punct se folosesc, de regulă, antene:
++ directive (cu câștig mare)
+- omnidirecționale
+- fără polarizare
+- de tip ferită
+= Antenele directive concentrează energia pe direcția corespondentului.
+
+? Pentru o legătură radio eficientă, antenele celor doi corespondenți trebuie să aibă:
++ aceeași polarizare
+- polarizări perpendiculare
+- lungimi diferite
+- culori diferite
+= Nepotrivirea polarizării produce pierderi mari.
+
+? Antena verticală produce o undă cu polarizare:
++ verticală
+- orizontală
+- circulară obligatoriu
+- nedefinită
+= Polarizarea este dată de orientarea câmpului electric.
+
+? Raportul de unde staționare (RUS/SWR) ideal pentru o antenă perfect adaptată este:
++ 1:1
+- 3:1
+- 10:1
+- 0:1
+= SWR mare înseamnă putere reflectată.
+
+? Impedanța de intrare a unui dipol în semiundă este de aproximativ:
++ 73 Ω
+- 300 Ω
+- 600 Ω
+- 5 Ω
+= Antene.
+
+? Zona în care nu se recepționează nici unda de suprafață, nici unda reflectată de ionosferă, se numește:
++ zonă de tăcere (skip zone)
+- zonă de umbră electromagnetică artificială
+- zonă de acoperire
+- zonă Fresnel
+= Specifică HF.
+
+? Unda care se propagă în linie dreaptă de la antena de emisie la cea de recepție, caracteristică gamelor VHF/UHF, se numește:
++ undă directă
+- undă de suprafață
+- undă ionosferică
+- undă reflectată de ionosferă
+= Propagare.
+
+? Gamele de frecvențe în ordine crescătoare sunt:
++ LF, MF, HF, VHF, UHF, SHF
+- HF, LF, MF, VHF, SHF, UHF
+- VHF, HF, UHF, LF, MF, SHF
+- MF, LF, HF, UHF, VHF, SHF
+= Gamele de frecvențe.
