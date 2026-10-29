@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Antena bici și dipolul">
+  <rect x="40" y="160" width="100" height="22" rx="4" class="f-line"/>
+  <text x="90" y="176" text-anchor="middle" style="font-size:12px">stația / masa</text>
+  <line x1="90" y1="160" x2="90" y2="40" class="s-acc" stroke-width="4" stroke-linecap="round"/>
+  <path d="M110 40 v120" class="s-mut" stroke-width="1.2"/><path d="M105 40 h10 M105 160 h10" class="s-mut" stroke-width="1.2"/>
+  <text x="120" y="104" class="t-b t-acc t-l">λ/4</text>
+  <text x="90" y="24" text-anchor="middle" class="t-b">BICI</text>
+  <text x="90" y="204" text-anchor="middle" class="t-mut" style="font-size:12px">verticală, în toate direcțiile</text>
+  <line x1="215" y1="100" x2="290" y2="100" class="s-amb" stroke-width="4" stroke-linecap="round"/>
+  <line x1="306" y1="100" x2="381" y2="100" class="s-amb" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="298" cy="100" r="5" class="f-ink"/><line x1="298" y1="105" x2="298" y2="160" class="s-ink" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="298" y="176" text-anchor="middle" style="font-size:12px">cablu spre stație</text>
+  <path d="M215 72 h166" class="s-mut" stroke-width="1.2"/><path d="M215 67 v10 M381 67 v10" class="s-mut" stroke-width="1.2"/>
+  <text x="298" y="62" text-anchor="middle" class="t-b t-amb t-l">λ/2</text>
+  <text x="298" y="24" text-anchor="middle" class="t-b">DIPOL</text>
+  <text x="298" y="204" text-anchor="middle" class="t-mut" style="font-size:12px">două brațe de câte λ/4 · ≈ 73 Ω</text>
+</svg>

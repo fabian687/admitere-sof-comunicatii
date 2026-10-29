@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Unda de suprafață, unda spațială și zona de tăcere">
+  <path d="M0 40 Q200 0 400 40 L400 64 Q200 24 0 64 Z" class="f-bls"/>
+  <text x="12" y="28" class="t-blu t-b">IONOSFERA</text>
+  <path d="M0 236 Q200 196 400 236 L400 270 L0 270 Z" class="f-acs"/>
+  <path d="M0 236 Q200 196 400 236" class="s-acc f-none" stroke-width="2"/>
+  <line x1="40" y1="230" x2="40" y2="196" class="s-ink" stroke-width="3"/>
+  <circle cx="40" cy="194" r="4" class="f-amb"/>
+  <path d="M44 226 Q90 214 128 210" class="s-acc f-none" stroke-width="3"/>
+  <text x="78" y="196" text-anchor="middle" class="t-acc t-b" style="font-size:12px">suprafață</text>
+  <path d="M44 196 L200 52 L356 212" class="s-amb f-none" stroke-width="3"/>
+  <text x="118" y="112" class="t-amb t-b">unda spațială (HF)</text>
+  <path d="M44 194 L150 100" class="s-mut f-none" stroke-width="2" stroke-dasharray="5 4"/>
+  <path d="M150 100 L250 10" class="s-mut f-none" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="254" y="16" class="t-mut" style="font-size:12px">peste MUF: se pierde</text>
+  <rect x="140" y="214" width="190" height="20" rx="4" class="f-res"/>
+  <text x="235" y="229" text-anchor="middle" class="t-red t-b" style="font-size:12px">ZONA DE TĂCERE – nu se aude</text>
+  <circle cx="356" cy="214" r="6" class="f-amb"/>
+  <text x="356" y="258" text-anchor="middle" class="t-b" style="font-size:12px">se aude</text>
+  <text x="40" y="258" text-anchor="middle" class="t-b" style="font-size:12px">emițător</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Drapelul României">
+  <rect x="40" y="10" width="8" height="175" rx="3" class="f-ink"/>
+  <circle cx="44" cy="10" r="7" class="f-amb"/>
+  <rect x="48" y="22" width="90" height="120" fill="#002B7F"/>
+  <rect x="138" y="22" width="90" height="120" fill="#FCD116"/>
+  <rect x="228" y="22" width="90" height="120" fill="#CE1126"/>
+  <text x="93" y="165" text-anchor="middle" class="t-b">1. albastru</text>
+  <text x="183" y="165" text-anchor="middle" class="t-b">2. galben</text>
+  <text x="273" y="165" text-anchor="middle" class="t-b">3. roșu</text>
+  <text x="56" y="184" class="t-s t-mut">← lancea</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pașii somației">
+  <defs><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" class="f-mut"/></marker></defs>
+  <g stroke-width="1.5">
+    <rect x="30" y="8" width="250" height="44" rx="10" class="f-acs s-acc"/>
+    <rect x="30" y="78" width="250" height="44" rx="10" class="f-ams s-amb"/>
+    <rect x="30" y="148" width="250" height="44" rx="10" class="f-ams s-amb"/>
+    <rect x="30" y="218" width="250" height="44" rx="10" class="f-res s-red"/>
+  </g>
+  <g class="t-m t-b t-l"><text x="44" y="36">1</text><text x="44" y="106">2</text><text x="44" y="176">3</text><text x="44" y="246">4</text></g>
+  <g class="t-b t-l"><text x="70" y="36">„Stai!”</text><text x="70" y="106">„Stai, că trag!”</text><text x="70" y="176">Foc în sus ↑</text><text x="70" y="246">Uz de armă</text></g>
+  <g class="s-mut" stroke-width="1.5" marker-end="url(#ar2)"><line x1="155" y1="52" x2="155" y2="76"/><line x1="155" y1="122" x2="155" y2="146"/><line x1="155" y1="192" x2="155" y2="216"/></g>
+  <g class="t-mut" style="font-size:12px"><text x="290" y="34">somația</text><text x="290" y="104">avertizare</text><text x="290" y="168">foc de</text><text x="290" y="183">avertisment</text><text x="290" y="238">țintește</text><text x="290" y="253">picioarele</text></g>
+  <text x="200" y="290" text-anchor="middle" class="t-mut" style="font-size:12px">Treci la pasul următor doar dacă persoana NU se oprește.</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Termenele Parlamentului">
+  <g class="f-paper s-ink" stroke-width="1.5"><rect x="8" y="10" width="122" height="150" rx="10"/><rect x="139" y="10" width="122" height="150" rx="10"/><rect x="270" y="10" width="122" height="150" rx="10"/></g>
+  <rect x="8" y="10" width="122" height="34" rx="10" class="f-res"/><rect x="139" y="10" width="122" height="34" rx="10" class="f-ams"/><rect x="270" y="10" width="122" height="34" rx="10" class="f-acs"/>
+  <g text-anchor="middle" class="t-b"><text x="69" y="32" class="t-red">AGRESIUNE</text><text x="200" y="32" class="t-amb">ASEDIU/URGENȚĂ</text><text x="331" y="32" class="t-acc">APROBARE</text></g>
+  <g text-anchor="middle" class="t-m t-b" style="font-size:34px"><text x="69" y="96">24h</text><text x="200" y="96">48h</text><text x="331" y="96">5 zile</text></g>
+  <g text-anchor="middle" style="font-size:12px"><text x="69" y="122">Parlamentul</text><text x="69" y="138">se convoacă</text>
+  <text x="200" y="122">Parlamentul</text><text x="200" y="138">se convoacă</text>
+  <text x="331" y="122">mobilizare excepț.</text><text x="331" y="138">și asediu/urgență</text></g>
+  <text x="200" y="192" text-anchor="middle" class="t-b">Războiul e mai urgent (24 h) decât asediul (48 h).</text>
+  <text x="200" y="214" text-anchor="middle" class="t-mut">Mobilizare / război: Parlamentul lucrează tot timpul.</text>
+</svg>

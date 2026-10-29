@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lanțul de transmisiune">
+  <defs><marker id="ar1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" class="f-ink"/></marker></defs>
+  <g class="f-paper s-ink" stroke-width="1.5">
+    <rect x="4" y="60" width="72" height="44" rx="8"/><rect x="164" y="60" width="72" height="44" rx="8"/><rect x="324" y="60" width="72" height="44" rx="8"/>
+  </g>
+  <rect x="84" y="60" width="72" height="44" rx="8" class="f-acs s-acc" stroke-width="1.5"/>
+  <rect x="244" y="60" width="72" height="44" rx="8" class="f-acs s-acc" stroke-width="1.5"/>
+  <g text-anchor="middle" class="t-b" style="font-size:11px"><text x="40" y="87">SURSĂ</text><text x="120" y="87">EMIȚĂTOR</text><text x="200" y="87">CANAL</text><text x="280" y="87">RECEPTOR</text><text x="360" y="87">DESTINAȚ.</text></g>
+  <g class="s-ink" stroke-width="1.5" marker-end="url(#ar1)"><line x1="76" y1="82" x2="83" y2="82"/><line x1="156" y1="82" x2="163" y2="82"/><line x1="236" y1="82" x2="243" y2="82"/><line x1="316" y1="82" x2="323" y2="82"/></g>
+  <path d="M200 20 v38" class="s-red" stroke-width="2" marker-end="url(#ar1)"/>
+  <text x="200" y="14" text-anchor="middle" class="t-red t-b">ZGOMOT + BRUIAJ</text>
+  <g text-anchor="middle" class="t-mut" style="font-size:12px"><text x="40" y="126">vocea,</text><text x="40" y="141">datele</text>
+  <text x="120" y="126">stația</text><text x="120" y="141">care emite</text>
+  <text x="200" y="126">aer, cablu,</text><text x="200" y="141">fibră</text>
+  <text x="280" y="126">stația</text><text x="280" y="141">care primește</text>
+  <text x="360" y="126">omul care</text><text x="360" y="141">ascultă</text></g>
+  <text x="200" y="185" text-anchor="middle" class="t-b">Ca o scrisoare trimisă prin poștă</text>
+</svg>

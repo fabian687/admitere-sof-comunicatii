@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Eșantionare, cuantizare și codare">
+  <g class="s-line" stroke-width="1"><line x1="40" y1="40" x2="390" y2="40"/><line x1="40" y1="72" x2="390" y2="72"/><line x1="40" y1="104" x2="390" y2="104"/><line x1="40" y1="136" x2="390" y2="136"/><line x1="40" y1="168" x2="390" y2="168"/><line x1="40" y1="200" x2="390" y2="200"/></g>
+  <g class="t-m t-mut" style="font-size:11px" text-anchor="end"><text x="34" y="44">101</text><text x="34" y="76">100</text><text x="34" y="108">011</text><text x="34" y="140">010</text><text x="34" y="172">001</text><text x="34" y="204">000</text></g>
+  <path d="M40 120 C 80 20, 120 20, 160 100 S 240 220, 280 160 S 350 60, 390 90" class="s-blu f-none" stroke-width="2.5"/>
+  <g class="s-amb" stroke-width="2">
+    <line x1="70" y1="206" x2="70" y2="58"/><line x1="120" y1="206" x2="120" y2="44"/><line x1="170" y1="206" x2="170" y2="120"/>
+    <line x1="220" y1="206" x2="220" y2="183"/><line x1="270" y1="206" x2="270" y2="164"/><line x1="320" y1="206" x2="320" y2="104"/><line x1="370" y1="206" x2="370" y2="83"/>
+  </g>
+  <g class="f-acc"><circle cx="70" cy="72" r="6"/><circle cx="120" cy="40" r="6"/><circle cx="170" cy="104" r="6"/><circle cx="220" cy="168" r="6"/><circle cx="270" cy="168" r="6"/><circle cx="320" cy="104" r="6"/><circle cx="370" cy="72" r="6"/></g>
+  <g class="t-m t-b t-acc" text-anchor="middle" style="font-size:12px"><text x="70" y="226">100</text><text x="120" y="226">101</text><text x="170" y="226">011</text><text x="220" y="226">001</text><text x="270" y="226">001</text><text x="320" y="226">011</text><text x="370" y="226">100</text></g>
+  <g style="font-size:12px"><text x="40" y="254" class="t-blu t-b">— semnalul (analogic)</text><text x="210" y="254" class="t-amb t-b">| eșantioane</text>
+  <text x="40" y="276" class="t-acc t-b">● nivelul rotunjit</text><text x="210" y="276" class="t-acc t-b t-m">101 = codul binar</text></g>
+</svg>

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Orizontul radio">
+  <path d="M0 200 Q200 100 400 200 Z" class="f-acs"/>
+  <path d="M0 200 Q200 100 400 200" class="s-acc f-none" stroke-width="2"/>
+  <line x1="70" y1="172" x2="70" y2="96" class="s-ink" stroke-width="3"/><circle cx="70" cy="94" r="4" class="f-amb"/>
+  <line x1="330" y1="172" x2="330" y2="122" class="s-ink" stroke-width="3"/><circle cx="330" cy="120" r="4" class="f-amb"/>
+  <line x1="70" y1="94" x2="330" y2="120" class="s-amb" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="58" y="138" text-anchor="end" class="t-b t-m">h₁</text><text x="342" y="150" class="t-b t-m">h₂</text>
+  <text x="200" y="88" text-anchor="middle" class="t-amb t-b">unda directă trece „peste cocoașă”</text>
+  <text x="200" y="40" text-anchor="middle" class="t-b t-l t-m">d ≈ 4,12 · (√h₁ + √h₂) km</text>
+  <text x="200" y="62" text-anchor="middle" class="t-mut" style="font-size:12px">antene mai înalte → legătură mai lungă</text>
+  <text x="200" y="168" text-anchor="middle" class="t-acc t-b">curbura Pământului</text>
+</svg>

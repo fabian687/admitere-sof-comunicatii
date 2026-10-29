@@ -1,0 +1,423 @@
+<title>Manualul candidatului SOF</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: manual de buzunar – cuprins lateral pe desktop, o coloană de lectură; fișe numerotate ca într-o carte */
+:root{
+  --bg:#edf0ea; --paper:#fbfcf9; --ink:#17201a; --mut:#5a685e; --line:#d3dacf;
+  --acc:#2e5c3a; --acc-ink:#ffffff; --acc-soft:#e1ebe1;
+  --amb:#a86b12; --amb-soft:#f5e9d2; --red:#a3312a; --red-soft:#f6e2df; --blu:#2b5578; --blu-soft:#e2eaf2;
+  --shadow:0 1px 2px rgba(23,32,26,.06),0 4px 14px rgba(23,32,26,.05);
+  --f-disp:"Archivo","Segoe UI",system-ui,sans-serif;
+  --f-body:"Literata",Georgia,"Times New Roman",serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0e1310; --paper:#151c17; --ink:#e2e9e1; --mut:#97a59a; --line:#28322b;
+    --acc:#8cc39a; --acc-ink:#0d130f; --acc-soft:#1a2b1f;
+    --amb:#e3ac54; --amb-soft:#2b2415; --red:#f08a80; --red-soft:#341a1a; --blu:#8db7dd; --blu-soft:#162331;
+    --shadow:0 1px 2px rgba(0,0,0,.4); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0e1310; --paper:#151c17; --ink:#e2e9e1; --mut:#97a59a; --line:#28322b;
+  --acc:#8cc39a; --acc-ink:#0d130f; --acc-soft:#1a2b1f;
+  --amb:#e3ac54; --amb-soft:#2b2415; --red:#f08a80; --red-soft:#341a1a; --blu:#8db7dd; --blu-soft:#162331;
+  --shadow:0 1px 2px rgba(0,0,0,.4); color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.62 var(--f-body)}
+a{color:var(--acc)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.mono{font-family:var(--f-mono)}
+
+/* bara de sus */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:21}
+.top-in{display:flex;align-items:center;gap:10px;max-width:1180px;margin:0 auto;padding-block:10px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.brand{font:700 15px/1.2 var(--f-disp);letter-spacing:.01em;color:var(--ink);text-decoration:none;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:480px){.brand small{display:none}}
+.brand small{display:block;font:500 12px/1.2 var(--f-disp);color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+.tbtn{font:600 14px/1 var(--f-disp);border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:9px 12px;cursor:pointer;color:var(--ink);text-decoration:none;white-space:nowrap}
+.tbtn.pri{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+
+/* schelet */
+.shell{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media(min-width:1000px){.shell{grid-template-columns:290px minmax(0,1fr);gap:40px}}
+.side{display:none}
+@media(min-width:1000px){.side{display:block;position:sticky;top:64px;align-self:start;max-height:calc(100vh - 80px);overflow:auto;padding-block:24px}}
+main{min-width:0;padding-block:24px 80px;max-width:740px;width:100%}
+
+/* cuprins */
+.toc-h{font:700 12px/1 var(--f-disp);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:18px 0 8px}
+.toc a{display:grid;grid-template-columns:28px 1fr auto;gap:8px;align-items:baseline;padding:7px 8px;border-radius:7px;color:var(--ink);text-decoration:none;font:500 14px/1.35 var(--f-disp)}
+.toc a:hover{background:var(--paper)}
+.toc a.on{background:var(--acc-soft);color:var(--ink)}
+.toc .n{font:700 12px/1 var(--f-mono);color:var(--mut)}
+.toc .ok{color:var(--acc);font-size:13px}
+.drawer{position:fixed;inset:0;z-index:40;background:rgba(0,0,0,.35);display:flex}
+.drawer-in{background:var(--bg);width:min(340px,88vw);height:100%;overflow:auto;padding:calc(16px + env(safe-area-inset-top,0px)) 14px calc(24px + env(safe-area-inset-bottom,0px)) max(14px,env(safe-area-inset-left,0px))}
+
+/* coperta */
+.cover{padding:26px 0 8px}
+.eyebrow{font:600 12px/1.3 var(--f-disp);letter-spacing:.1em;text-transform:uppercase;color:var(--amb)}
+h1{font:800 clamp(30px,6vw,46px)/1.05 var(--f-disp);letter-spacing:-.015em;margin:10px 0 12px;text-wrap:balance}
+.lead{font-size:18px;color:var(--mut);margin:0 0 18px;max-width:60ch}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px}
+.stat b{display:block;font:700 26px/1.1 var(--f-mono);font-variant-numeric:tabular-nums}
+.stat span{font:500 13px/1.3 var(--f-disp);color:var(--mut)}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.btn{font:600 15px/1.2 var(--f-disp);border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:10px;padding:13px 16px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn.pri{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
+.btn:disabled{opacity:.45;cursor:default}
+.steps{display:grid;gap:10px;margin:22px 0 6px;counter-reset:s}
+.steps div{display:grid;grid-template-columns:34px 1fr;gap:10px;align-items:start;font-size:16px}
+.steps div::before{counter-increment:s;content:counter(s);font:700 14px/34px var(--f-mono);text-align:center;width:34px;height:34px;border-radius:50%;background:var(--acc-soft);color:var(--acc)}
+.chlist{display:grid;gap:8px;margin-top:10px}
+.chi{display:grid;grid-template-columns:44px 1fr;gap:12px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+.chi:hover{border-color:var(--acc)}
+.chi .num{font:700 18px/1 var(--f-mono);color:var(--mut);text-align:center}
+.chi.done .num{color:var(--acc)}
+.chi h3{font:700 16.5px/1.25 var(--f-disp);margin:0 0 4px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 10px;font:500 12.5px/1.3 var(--f-disp);color:var(--mut)}
+.tag{display:inline-block;font:700 11px/1 var(--f-disp);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:5px}
+.tag.S{background:var(--blu-soft);color:var(--blu)}
+.tag.L{background:var(--amb-soft);color:var(--amb)}
+.stars{color:var(--amb);letter-spacing:1px}
+.bar{height:6px;background:var(--line);border-radius:9px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--acc)}
+
+/* capitol */
+.ch-head{padding:18px 0 6px}
+.ch-no{font:700 13px/1 var(--f-mono);letter-spacing:.08em;color:var(--amb);text-transform:uppercase}
+.ch-tema{color:var(--mut);margin:0 0 12px;font-size:16px}
+.ps{background:var(--acc-soft);border-radius:12px;padding:14px 16px;margin:16px 0 26px}
+.ps .lbl{font:700 12px/1 var(--f-disp);letter-spacing:.08em;text-transform:uppercase;color:var(--acc);margin-bottom:6px}
+.ps p{margin:.3em 0}
+.fisa{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 18px 8px;margin:0 0 18px;box-shadow:var(--shadow)}
+.fisa-h{display:flex;gap:10px;align-items:baseline;margin-bottom:6px}
+.fisa-h .n{font:700 13px/1 var(--f-mono);color:var(--mut);flex:none}
+.fisa-h h2{font:700 20px/1.25 var(--f-disp);margin:0;text-wrap:balance}
+.fisa p{margin:.55em 0}
+.fisa ul,.fisa ol{padding-left:1.25em;margin:.5em 0}
+.fisa li{margin:.25em 0}
+.fisa h3{font:700 16px/1.3 var(--f-disp);margin:16px 0 4px}
+.fisa strong{font-weight:600}
+.fisa code{font:500 .88em var(--f-mono);background:var(--acc-soft);padding:1px 5px;border-radius:4px}
+.fisa pre{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;overflow-x:auto;font:500 13px/1.5 var(--f-mono)}
+.fisa pre code{background:none;padding:0}
+.tw{overflow-x:auto;margin:10px 0;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font:500 14.5px/1.4 var(--f-disp)}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700;background:var(--bg);font-size:13px;letter-spacing:.02em}
+tr:last-child td{border-bottom:0}
+td strong{font-weight:700}
+.co{border-radius:10px;padding:10px 14px;margin:12px 0}
+.co-h{font:700 11.5px/1 var(--f-disp);letter-spacing:.08em;text-transform:uppercase;margin-bottom:4px}
+.co p{margin:.3em 0}
+.co-analog{background:var(--blu-soft)} .co-analog .co-h{color:var(--blu)}
+.co-analog .co-h::before{content:"◎ "}
+.co-capcana{background:var(--red-soft)} .co-capcana .co-h{color:var(--red)}
+.co-capcana .co-h::before{content:"! "}
+.co-retine{background:var(--acc-soft)} .co-retine .co-h{color:var(--acc)}
+.co-retine .co-h::before{content:"✓ "}
+.co-info{background:var(--bg)} .co-info .co-h{color:var(--mut)}
+.co-calc{background:var(--amb-soft)} .co-calc .co-h{color:var(--amb)}
+.co-calc .co-h::before{content:"= "}
+figure.dg{margin:14px 0;padding:12px;background:var(--bg);border-radius:10px;overflow-x:auto}
+figure.dg svg{display:block;width:100%;height:auto;max-width:520px;margin:0 auto}
+figure.dg figcaption{font:500 13px/1.4 var(--f-disp);color:var(--mut);text-align:center;margin-top:8px}
+/* culori desene */
+.dg svg{font-family:var(--f-disp);font-size:13px}
+.dg text{fill:var(--ink)}
+.dg .t-mut{fill:var(--mut)} .dg .t-acc{fill:var(--acc)} .dg .t-amb{fill:var(--amb)} .dg .t-red{fill:var(--red)} .dg .t-blu{fill:var(--blu)}
+.dg .t-b{font-weight:700} .dg text.t-s,.dg .t-s{font-size:11px} .dg text.t-l,.dg .t-l{font-size:15px} .dg .t-m{font-family:var(--f-mono)}
+.dg .f-ink{fill:var(--ink)} .dg .f-paper{fill:var(--paper)} .dg .f-line{fill:var(--line)} .dg .f-acc{fill:var(--acc)} .dg .f-acs{fill:var(--acc-soft)}
+.dg .f-amb{fill:var(--amb)} .dg .f-ams{fill:var(--amb-soft)} .dg .f-red{fill:var(--red)} .dg .f-res{fill:var(--red-soft)} .dg .f-blu{fill:var(--blu)} .dg .f-bls{fill:var(--blu-soft)} .dg .f-none{fill:none}
+.dg .s-ink{stroke:var(--ink)} .dg .s-mut{stroke:var(--mut)} .dg .s-line{stroke:var(--line)} .dg .s-acc{stroke:var(--acc)} .dg .s-amb{stroke:var(--amb)} .dg .s-red{stroke:var(--red)} .dg .s-blu{stroke:var(--blu)}
+.ch-end{border-top:1px solid var(--line);margin-top:28px;padding-top:20px}
+.ch-end h3{font:700 18px/1.3 var(--f-disp);margin:0 0 10px}
+
+/* flashcards */
+.fc-wrap{perspective:1200px;margin:16px 0}
+.fc{position:relative;min-height:260px;cursor:pointer;transition:transform .45s;transform-style:preserve-3d;border:0;background:none;width:100%;padding:0;text-align:left}
+.fc.flip{transform:rotateY(180deg)}
+.fc-side{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;padding:22px;display:flex;flex-direction:column;justify-content:center;border:1px solid var(--line);box-shadow:var(--shadow)}
+.fc-f{background:var(--paper)}
+.fc-b{background:var(--acc-soft);transform:rotateY(180deg)}
+.fc-side .k{font:700 11.5px/1 var(--f-disp);letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin-bottom:10px}
+.fc-side .x{font:600 21px/1.35 var(--f-disp)}
+.fc-b .x{font:500 19px/1.45 var(--f-body)}
+.fc-side .hint{margin-top:auto;padding-top:14px;font:500 13px/1 var(--f-disp);color:var(--mut)}
+@media (prefers-reduced-motion: reduce){.fc{transition:none}}
+
+/* grile */
+.q{font:600 19px/1.4 var(--f-disp);margin:6px 0 14px;text-wrap:pretty}
+.opt{display:grid;grid-template-columns:28px 1fr;gap:8px;width:100%;text-align:left;margin:8px 0;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);cursor:pointer;font:400 16.5px/1.45 var(--f-body);color:var(--ink)}
+.opt b{font:700 15px/1.45 var(--f-mono);color:var(--mut)}
+.opt:hover{border-color:var(--acc)}
+.opt.sel{border-color:var(--acc);box-shadow:inset 0 0 0 1px var(--acc)}
+.opt.ok{background:var(--acc-soft);border-color:var(--acc)}
+.opt.bad{background:var(--red-soft);border-color:var(--red)}
+.opt:disabled{cursor:default}
+.fb{border-radius:10px;padding:12px 14px;margin:12px 0;background:var(--bg);border:1px solid var(--line);font-size:16px}
+.prio{font:700 11px/1 var(--f-disp);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:5px}
+.prio.p1{background:var(--amb-soft);color:var(--amb)}
+.prio.p2{background:var(--bg);color:var(--mut);border:1px solid var(--line)}
+.prio.p3{background:var(--bg);color:var(--mut)}
+.qtop{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;font:500 13.5px/1.3 var(--f-disp);color:var(--mut)}
+.big{font:800 54px/1 var(--f-mono);margin:6px 0}
+.okc{color:var(--acc)} .badc{color:var(--red)}
+.rev{border-top:1px solid var(--line);padding:12px 0;font-size:15.5px}
+.rev small{display:block;color:var(--mut);font:500 13.5px/1.4 var(--f-disp);margin-top:3px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.seg button{border:0;background:var(--paper);padding:8px 12px;font:600 13.5px/1 var(--f-disp);cursor:pointer;color:var(--ink)}
+.seg button.on{background:var(--acc);color:var(--acc-ink)}
+.alf{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:6px;margin:10px 0}
+.alf span{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:7px 9px;font:600 14px/1.2 var(--f-disp)}
+.alf b{font:700 16px/1 var(--f-mono);color:var(--acc);margin-right:6px}
+.alf.num{grid-template-columns:repeat(auto-fill,minmax(92px,1fr))}
+.page h2{font:700 22px/1.25 var(--f-disp);margin:28px 0 8px}
+.page h3{font:700 17px/1.3 var(--f-disp);margin:18px 0 6px}
+.muted{color:var(--mut)}
+</style>
+
+<div class="top"><div class="top-in">
+  <button class="tbtn" id="menuBtn" aria-label="Cuprins">☰ Cuprins</button>
+  <a class="brand" href="#"><small>Admitere SOF · Comunicații 017</small>Manualul candidatului</a>
+  <a class="tbtn pri" href="#simulare">Simulare</a>
+</div></div>
+<div class="shell">
+  <aside class="side" id="side"></aside>
+  <main id="app"></main>
+</div>
+
+<script>
+const D = /*__DATA__*/{};
+const CH = D.ch, PG = D.pg;
+const EXAM = new Date(2026, 11, 3, 11, 0, 0);
+let st = {read:{}, q:{}, fc:{}, last:null};
+try { st = Object.assign(st, JSON.parse(localStorage.getItem("manual-sof") || "{}")); } catch(e) {}
+function save(){ try { localStorage.setItem("manual-sof", JSON.stringify(st)); } catch(e) {} }
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const shuffle = a => { a = a.slice(); for (let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+const stars = n => "★".repeat(n) + "☆".repeat(3-n);
+const PART = {S:"Specialitate", L:"Legislație"};
+const PRIO = {1:"Foarte probabil", 2:"Probabil", 3:"Mai rar"};
+const pad = n => String(n).padStart(2,"0");
+function daysLeft(){ const d = Math.ceil((EXAM - new Date())/86400000); return Math.max(0,d); }
+function qStats(c){ let ok=0, seen=0; c.q.forEach(q=>{ const s=st.q[q.id]; if(s!==undefined){ seen++; if(s===1) ok++; } }); return {ok, seen, n:c.q.length}; }
+
+function tocHTML(cur){
+  let h = `<div class="toc"><div class="toc-h">Început</div>
+    <a href="#" class="${cur==='home'?'on':''}"><span class="n">·</span><span>Coperta</span><span></span></a>
+    <a href="#examen" class="${cur==='examen'?'on':''}"><span class="n">·</span><span>Cum arată examenul</span><span></span></a>
+    <div class="toc-h">Capitole, în ordinea importanței</div>`;
+  CH.forEach(c => { h += `<a href="#c-${c.id}" class="${cur===c.id?'on':''}"><span class="n">${pad(c.nr)}</span><span>${esc(c.t)}</span><span class="ok">${st.read[c.id]?'✓':''}</span></a>`; });
+  h += `<div class="toc-h">Antrenament</div>
+    <a href="#simulare" class="${cur==='simulare'?'on':''}"><span class="n">·</span><span>Simulare de examen</span><span></span></a>
+    <a href="#greseli" class="${cur==='greseli'?'on':''}"><span class="n">·</span><span>Refă greșelile</span><span></span></a>
+    <a href="#recap" class="${cur==='recap'?'on':''}"><span class="n">·</span><span>Recapitulare finală</span><span></span></a></div>`;
+  return h;
+}
+function setSide(cur){ $("#side").innerHTML = tocHTML(cur); }
+$("#menuBtn").onclick = () => {
+  const d = document.createElement("div"); d.className="drawer";
+  d.innerHTML = `<div class="drawer-in">${tocHTML(curRoute)}</div>`;
+  d.onclick = e => { if (e.target===d || e.target.closest("a")) d.remove(); };
+  document.body.appendChild(d);
+};
+
+let curRoute = "home", T = null;
+function route(){
+  clearInterval(T);
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (!h) return home();
+  if (h==="examen") return page("examen","Cum arată examenul");
+  if (h==="recap") return page("recap","Recapitulare finală");
+  if (h==="simulare") return simIntro();
+  if (h==="greseli") return wrongs();
+  const m = h.match(/^([cfg])-(.+)$/);
+  if (m){ const c = CH.find(x=>x.id===m[2]); if (c){ if (m[1]==="c") return chapter(c); if (m[1]==="f") return flash(c); return grile(c); } }
+  home();
+}
+window.addEventListener("hashchange", route);
+function show(html, cur){ curRoute = cur; setSide(cur); app.innerHTML = html; window.scrollTo(0,0); }
+
+function home(){
+  const read = CH.filter(c=>st.read[c.id]).length;
+  let seen=0, ok=0; Object.values(st.q).forEach(v=>{ seen++; if(v===1) ok++; });
+  const total = CH.reduce((a,c)=>a+c.q.length,0);
+  const next = CH.find(c=>!st.read[c.id]) || CH[0];
+  let h = `<section class="cover">
+    <div class="eyebrow">Admitere 2026–2027 · Comunicații (017)</div>
+    <h1>Manualul candidatului</h1>
+    <p class="lead">Tot ce trebuie pentru testul grilă de la cursul de formare a subofițerilor în activitate. Capitolele sunt ordonate după importanță: începi cu ce aduce cele mai multe puncte.</p>
+    <div class="stats">
+      <div class="stat"><b>${daysLeft()}</b><span>zile până la examen (3 dec.)</span></div>
+      <div class="stat"><b>${read}/${CH.length}</b><span>capitole citite</span></div>
+      <div class="stat"><b>${seen}/${total}</b><span>grile lucrate</span></div>
+    </div>
+    <div class="row">
+      <a class="btn pri" href="#c-${next.id}">${read?"Continuă":"Începe"}: cap. ${pad(next.nr)} →</a>
+      <a class="btn" href="#examen">Cum arată examenul</a>
+    </div>
+    <div class="steps">
+      <div><span><b>Citește capitolul</b>: fișe scurte, cu desene și comparații din viața reală.</span></div>
+      <div><span><b>Fă flashcard-urile</b>: întorci cartonașul și vezi dacă știi răspunsul.</span></div>
+      <div><span><b>Rezolvă grilele</b>: întâi cele mai probabile, apoi restul. Greșelile se salvează automat.</span></div>
+      <div><span>În ultima săptămână: <b>simulări de examen</b> (45 de itemi, 90 de minute) și <b>recapitularea finală</b>.</span></div>
+    </div>
+  </section>
+  <div class="toc-h" style="margin-top:28px">Cuprins · în ordinea importanței</div><div class="chlist">`;
+  CH.forEach(c => {
+    const s = qStats(c);
+    h += `<a class="chi ${st.read[c.id]?'done':''}" href="#c-${c.id}"><div class="num">${st.read[c.id]?'✓':pad(c.nr)}</div><div>
+      <h3>${esc(c.t)}</h3>
+      <div class="meta"><span class="tag ${c.parte}">${PART[c.parte]}</span><span class="stars" title="importanță">${stars(c.stele)}</span><span>${esc(c.itemi)} itemi probabili</span><span>${esc(c.timp)}</span>${s.seen?`<span>grile ${s.ok}/${s.n}</span>`:''}</div>
+    </div></a>`;
+  });
+  h += `</div>
+  <div class="toc-h" style="margin-top:28px">Antrenament</div>
+  <div class="row"><a class="btn pri" href="#simulare">Simulare de examen</a><a class="btn" href="#greseli">Refă greșelile</a><a class="btn" href="#recap">Recapitulare finală</a></div>`;
+  show(h, "home");
+}
+
+function page(key, title){
+  show(`<div class="ch-head"><div class="ch-no">Manualul candidatului</div><h1>${esc(title)}</h1></div><div class="fisa page">${PG[key]||""}</div>`, key);
+}
+
+function chapter(c){
+  st.last = c.id; save();
+  const i = CH.indexOf(c), nx = CH[i+1];
+  let h = `<header class="ch-head"><div class="ch-no">Capitolul ${pad(c.nr)} · ${PART[c.parte]}</div>
+    <h1>${esc(c.t)}</h1><p class="ch-tema">${esc(c.tema)}</p>
+    <div class="meta"><span class="stars">${stars(c.stele)}</span><span>${esc(c.itemi)} itemi probabili la examen</span><span>${esc(c.timp)}</span><span>${c.fise.length} fișe · ${c.flash.length} flashcards · ${c.q.length} grile</span></div></header>`;
+  if (c.ps) h += `<div class="ps"><div class="lbl">Pe scurt</div>${c.ps}</div>`;
+  c.fise.forEach((f,k) => { h += `<article class="fisa" id="f${k+1}"><div class="fisa-h"><span class="n">${c.nr}.${k+1}</span><h2>${esc(f.t)}</h2></div>${f.h}</article>`; });
+  if (c.sursa) h += `<p class="muted" style="font-size:14px">Bibliografie: ${esc(c.sursa)}</p>`;
+  h += `<div class="ch-end"><h3>Ai citit capitolul? Acum fixează-l.</h3><div class="row">
+      ${c.flash.length?`<a class="btn pri" href="#f-${c.id}">Flashcards (${c.flash.length})</a>`:''}
+      <a class="btn ${c.flash.length?'':'pri'}" href="#g-${c.id}">Grile (${c.q.length})</a>
+      <button class="btn" id="markRead">${st.read[c.id]?'✓ Capitol citit':'Marchează ca citit'}</button>
+    </div>${nx?`<p style="margin-top:18px"><a class="btn" href="#c-${nx.id}">Capitolul ${pad(nx.nr)}: ${esc(nx.t)} →</a></p>`:''}</div>`;
+  show(h, c.id);
+  $("#markRead").onclick = () => { st.read[c.id] = !st.read[c.id]; save(); chapter(c); document.getElementById("markRead").scrollIntoView({block:"center"}); };
+}
+
+function flash(c){
+  let deck = c.flash.map((x,i)=>i), pos = 0, known = 0, flipped = false;
+  function draw(){
+    if (pos >= deck.length){
+      show(`<div class="ch-head"><div class="ch-no">Flashcards · cap. ${pad(c.nr)}</div><h1>Gata!</h1></div>
+        <p>Ai trecut prin toate cele ${c.flash.length} cartonașe. Cele pe care nu le știai au revenit până le-ai știut.</p>
+        <div class="row"><a class="btn pri" href="#g-${c.id}">Treci la grile (${c.q.length})</a><button class="btn" id="again">Încă o dată</button><a class="btn" href="#c-${c.id}">Înapoi la capitol</a></div>`, c.id);
+      $("#again").onclick = () => flash(c); return;
+    }
+    const card = c.flash[deck[pos]];
+    show(`<div class="qtop"><a href="#c-${c.id}">← Cap. ${pad(c.nr)}</a><span>Cartonașul ${Math.min(pos+1,deck.length)} din ${deck.length} · știute ${known}</span></div>
+      <div class="bar" style="margin:8px 0"><i style="width:${known/c.flash.length*100}%"></i></div>
+      <div class="fc-wrap"><button class="fc ${flipped?'flip':''}" id="card" aria-label="Întoarce cartonașul">
+        <div class="fc-side fc-f"><div class="k">Întrebare</div><div class="x">${card[0]}</div><div class="hint">Atinge ca să vezi răspunsul</div></div>
+        <div class="fc-side fc-b"><div class="k">Răspuns</div><div class="x">${card[1]}</div></div>
+      </button></div>
+      <div class="row"><button class="btn" id="no" ${flipped?'':'disabled'}>Nu știam</button><button class="btn pri" id="yes" ${flipped?'':'disabled'}>Știam</button></div>
+      <p class="muted" style="font-size:14px">„Nu știam” pune cartonașul din nou la coadă.</p>`, c.id);
+    $("#card").onclick = () => { flipped = !flipped; $("#card").classList.toggle("flip", flipped); $("#no").disabled = $("#yes").disabled = !flipped; };
+    $("#yes").onclick = () => { known++; pos++; flipped=false; draw(); };
+    $("#no").onclick = () => { deck.push(deck[pos]); pos++; flipped=false; draw(); };
+  }
+  draw();
+}
+
+/* ---------- grile ---------- */
+function allQ(){ const a=[]; CH.forEach(c=>c.q.forEach(q=>a.push(Object.assign({cid:c.id, cnr:c.nr, parte:c.parte}, q)))); return a; }
+function grile(c){
+  const list = c.q.map(q=>Object.assign({cid:c.id, cnr:c.nr, parte:c.parte}, q));
+  quiz({title:`Grile · cap. ${pad(c.nr)}`, back:`#c-${c.id}`, list, cur:c.id, practice:true, filter:true});
+}
+function wrongs(){
+  const list = allQ().filter(q=>st.q[q.id]===0);
+  if (!list.length){ show(`<div class="ch-head"><h1>Refă greșelile</h1></div><p>Nu ai nicio grilă greșită salvată. Rezolvă grilele de la capitole sau o simulare; ce greșești apare aici.</p><a class="btn pri" href="#">Înapoi la cuprins</a>`, "greseli"); return; }
+  quiz({title:`Refă greșelile (${list.length})`, back:"#", list:shuffle(list), cur:"greseli", practice:true});
+}
+function pickWeighted(pool, n){
+  const w = {1:3, 2:2, 3:1}; const bag = pool.slice(), out = [];
+  while (out.length < n && bag.length){
+    const tot = bag.reduce((a,q)=>a+w[q.p],0); let r = Math.random()*tot, k=0;
+    for (; k<bag.length; k++){ r -= w[bag[k].p]; if (r<=0) break; }
+    out.push(bag.splice(Math.min(k,bag.length-1),1)[0]);
+  }
+  return out;
+}
+function simIntro(){
+  show(`<div class="ch-head"><div class="ch-no">Antrenament</div><h1>Simulare de examen</h1></div>
+    <div class="fisa"><p><b>Exact ca la examen:</b> 45 de itemi (25 de specialitate și 20 de legislație), 90 de minute, un singur răspuns corect. Răspunsurile le vezi abia la final.</p>
+    <p>Nota = <b>1 + 0,20 × răspunsuri corecte</b>. Minim de admitere: <b>5,00</b> (20 corecte). Țintă: <b>8,20</b> (36 corecte) sau mai mult.</p>
+    <p class="muted">Întrebările se aleg la întâmplare, dar cele „foarte probabile” apar mai des. Fiecare simulare e diferită.</p></div>
+    <div class="row"><button class="btn pri" id="go">Pornește cronometrul</button><a class="btn" href="#">Înapoi</a></div>`, "simulare");
+  $("#go").onclick = () => {
+    const a = allQ();
+    const list = [...shuffle(pickWeighted(a.filter(q=>q.parte==="S"),25)), ...shuffle(pickWeighted(a.filter(q=>q.parte==="L"),20))];
+    quiz({title:"Simulare de examen", back:"#simulare", list, cur:"simulare", practice:false, end:Date.now()+90*60000});
+  };
+}
+function quiz(S){
+  S.i = 0; S.ans = {}; S.perm = S.list.map(()=>[0,1,2,3]);
+  S.view = S.list;
+  function setFilter(p){ S.view = p ? S.list.filter(q=>q.p===p) : S.list; S.i = 0; S.ans = {}; draw(); }
+  if (S.end){ T = setInterval(()=>{ const el=$("#timer"); const r=S.end-Date.now(); if(r<=0){ finish(); return; } if(el) el.textContent=`⏱ ${Math.floor(r/60000)}:${pad(Math.floor(r/1000)%60)}`; },1000); }
+  function draw(){
+    if (!S.view.length){ show(`<p>Nicio grilă în această categorie.</p>`, S.cur); return; }
+    const it = S.view[S.i], ch = S.ans[S.i], fb = S.practice && ch!==undefined;
+    let h = `<div class="qtop"><a href="${S.back}">← Înapoi</a><span>${esc(S.title)}</span><span id="timer" class="mono"></span></div>`;
+    if (S.filter){ h += `<div style="margin:12px 0" class="seg">${[0,1,2,3].map(p=>`<button data-p="${p}" class="${(S.fp||0)===p?'on':''}">${p?PRIO[p]:'Toate'}</button>`).join('')}</div>`; }
+    h += `<div class="bar" style="margin:8px 0"><i style="width:${(S.i+1)/S.view.length*100}%"></i></div>
+      <div class="qtop"><span>Întrebarea ${S.i+1} din ${S.view.length}${S.end?(S.i<25?' · Specialitate':' · Legislație'):''}</span><span class="prio p${it.p}">${PRIO[it.p]}</span></div>
+      <div class="q">${esc(it.q)}</div>`;
+    it.o.forEach((o,k) => {
+      let cls = "opt";
+      if (fb){ if (k===it.a) cls+=" ok"; else if (k===ch) cls+=" bad"; } else if (ch===k) cls+=" sel";
+      h += `<button class="${cls}" data-k="${k}" ${fb?'disabled':''}><b>${"abcd"[k]})</b><span>${esc(o)}</span></button>`;
+    });
+    if (fb) h += `<div class="fb"><b class="${ch===it.a?'okc':'badc'}">${ch===it.a?'Corect.':'Greșit.'}</b> Răspunsul corect: <b>${esc(it.o[it.a])}</b>${it.e?`<br><span class="muted">${esc(it.e)}</span>`:''}${it.cid&&S.cur==='greseli'?`<br><a href="#c-${it.cid}">Recitește capitolul ${pad(it.cnr)}</a>`:''}</div>`;
+    h += `<div class="row" style="margin-top:12px"><button class="btn" id="prev" ${S.i===0?'disabled':''}>← Înapoi</button>
+      ${S.i<S.view.length-1?`<button class="btn pri" id="next">Următoarea →</button>`:`<button class="btn pri" id="fin">Termină</button>`}</div>`;
+    show(h, S.cur);
+    app.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{ const k=+b.dataset.k; if (S.practice && S.ans[S.i]!==undefined) return; S.ans[S.i]=k; if (S.practice){ st.q[it.id] = k===it.a?1:0; save(); } draw(); });
+    app.querySelectorAll(".seg button").forEach(b=>b.onclick=()=>{ S.fp=+b.dataset.p; setFilter(S.fp); });
+    const pv=$("#prev"), nx=$("#next"), fn=$("#fin");
+    if (pv) pv.onclick=()=>{ S.i--; draw(); };
+    if (nx) nx.onclick=()=>{ S.i++; draw(); };
+    if (fn) fn.onclick=finish;
+  }
+  function finish(){
+    clearInterval(T);
+    let ok=0, okS=0, okL=0, last10=0;
+    S.view.forEach((q,i)=>{ const g=S.ans[i]===q.a; if(g){ ok++; if(q.parte==="S") okS++; else { okL++; if(i>=35) last10++; } } if(!S.practice && S.ans[i]!==undefined) st.q[q.id]=g?1:0; });
+    save();
+    let h = `<div class="qtop"><a href="${S.back}">← Înapoi</a><span>${esc(S.title)}</span><span></span></div><div class="fisa" style="padding-bottom:16px">`;
+    if (S.end){ const nota=(1+0.2*ok).toFixed(2).replace(".",",");
+      h += `<div class="muted">Nota obținută</div><div class="big ${ok>=20?'okc':'badc'}">${nota}</div>
+      <div>${ok} corecte din 45 · specialitate ${okS}/25 · legislație ${okL}/20 · ultimii 10 de legislație ${last10}/10</div>
+      <p class="muted">${ok>=36?'Excelent: peste ținta de 8,20.':ok>=20?'Peste minimul de 5,00. Țintește 8,20 (36 de corecte), pentru că intrarea se face în ordinea notelor.':'Sub 5,00. Refă capitolele de unde ai greșit și încearcă din nou.'}</p>`;
+    } else h += `<div class="big">${ok}/${S.view.length}</div><div class="muted">răspunsuri corecte</div>`;
+    h += `</div><div class="row"><a class="btn pri" href="#greseli">Refă greșelile</a><a class="btn" href="#">Cuprins</a></div><div class="toc-h" style="margin-top:22px">Revizuire</div>`;
+    S.view.forEach((q,i)=>{ const c=S.ans[i], g=c===q.a;
+      h += `<div class="rev"><b class="${g?'okc':'badc'}">${i+1}. ${g?'✓':'✗'}</b> ${esc(q.q)}${g?'':`<small>Ai ales: ${c===undefined?'—':esc(q.o[c])}</small>`}<small>Corect: <b>${esc(q.o[q.a])}</b>${q.e?' · '+esc(q.e):''}</small></div>`; });
+    show(h, S.cur);
+  }
+  draw();
+}
+route();
+</script>
