@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 316" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rețea radio de luptă, noduri ale sistemului de zonă și rețeaua locală a unui punct de comandă">
+  <text x="200" y="18" text-anchor="middle" class="t-b">1 · Rețea radio de luptă (CNR)</text>
+  <g class="s-acc" stroke-width="2" stroke-dasharray="6 5"><line x1="200" y1="62" x2="70" y2="60"/><line x1="200" y1="62" x2="130" y2="84"/><line x1="200" y1="62" x2="270" y2="84"/><line x1="200" y1="62" x2="330" y2="60"/></g>
+  <circle cx="200" cy="62" r="16" class="f-acc"/>
+  <g class="f-paper s-ink" stroke-width="1.5"><circle cx="70" cy="60" r="11"/><circle cx="130" cy="84" r="11"/><circle cx="270" cy="84" r="11"/><circle cx="330" cy="60" r="11"/></g>
+  <text x="200" y="98" text-anchor="middle" style="font-size:12px" class="t-mut">NCS</text>
+  <line x1="10" y1="110" x2="390" y2="110" class="s-line" stroke-width="1.5"/>
+  <text x="200" y="128" text-anchor="middle" class="t-b">2 · Sistem de zonă (radioreleu)</text>
+  <g class="s-blu" stroke-width="3" fill="none"><path d="M110 165 L200 148"/><path d="M200 148 L290 165"/><path d="M110 165 L200 190"/><path d="M290 165 L200 190"/><path d="M200 148 L200 190"/><path d="M52 165 H96"/><path d="M304 165 H348"/></g>
+  <g class="f-bls s-blu" stroke-width="2"><circle cx="110" cy="165" r="13"/><circle cx="200" cy="148" r="13"/><circle cx="290" cy="165" r="13"/><circle cx="200" cy="190" r="13"/></g>
+  <g class="f-acs s-acc" stroke-width="2"><rect x="30" y="154" width="22" height="22" rx="4"/><rect x="348" y="154" width="22" height="22" rx="4"/></g>
+  <g style="font-size:12px" text-anchor="middle" class="t-mut"><text x="41" y="146">acces</text><text x="359" y="146">acces</text><text x="200" y="214">noduri de tranzit (rețea în ochiuri)</text></g>
+  <path d="M41 176 V268 H90" class="s-acc" stroke-width="2.5" fill="none"/><path d="M359 176 V268 H310" class="s-acc" stroke-width="2.5" fill="none"/>
+  <text x="200" y="236" text-anchor="middle" class="t-b">3 · Rețeaua locală a PC</text>
+  <rect x="90" y="244" width="220" height="62" rx="10" class="f-none s-mut" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="200" y="260" text-anchor="middle" style="font-size:12px" class="t-mut">PUNCT DE COMANDĂ</text>
+  <g class="s-ink" stroke-width="1.5"><path d="M200 266 L130 296"/><path d="M200 266 V296"/><path d="M200 266 L270 296"/></g>
+  <rect x="170" y="264" width="60" height="16" rx="4" class="f-acs s-acc" stroke-width="1.5"/>
+  <text x="200" y="277" text-anchor="middle" style="font-size:12px" class="t-b">LAN</text>
+  <g class="f-paper s-ink" stroke-width="1.5"><circle cx="130" cy="296" r="7"/><circle cx="200" cy="296" r="7"/><circle cx="270" cy="296" r="7"/></g>
+</svg>

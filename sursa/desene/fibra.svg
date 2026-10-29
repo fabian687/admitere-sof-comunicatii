@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Raza de lumină ricoșează în miezul fibrei optice prin reflexie totală internă">
+  <text x="20" y="24" class="t-b">sursă (LED / laser)</text>
+  <text x="380" y="24" text-anchor="end" class="t-b">detector (fotodiodă)</text>
+  <rect x="20" y="56" width="360" height="118" rx="6" class="f-bls s-blu" stroke-width="1.5"/>
+  <rect x="20" y="82" width="360" height="66" class="f-paper s-blu" stroke-width="1.5"/>
+  <text x="200" y="74" text-anchor="middle" style="font-size:12px" class="t-blu t-b">înveliș · indice de refracție mic</text>
+  <text x="200" y="166" text-anchor="middle" style="font-size:12px" class="t-blu t-b">înveliș · indice de refracție mic</text>
+  
+  <polyline points="20,115 80,84 160,146 240,84 320,146 380,115" fill="none" class="s-amb" stroke-width="3"/>
+  <text x="200" y="118" text-anchor="middle" style="font-size:12px;paint-order:stroke;stroke:var(--paper);stroke-width:5px;stroke-linejoin:round" class="t-b">miez · indice de refracție mare</text>
+  <g class="f-amb"><circle cx="80" cy="84" r="4"/><circle cx="160" cy="146" r="4"/><circle cx="240" cy="84" r="4"/><circle cx="320" cy="146" r="4"/></g>
+  <text x="200" y="204" text-anchor="middle" class="t-b t-amb">reflexie totală internă</text>
+  <text x="200" y="222" text-anchor="middle" style="font-size:12px" class="t-mut">raza lovește peretele sub unghi mai mare decât unghiul critic</text>
+</svg>

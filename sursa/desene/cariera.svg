@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Scara carierei de subofițer cu cursul și comisia de la fiecare treaptă">
+  <g stroke-width="1.5">
+    <rect x="10" y="250" width="170" height="38" rx="8" class="f-acs s-acc"/>
+    <rect x="18" y="206" width="170" height="38" rx="8" class="f-acs s-acc"/>
+    <rect x="26" y="162" width="170" height="38" rx="8" class="f-ams s-amb"/>
+    <rect x="34" y="118" width="170" height="38" rx="8" class="f-ams s-amb"/>
+    <rect x="42" y="74" width="170" height="38" rx="8" class="f-ams s-amb"/>
+    <rect x="50" y="30" width="170" height="38" rx="8" class="f-res s-red"/>
+  </g>
+  <g class="t-b" style="font-size:12px"><text x="20" y="274">1 · Sergent</text><text x="28" y="230">2 · Sergent-major</text><text x="36" y="186">3 · Plutonier</text><text x="44" y="142">4 · Plutonier-major</text><text x="52" y="98">5 · Plutonier adjutant</text><text x="60" y="54">6 · Plt. adj. principal</text></g>
+  <text x="188" y="274" style="font-size:12px" class="t-acc t-b">← gradul tău după curs</text>
+  <g style="font-size:12px">
+    <text x="196" y="224" class="t-acc t-b">fără comisie</text>
+    <text x="204" y="176">curs plutonier</text><text x="204" y="191">+ comisie</text>
+    <text x="212" y="132">curs plutonier-major</text><text x="212" y="147">+ comisie</text>
+    <text x="220" y="88">curs plutonier adjutant</text><text x="220" y="103">+ comisie</text>
+    <text x="228" y="44">distincție, „foarte bun”</text><text x="228" y="59">înaltă calif. + comisie</text>
+  </g>
+</svg>
