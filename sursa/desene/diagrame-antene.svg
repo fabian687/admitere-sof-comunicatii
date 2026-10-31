@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de radiație văzută de sus: antena omnidirecțională și antena directivă">
+  <text x="100" y="20" text-anchor="middle" class="t-b">OMNIDIRECȚIONALĂ</text>
+  <circle cx="100" cy="108" r="62" class="f-acs s-acc" stroke-width="2"/>
+  <circle cx="100" cy="108" r="5" class="f-ink"/>
+  <g class="s-acc" stroke-width="2"><path d="M100 108 L100 54 M100 108 L100 162 M100 108 L46 108 M100 108 L154 108"/></g>
+  <text x="100" y="192" text-anchor="middle" style="font-size:12px">bici (λ/4): toate direcțiile</text>
+  <text x="100" y="210" text-anchor="middle" class="t-mut" style="font-size:12px">bună pentru rețele radio</text>
+  <line x1="200" y1="14" x2="200" y2="218" class="s-line" stroke-width="1.5"/>
+  <text x="300" y="20" text-anchor="middle" class="t-b">DIRECTIVĂ</text>
+  <path d="M236 108 C262 78 330 82 386 108 C330 134 262 138 236 108 Z" class="f-ams s-amb" stroke-width="2"/>
+  <path d="M236 108 C226 96 220 100 220 108 C220 116 226 120 236 108 Z" class="f-ams s-amb" stroke-width="1.5"/>
+  <circle cx="236" cy="108" r="5" class="f-ink"/>
+  <text x="300" y="192" text-anchor="middle" style="font-size:12px">Yagi, parabolă: o singură direcție</text>
+  <text x="300" y="210" text-anchor="middle" class="t-mut" style="font-size:12px">câștig mare · radioreleu</text>
+</svg>

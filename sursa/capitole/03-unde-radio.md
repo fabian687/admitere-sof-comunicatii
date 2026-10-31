@@ -151,6 +151,45 @@ Vocea are frecvențe mici (sute de Hz). Ca s-o trimiți direct ți-ar trebui o a
 > 🌍 Antena omnidirecțională e un **bec**: luminează în toate părțile. Antena directivă e o **lanternă**: bate departe, dar într-o singură direcție.
 :::
 
+::: fisa Diagrama de radiație și câștigul
+**Diagrama de radiație** arată **în ce direcții** radiază antena (văzută de sus).
+
+{{desen:diagrame-antene|Văzute de sus: bici-ul radiază egal în toate direcțiile, antena directivă concentrează energia într-o singură direcție.}}
+
+- **Omnidirecțională** (în plan orizontal) = bici-ul vertical. Bună pentru **rețele**, unde corespondenții sunt în toate direcțiile.
+- **Directivă** = **Yagi, log-periodică, parabolică**. Bună pentru **legături punct la punct** (radioreleu). Are **câștig mai mare** și e **mai greu de interceptat** din alte direcții.
+- **Câștigul antenei** (**dBi / dBd**) = cât de mult **concentrează** energia pe o direcție, față de o antenă de referință.
+- **Reciprocitate:** **aceeași antenă** poate servi și la emisie, și la recepție.
+
+> ⚠️ Capcană: pentru **radioreleu** se folosesc antene **directive**, nu omnidirecționale.
+
+> 💡 **Câștig mare = fascicul îngust.** Nu primești energie „gratis”: o strângi într-o singură direcție.
+:::
+
+::: fisa Lungimea și impedanța antenei
+- **Dipolul în semiundă (λ/2)**: două brațe de câte **λ/4**. Impedanța ≈ **73 Ω**.
+- **Antena verticală în sfert de undă (λ/4)**, de tip **bici**: folosește **pământul sau masa vehiculului** ca „a doua jumătate” (plan de masă). Impedanța ≈ **36 Ω**.
+- **În HF antenele sunt lungi** (fir întins), pentru că λ e mare.
+
+> 🧮 **7 MHz (HF):** λ = 300 / 7 ≈ **42,9 m**. Un dipol λ/2 ≈ **21,4 m**.
+> **75 MHz (VHF):** λ = 4 m, bici λ/4 = **1 m**.
+
+> ℹ️ În practică antena e ceva mai scurtă (cu ~5%, „factor de scurtare”), dar **la grilă se folosește valoarea teoretică**.
+
+> 🌍 O undă lungă are nevoie de o antenă lungă, ca un **instrument cu corzi lungi** care dă un sunet grav. Pe VHF antena încape pe un vehicul, pe HF trebuie întins un fir.
+:::
+
+::: fisa Adaptarea antenei: SWR
+- Antena trebuie **adaptată** la impedanța stației (de regulă **50 Ω**). Dacă nu, apare **undă reflectată**: o parte din putere **se întoarce în stație**.
+- Se măsoară prin **raportul de unde staționare** (**RUS / SWR / ROS**). **Ideal: 1:1.**
+- Peste ~**2:1–3:1** se pierde putere și există **risc pentru etajul final** al emițătorului.
+- **Adaptorul (tunerul) de antenă** corectează asta, mai ales în **HF**.
+
+> 🌍 E ca atunci când **împingi o minge într-un perete**: ce nu intră în „țintă” se întoarce înapoi la tine.
+
+> 💡 **SWR ideal = 1:1.** Cu cât e mai mare, cu atât mai multă putere se pierde.
+:::
+
 ::: fisa Ce determină bătaia unei stații
 **Bătaia** = distanța maximă la care ai legătură. Depinde de:
 1. **puterea** emițătorului;
@@ -195,4 +234,20 @@ Ce antenă la radioreleu? || <b>Directivă</b> (câștig mare, o singură direc�
 Polarizarea antenelor celor doi corespondenți? || <b>Aceeași</b>.
 SWR ideal? || <b>1:1</b>
 Cum mărești bătaia VHF și ocolești dealurile? || <b>Retranslație</b> (releu) pe un punct înalt.
+Ce e diagrama de radiație? || Arată <b>în ce direcții</b> radiază antena.
+Antena omnidirecțională – pentru ce? || <b>Rețele radio</b> (corespondenți în toate direcțiile).
+Exemple de antene directive? || <b>Yagi, log-periodică, parabolică</b>.
+Ce antene la radioreleu? || <b>Directive</b>.
+Câștigul antenei? || Cât <b>concentrează</b> energia pe o direcție (dBi / dBd).
+Ce înseamnă reciprocitatea antenei? || <b>Aceeași antenă</b> merge și la emisie, și la recepție.
+Impedanța dipolului λ/2? || ≈ <b>73 Ω</b>.
+Impedanța antenei bici λ/4? || ≈ <b>36 Ω</b>.
+Ce folosește bici-ul ca „a doua jumătate”? || <b>Pământul sau masa vehiculului</b>.
+Dipol λ/2 pe 7 MHz? || λ ≈ 42,9 m → ≈ <b>21,4 m</b>.
+De ce antenele HF sunt lungi? || Pentru că <b>λ e mare</b> la frecvențe mici.
+Impedanța la care se adaptează antena? || De regulă <b>50 Ω</b>.
+SWR ideal? || <b>1:1</b>.
+SWR mare – ce se întâmplă? || <b>Undă reflectată</b>, putere pierdută, risc pentru etajul final.
+Ce corectează adaptarea în HF? || <b>Adaptorul (tunerul) de antenă</b>.
+Polarizarea antenelor la cei doi corespondenți? || <b>Aceeași</b>.
 :::
